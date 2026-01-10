@@ -224,6 +224,140 @@ services:
     networks:
       - hadoop-network
 
+  # ============== PostgreSQL (for Hive & Airflow) ==============
+  postgres:
+    image: postgres:15-alpine
+    container_name: postgres
+    hostname: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./docker/postgres/init-databases.sql:/docker-entrypoint-initdb.d/init-databases.sql
+    networks:
+      - hadoop-network
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ============== Hive Services ==============
+  hive-metastore:
+    build:
+      context: ./docker/hive
+      dockerfile: Dockerfile
+    container_name: hive-metastore
+    hostname: hive-metastore
+    ports:
+      - "9083:9083"    # Thrift Metastore
+    environment:
+      - HIVE_MODE=metastore
+    volumes:
+      - ./data:/data
+    depends_on:
+      namenode:
+        condition: service_healthy
+      postgres:
+        condition: service_healthy
+    networks:
+      - hadoop-network
+    healthcheck:
+      test: ["CMD", "nc", "-z", "localhost", "9083"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  hiveserver2:
+    build:
+      context: ./docker/hive
+      dockerfile: Dockerfile
+    container_name: hiveserver2
+    hostname: hiveserver2
+    ports:
+      - "10000:10000"  # JDBC/ODBC
+      - "10002:10002"  # HiveServer2 Web UI
+    environment:
+      - HIVE_MODE=hiveserver2
+    volumes:
+      - ./data:/data
+      - ./exercises:/exercises
+    depends_on:
+      hive-metastore:
+        condition: service_healthy
+    networks:
+      - hadoop-network
+    healthcheck:
+      test: ["CMD", "nc", "-z", "localhost", "10000"]
+      interval: 30s
+      timeout: 10s
+      retries: 10
+
+  # ============== Airflow Services ==============
+  airflow-webserver:
+    build:
+      context: ./docker/airflow
+      dockerfile: Dockerfile
+    container_name: airflow-webserver
+    hostname: airflow-webserver
+    ports:
+      - "8080:8080"    # Airflow Web UI
+    environment:
+      - AIRFLOW_MODE=webserver
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+      - AIRFLOW__CORE__FERNET_KEY=FB0o_zt4e3Ziq3LdUUO7F2Z95cvFFx16hU8jTeR1ASM=
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__WEBSERVER__EXPOSE_CONFIG=True
+      - AIRFLOW__WEBSERVER__RBAC=True
+    volumes:
+      - ./docker/airflow/dags:/opt/airflow/dags
+      - ./docker/airflow/scripts/entrypoint.sh:/entrypoint.sh
+      - ./data:/data
+      - ./exercises:/exercises
+      - airflow_logs:/opt/airflow/logs
+    entrypoint: ["/bin/bash", "/entrypoint.sh"]
+    depends_on:
+      postgres:
+        condition: service_healthy
+      hiveserver2:
+        condition: service_healthy
+    networks:
+      - hadoop-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  airflow-scheduler:
+    build:
+      context: ./docker/airflow
+      dockerfile: Dockerfile
+    container_name: airflow-scheduler
+    hostname: airflow-scheduler
+    environment:
+      - AIRFLOW_MODE=scheduler
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+      - AIRFLOW__CORE__FERNET_KEY=FB0o_zt4e3Ziq3LdUUO7F2Z95cvFFx16hU8jTeR1ASM=
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+    volumes:
+      - ./docker/airflow/dags:/opt/airflow/dags
+      - ./docker/airflow/scripts/entrypoint.sh:/entrypoint.sh
+      - ./data:/data
+      - ./exercises:/exercises
+      - airflow_logs:/opt/airflow/logs
+    entrypoint: ["/bin/bash", "/entrypoint.sh"]
+    depends_on:
+      - airflow-webserver
+    networks:
+      - hadoop-network
+
 networks:
   hadoop-network:
     driver: bridge
@@ -237,4 +371,6 @@ volumes:
   datanode2_data:
   datanode3_data:
   spark_logs:
+  postgres_data:
+  airflow_logs:
 
