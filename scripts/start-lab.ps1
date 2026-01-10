@@ -15,16 +15,15 @@ Write-Host ""
 
 # Check Docker
 Write-Host "[1/5] Checking Docker..." -ForegroundColor Yellow
-try {
-    docker info | Out-Null
-    Write-Host "✓ Docker is running" -ForegroundColor Green
-} catch {
+$dockerCheck = docker info 2>&1
+if ($LASTEXITCODE -ne 0) {
     Write-Host "Error: Docker is not running. Please start Docker Desktop." -ForegroundColor Red
     exit 1
 }
+Write-Host "Docker is running" -ForegroundColor Green
 
 # Build images
-Write-Host "[2/5] Building Docker images (this may take a few minutes on first run)..." -ForegroundColor Yellow
+Write-Host "[2/5] Building Docker images - this may take a few minutes on first run..." -ForegroundColor Yellow
 docker-compose build --quiet
 
 # Start cluster
@@ -37,42 +36,51 @@ Write-Host "This may take 1-2 minutes on first startup..."
 
 # Wait for NameNode
 Write-Host -NoNewline "  Waiting for NameNode..."
+$ready = $false
 for ($i = 1; $i -le 60; $i++) {
     try {
-        $response = Invoke-WebRequest -Uri "http://localhost:9870" -UseBasicParsing -TimeoutSec 2 -ErrorAction SilentlyContinue
-        Write-Host " ✓" -ForegroundColor Green
+        $response = Invoke-WebRequest -Uri "http://localhost:9870" -UseBasicParsing -TimeoutSec 2 -ErrorAction Stop
+        Write-Host " OK" -ForegroundColor Green
+        $ready = $true
         break
     } catch {
         Write-Host -NoNewline "."
         Start-Sleep -Seconds 2
     }
 }
+if (-not $ready) { Write-Host " timeout" -ForegroundColor Yellow }
 
 # Wait for ResourceManager
 Write-Host -NoNewline "  Waiting for ResourceManager..."
+$ready = $false
 for ($i = 1; $i -le 60; $i++) {
     try {
-        $response = Invoke-WebRequest -Uri "http://localhost:8088" -UseBasicParsing -TimeoutSec 2 -ErrorAction SilentlyContinue
-        Write-Host " ✓" -ForegroundColor Green
+        $response = Invoke-WebRequest -Uri "http://localhost:8088" -UseBasicParsing -TimeoutSec 2 -ErrorAction Stop
+        Write-Host " OK" -ForegroundColor Green
+        $ready = $true
         break
     } catch {
         Write-Host -NoNewline "."
         Start-Sleep -Seconds 2
     }
 }
+if (-not $ready) { Write-Host " timeout" -ForegroundColor Yellow }
 
 # Wait for Jupyter
 Write-Host -NoNewline "  Waiting for Jupyter Lab..."
+$ready = $false
 for ($i = 1; $i -le 30; $i++) {
     try {
-        $response = Invoke-WebRequest -Uri "http://localhost:8888" -UseBasicParsing -TimeoutSec 2 -ErrorAction SilentlyContinue
-        Write-Host " ✓" -ForegroundColor Green
+        $response = Invoke-WebRequest -Uri "http://localhost:8888" -UseBasicParsing -TimeoutSec 2 -ErrorAction Stop
+        Write-Host " OK" -ForegroundColor Green
+        $ready = $true
         break
     } catch {
         Write-Host -NoNewline "."
         Start-Sleep -Seconds 2
     }
 }
+if (-not $ready) { Write-Host " timeout" -ForegroundColor Yellow }
 
 Write-Host ""
 Write-Host "╔════════════════════════════════════════════════════════════╗" -ForegroundColor Green

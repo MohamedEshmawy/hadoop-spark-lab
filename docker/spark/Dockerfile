@@ -22,6 +22,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     python3 \
     python3-pip \
     procps \
+    rsync \
     && rm -rf /var/lib/apt/lists/*
 
 # Download and install Hadoop (for client libraries)
@@ -39,8 +40,8 @@ RUN curl -fsSL https://archive.apache.org/dist/spark/spark-${SPARK_VERSION}/spar
 COPY config/* ${SPARK_HOME}/conf/
 COPY scripts/entrypoint.sh /entrypoint.sh
 
-# Copy Hadoop config for HDFS access
-COPY --from=hadoop-base ${HADOOP_CONF_DIR}/* ${HADOOP_CONF_DIR}/ 2>/dev/null || true
+# Create Hadoop config directory (config is generated at runtime by entrypoint)
+RUN mkdir -p ${HADOOP_CONF_DIR}
 
 RUN chmod +x /entrypoint.sh
 

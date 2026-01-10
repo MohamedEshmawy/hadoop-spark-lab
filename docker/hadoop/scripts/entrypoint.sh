@@ -5,12 +5,14 @@ set -e
 configure_hadoop() {
     local file=$1
     local prefix=$2
-    
+
     # Convert environment variables to XML properties
-    printenv | grep "^${prefix}" | while IFS='=' read -r name value; do
+    # Use process substitution to avoid subshell issues
+    while IFS='=' read -r name value; do
         # Remove prefix and convert ___ to - and _ to .
-        prop_name=$(echo "${name#${prefix}}" | sed 's/___/-/g' | sed 's/_/./g' | tr '[:upper:]' '[:lower:]')
-        
+        # Keep case as-is (don't lowercase)
+        prop_name=$(echo "${name#${prefix}}" | sed 's/___/-/g' | sed 's/_/./g')
+
         # Add property to config file
         if ! grep -q "<name>$prop_name</name>" "$file"; then
             sed -i "/<\/configuration>/i\\
@@ -19,7 +21,7 @@ configure_hadoop() {
         <value>$value</value>\\
     </property>" "$file"
         fi
-    done
+    done < <(printenv | grep "^${prefix}" || true)
 }
 
 # Initialize configuration files
