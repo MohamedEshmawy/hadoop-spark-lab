@@ -54,6 +54,8 @@ WORKDIR /home/jovyan
 ENV PYSPARK_SUBMIT_ARGS="--master yarn --deploy-mode client pyspark-shell"
 ENV SPARK_HOME=/usr/local/spark
 ENV PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/lib/py4j-0.10.9.7-src.zip:$PYTHONPATH
+ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+ENV PATH=$JAVA_HOME/bin:$PATH
 
 CMD ["/startup.sh"]
 
