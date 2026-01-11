@@ -19,7 +19,23 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     procps \
     ssh \
     rsync \
+    ca-certificates \
     && rm -rf /var/lib/apt/lists/*
+
+# Install Miniconda with Python 3.11 for PySpark compatibility with Jupyter
+ENV CONDA_DIR=/opt/conda
+RUN curl -fsSL https://repo.anaconda.com/miniconda/Miniconda3-py311_24.1.2-0-Linux-x86_64.sh -o /tmp/miniconda.sh \
+    && bash /tmp/miniconda.sh -b -p ${CONDA_DIR} \
+    && rm /tmp/miniconda.sh \
+    && ${CONDA_DIR}/bin/conda clean -afy \
+    && ln -sf ${CONDA_DIR}/bin/python /usr/bin/python3 \
+    && ln -sf ${CONDA_DIR}/bin/python /usr/bin/python
+
+ENV PATH=${CONDA_DIR}/bin:$PATH
+
+# Set Python environment for PySpark
+ENV PYSPARK_PYTHON=/usr/bin/python3
+ENV PYSPARK_DRIVER_PYTHON=/usr/bin/python3
 
 # Download and install Hadoop
 RUN curl -fsSL https://archive.apache.org/dist/hadoop/common/hadoop-${HADOOP_VERSION}/hadoop-${HADOOP_VERSION}.tar.gz \

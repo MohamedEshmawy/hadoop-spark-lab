@@ -1,5 +1,6 @@
 # Apache Hive for Teaching Lab
-FROM eclipse-temurin:11-jdk-focal
+# Using Java 8 because Hive 3.1.3 is not compatible with Java 11+
+FROM eclipse-temurin:8-jdk-focal
 
 LABEL maintainer="Hadoop Teaching Lab"
 LABEL version="1.0"

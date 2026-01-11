@@ -3,6 +3,11 @@ data/sales/
 data/products/
 data/customers/
 
+datanode1_data/
+datanode2_data/
+datanode3_data/
+namenode_data/
+
 # Jupyter checkpoints
 .ipynb_checkpoints/
 */.ipynb_checkpoints/

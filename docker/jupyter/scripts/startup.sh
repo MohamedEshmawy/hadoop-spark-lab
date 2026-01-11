@@ -1,6 +1,10 @@
 #!/bin/bash
 set -e
 
+# Set Java 11 to match Hadoop cluster (required for Kryo serialization compatibility)
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+export PATH=$JAVA_HOME/bin:$PATH
+
 echo "Waiting for HDFS to be ready..."
 while ! nc -z namenode 9000 2>/dev/null; do
     sleep 2
