@@ -41,9 +41,22 @@ else
     echo -e "${GREEN}✓ Docker has ${DOCKER_MEM_GB}GB RAM available${NC}"
 fi
 
-# Build images if needed
-echo -e "${YELLOW}[3/5] Building Docker images (this may take a few minutes on first run)...${NC}"
-docker-compose build --quiet
+# Pull or build images
+echo -e "${YELLOW}[3/5] Preparing Docker images...${NC}"
+echo "  Options:"
+echo "    1) Pull pre-built images from Docker Hub (faster, ~2-3 min)"
+echo "    2) Build images from scratch (slower, ~10-15 min)"
+echo ""
+read -p "  Choose option (1 or 2) [default: 1]: " -r image_option
+image_option=${image_option:-1}
+
+if [ "$image_option" = "2" ]; then
+    echo -e "${YELLOW}Building images from scratch...${NC}"
+    docker-compose build --quiet
+else
+    echo -e "${YELLOW}Pulling pre-built images from Docker Hub...${NC}"
+    ./scripts/pull-images.sh
+fi
 
 # Start the cluster
 echo -e "${YELLOW}[4/5] Starting cluster services...${NC}"

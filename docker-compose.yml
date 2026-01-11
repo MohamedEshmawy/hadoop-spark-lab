@@ -175,29 +175,6 @@ services:
     networks:
       - hadoop-network
 
-  # ============== Spark Client (for spark-submit) ==============
-  spark-client:
-    build:
-      context: ./docker/spark
-      dockerfile: Dockerfile
-    container_name: spark-client
-    hostname: spark-client
-    environment:
-      - SPARK_MODE=client
-    env_file:
-      - ./docker/spark/spark.env
-    volumes:
-      - ./data:/data
-      - ./exercises:/exercises
-      - spark_logs:/spark-logs
-    depends_on:
-      resourcemanager:
-        condition: service_healthy
-    networks:
-      - hadoop-network
-    stdin_open: true
-    tty: true
-
   # ============== Jupyter Lab with PySpark ==============
   jupyter:
     build:

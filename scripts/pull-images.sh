@@ -1,7 +1,14 @@
 #!/bin/bash
 # ============================================================
-# Hadoop/Spark Teaching Lab - Pre-pull Images for Offline Use
+# Hadoop/Spark Teaching Lab - Pull/Build Docker Images
 # ============================================================
+# Usage: ./scripts/pull-images.sh [--build] [--docker-hub-user <username>]
+#
+# Options:
+#   --build              Build images from scratch instead of pulling
+#   --docker-hub-user    Docker Hub username to pull from (default: augmentcode)
+
+set -e
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
@@ -9,38 +16,87 @@ PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 cd "$PROJECT_DIR"
 
 # Colors
+RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 BLUE='\033[0;34m'
 NC='\033[0m'
 
+# Parse arguments
+BUILD_FROM_SCRATCH=false
+DOCKER_HUB_USER="augmentcode"
+
+while [[ $# -gt 0 ]]; do
+    case $1 in
+        --build)
+            BUILD_FROM_SCRATCH=true
+            shift
+            ;;
+        --docker-hub-user)
+            DOCKER_HUB_USER="$2"
+            shift 2
+            ;;
+        -h|--help)
+            echo "Usage: $0 [OPTIONS]"
+            echo ""
+            echo "Options:"
+            echo "  --build                Build images from scratch"
+            echo "  --docker-hub-user      Docker Hub username (default: augmentcode)"
+            echo "  -h, --help             Show this help message"
+            exit 0
+            ;;
+        *)
+            echo -e "${RED}Unknown option: $1${NC}"
+            exit 1
+            ;;
+    esac
+done
+
 echo -e "${BLUE}"
 echo "╔════════════════════════════════════════════════════════════╗"
-echo "║     Pre-pulling Docker Images for Offline Use              ║"
+if [ "$BUILD_FROM_SCRATCH" = true ]; then
+    echo "║     Building Docker Images from Scratch                   ║"
+else
+    echo "║     Pulling Pre-built Docker Images from Docker Hub       ║"
+fi
 echo "╚════════════════════════════════════════════════════════════╝"
 echo -e "${NC}"
 
-echo -e "${YELLOW}This will download all required base images and build the lab images.${NC}"
-echo "Estimated download size: ~3GB"
+# Check Docker is running
+echo -e "${YELLOW}Checking Docker...${NC}"
+if ! docker info > /dev/null 2>&1; then
+    echo -e "${RED}Error: Docker is not running. Please start Docker Desktop.${NC}"
+    exit 1
+fi
+echo -e "${GREEN}✓ Docker is running${NC}"
 echo ""
 
-# Pull base images
-echo -e "${BLUE}[1/3] Pulling base images...${NC}"
-docker pull eclipse-temurin:11-jdk-focal
-docker pull jupyter/pyspark-notebook:spark-3.5.0
+if [ "$BUILD_FROM_SCRATCH" = true ]; then
+    # Build from scratch
+    echo -e "${YELLOW}Building all images from scratch...${NC}"
+    docker-compose build --quiet
+    echo -e "${GREEN}✓ All images built successfully${NC}"
+else
+    # Pull from Docker Hub
+    echo -e "${YELLOW}Pulling images from Docker Hub (user: ${DOCKER_HUB_USER})...${NC}"
+    IMAGES=("hadoop" "spark" "hive" "jupyter" "airflow")
 
-# Build all images
-echo -e "${BLUE}[2/3] Building lab images...${NC}"
-docker-compose build
-
-# Save images for export (optional)
-echo -e "${BLUE}[3/3] Images are now cached locally.${NC}"
+    for image in "${IMAGES[@]}"; do
+        echo -e "${YELLOW}  Pulling ${DOCKER_HUB_USER}/hadoop-spark-lab-${image}:latest...${NC}"
+        docker pull "${DOCKER_HUB_USER}/hadoop-spark-lab-${image}:latest"
+        docker tag "${DOCKER_HUB_USER}/hadoop-spark-lab-${image}:latest" "hadoop-spark-lab/${image}:latest"
+        echo -e "${GREEN}  ✓ Pulled and tagged${NC}"
+    done
+    echo -e "${GREEN}✓ All images pulled successfully${NC}"
+fi
 
 echo ""
-echo -e "${GREEN}✓ All images are ready for offline use.${NC}"
+echo -e "${GREEN}"
+echo "╔════════════════════════════════════════════════════════════╗"
+echo "║           Images Ready!                                    ║"
+echo "╚════════════════════════════════════════════════════════════╝"
+echo -e "${NC}"
 echo ""
-echo "To export images for transfer to offline machines:"
-echo "  docker save -o hadoop-lab-images.tar \\"
-echo "    hadoop-namenode hadoop-datanode hadoop-resourcemanager \\"
-echo "    hadoop-nodemanager spark-client spark-history jupyter-pyspark"
+echo "Next: Start the lab with:"
+echo -e "  ${BLUE}./scripts/start-lab.sh${NC}"
 

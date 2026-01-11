@@ -47,8 +47,7 @@ RUN pip install --no-cache-dir \
     faker \
     pyhive \
     thrift \
-    thrift-sasl \
-    sasl
+    thrift-sasl
 
 # Create directories
 RUN mkdir -p /home/jovyan/notebooks /home/jovyan/data /home/jovyan/exercises \
