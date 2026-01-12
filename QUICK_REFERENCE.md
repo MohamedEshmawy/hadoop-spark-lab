@@ -229,4 +229,3 @@ docker exec namenode hdfs dfs -ls /
 - Review `docs/DOCKER_HUB_SETUP.md` for Docker Hub questions
 - Check `GITHUB_REPO_RECOMMENDATIONS.md` for naming guidance
 - Run `./scripts/sanity-check.sh` to verify cluster health
-
