@@ -9,19 +9,39 @@ A Docker-based environment for learning Hadoop HDFS and Apache Spark. This lab r
 - 8GB RAM minimum (16GB recommended)
 - 20GB free disk space
 
-### One-Command Startup
+### Option 1: Use Pre-built Images (Recommended - Fastest)
 
 **Windows (PowerShell):**
 ```powershell
+.\scripts\pull-images.ps1 mohamedeshmawy
 .\scripts\start-lab.ps1
 ```
 
 **Mac/Linux (Bash):**
 ```bash
+./scripts/pull-images.sh mohamedeshmawy
 ./scripts/start-lab.sh
 ```
 
-First startup takes 5-10 minutes to download and build images.
+This pulls pre-built images from Docker Hub (takes 5-10 minutes depending on internet speed).
+
+### Option 2: Build Images Locally
+
+If you prefer to build images from scratch:
+
+**Windows (PowerShell):**
+```powershell
+.\scripts\build-images.ps1
+.\scripts\start-lab.ps1
+```
+
+**Mac/Linux (Bash):**
+```bash
+./scripts/build-images.sh
+./scripts/start-lab.sh
+```
+
+This builds all images locally (takes 20-30 minutes depending on your PC).
 
 ## Web UIs
 
@@ -30,42 +50,56 @@ First startup takes 5-10 minutes to download and build images.
 | HDFS NameNode | http://localhost:9870 | Browse filesystem, DataNode health |
 | YARN ResourceManager | http://localhost:8088 | Running applications, node status |
 | Spark History Server | http://localhost:18080 | Completed Spark job analysis |
-| Jupyter Lab | http://localhost:8888 | Interactive notebooks |
-| Spark App UI | http://localhost:4040 | Live Spark job details |
+| HiveServer2 Web UI | http://localhost:10002 | Hive query execution and monitoring |
+| Airflow Web UI | http://localhost:8080 | Workflow orchestration and DAG management |
+| Jupyter Lab | http://localhost:8888 | Interactive notebooks with PySpark |
+| Spark App UI | http://localhost:4040 | Live Spark job details (when running) |
 
 **Jupyter Token:** `hadooplab`
+**Airflow Credentials:** `airflow` / `airflow`
 
 ## Cluster Architecture
 
 ```
-┌──────────────────────────────────────────────────────┐
-│              Docker Network                          │
-│                                                      │
-│  ┌────────────┐ ┌────────────┐ ┌────────────┐       │
-│  │ DataNode 1 │ │ DataNode 2 │ │ DataNode 3 │       │
-│  └────────────┘ └────────────┘ └────────────┘       │
-│         │             │              │               │
-│         └─────────────┼──────────────┘               │
-│                       ▼                              │
-│                ┌────────────┐                        │
-│                │  NameNode  │ ← HDFS UI :9870       │
-│                └────────────┘                        │
-│                                                      │
-│  ┌──────────────┐    ┌──────────────┐               │
-│  │ NodeManager1 │    │ NodeManager2 │               │
-│  └──────────────┘    └──────────────┘               │
-│         │                   │                        │
-│         └───────────────────┘                        │
-│                    ▼                                 │
-│           ┌────────────────┐                         │
-│           │ResourceManager │ ← YARN UI :8088        │
-│           └────────────────┘                         │
-│                                                      │
-│  ┌────────────┐ ┌────────────┐ ┌────────────┐       │
-│  │   Spark    │ │   Spark    │ │  Jupyter   │       │
-│  │   Client   │ │  History   │ │    Lab     │       │
-│  └────────────┘ └────────────┘ └────────────┘       │
-└──────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────┐
+│                    Docker Network (hadoopnet)                  │
+│                                                                │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐         │
+│  │  DataNode 1  │  │  DataNode 2  │  │  DataNode 3  │         │
+│  └──────────────┘  └──────────────┘  └──────────────┘         │
+│         │                 │                  │                 │
+│         └─────────────────┼──────────────────┘                 │
+│                           ▼                                    │
+│                    ┌────────────┐                              │
+│                    │  NameNode  │ ← HDFS UI :9870             │
+│                    └────────────┘                              │
+│                                                                │
+│  ┌──────────────┐  ┌──────────────┐                           │
+│  │NodeManager 1 │  │NodeManager 2 │                           │
+│  └──────────────┘  └──────────────┘                           │
+│         │                 │                                    │
+│         └─────────────────┘                                    │
+│                    ▼                                           │
+│          ┌──────────────────┐                                  │
+│          │ResourceManager   │ ← YARN UI :8088                 │
+│          └──────────────────┘                                  │
+│                                                                │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐         │
+│  │Spark History │  │  Jupyter Lab │  │ HiveServer2  │         │
+│  │   Server    │  │  with PySpark│  │  (Hive SQL)  │         │
+│  │ :18080      │  │    :8888     │  │   :10002     │         │
+│  └──────────────┘  └──────────────┘  └──────────────┘         │
+│                                                                │
+│  ┌──────────────────────────────────────────────────┐         │
+│  │         Hive Metastore (Thrift :9083)            │         │
+│  │         PostgreSQL Database (:5432)              │         │
+│  └──────────────────────────────────────────────────┘         │
+│                                                                │
+│  ┌──────────────────────────────────────────────────┐         │
+│  │  Airflow Webserver :8080 & Scheduler             │         │
+│  │  (Workflow Orchestration & DAG Management)       │         │
+│  └──────────────────────────────────────────────────┘         │
+└────────────────────────────────────────────────────────────────┘
 ```
 
 ## Lab Exercises
@@ -84,20 +118,60 @@ First startup takes 5-10 minutes to download and build images.
 hadoop-spark-lab/
 ├── docker-compose.yml      # Cluster definition
 ├── docker/                 # Dockerfiles and configs
-│   ├── hadoop/
-│   ├── spark/
-│   └── jupyter/
+│   ├── hadoop/             # Hadoop HDFS/YARN
+│   ├── spark/              # Spark & History Server
+│   ├── jupyter/            # Jupyter Lab with PySpark
+│   ├── hive/               # Hive Metastore & HiveServer2
+│   ├── airflow/            # Airflow Webserver & Scheduler
+│   └── postgres/           # PostgreSQL initialization
 ├── notebooks/              # Completed example notebooks
 ├── exercises/              # TODO versions for students
 │   └── solutions/          # Answer keys
 ├── data/                   # Sample datasets
 ├── scripts/                # Startup and utility scripts
+│   ├── start-lab.sh        # Start the cluster
+│   ├── stop-lab.sh         # Stop the cluster
+│   ├── build-images.sh     # Build Docker images
+│   ├── tag-images.sh       # Tag for Docker Hub
+│   └── push-images.sh      # Push to Docker Hub
 └── docs/                   # Instructor and student guides
+```
+
+## Docker Hub Images
+
+Pre-built images are available on Docker Hub for quick setup:
+
+- `mohamedeshmawy/hadoop-spark-lab-hadoop:latest` - Hadoop HDFS/YARN
+- `mohamedeshmawy/hadoop-spark-lab-spark:latest` - Spark & History Server
+- `mohamedeshmawy/hadoop-spark-lab-hive:latest` - Apache Hive
+- `mohamedeshmawy/hadoop-spark-lab-jupyter:latest` - Jupyter Lab with PySpark
+- `mohamedeshmawy/hadoop-spark-lab-airflow:latest` - Apache Airflow
+
+**Pull images:**
+```bash
+./scripts/pull-images.sh mohamedeshmawy
+```
+
+**Or build locally:**
+```bash
+./scripts/build-images.sh
 ```
 
 ## Useful Commands
 
 ```bash
+# Pull pre-built images from Docker Hub
+./scripts/pull-images.sh mohamedeshmawy
+
+# Build images locally
+./scripts/build-images.sh
+
+# Tag images for Docker Hub
+./scripts/tag-images.sh mohamedeshmawy
+
+# Push images to Docker Hub (requires Docker Hub account)
+./scripts/push-images.sh mohamedeshmawy
+
 # Verify cluster health
 ./scripts/sanity-check.sh
 
