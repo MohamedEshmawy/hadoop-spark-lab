@@ -102,16 +102,6 @@ This builds all images locally (takes 20-30 minutes depending on your PC).
 └────────────────────────────────────────────────────────────────┘
 ```
 
-## Lab Exercises
-
-| # | Exercise | Duration | Topics |
-|---|----------|----------|--------|
-| 1 | HDFS Basics | 45 min | Upload, list, blocks, replication |
-| 2 | Spark Fundamentals | 60 min | RDD, DataFrame, transformations, actions |
-| 3 | Spark SQL | 45 min | CSV/JSON/Parquet, SQL queries, joins |
-| 4 | Distributed Execution | 45 min | Partitions, shuffle, stages, Spark UI |
-| 5 | Break/Fix Challenge | 30 min | Fault tolerance, recovery |
-
 ## Directory Structure
 
 ```
@@ -206,12 +196,4 @@ docker-compose down
 # Out of memory
 # Increase Docker Desktop memory to 8GB+
 ```
-
-## For Instructors
-
-See `docs/INSTRUCTOR_GUIDE.md` for:
-- Learning objectives
-- Time estimates
-- Teaching tips
-- Grading rubric
 
