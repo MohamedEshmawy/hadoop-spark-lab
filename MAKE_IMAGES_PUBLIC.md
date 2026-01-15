@@ -6,7 +6,7 @@ Your Docker Hub images are currently **private**, which is why students get "acc
 
 For each of the 5 repositories, you need to change the visibility to **Public**:
 
-1. Go to https://hub.docker.com/r/debi
+1. Go to https://hub.docker.com/r/mohamedeshmawy
 2. Click on each repository:
    - `hadoop-spark-lab-hadoop`
    - `hadoop-spark-lab-spark`
@@ -22,7 +22,7 @@ For each of the 5 repositories, you need to change the visibility to **Public**:
 
 ## Step 2: Verify Images are Public
 
-Visit: https://hub.docker.com/r/debi
+Visit: https://hub.docker.com/r/mohamedeshmawy
 
 You should see all 5 repositories listed as **Public**.
 
@@ -39,12 +39,12 @@ Students can now pull without logging in:
 
 **Still getting "access denied"?**
 - Wait 5-10 minutes for Docker Hub to update
-- Try: `docker logout` then `docker pull debi/hadoop-spark-lab-hadoop:latest`
+- Try: `docker logout` then `docker pull mohamedeshmawy/hadoop-spark-lab-hadoop:latest`
 - Verify the repository is actually public on Docker Hub
 
 **Images not found?**
-- Make sure you pushed all 5 images: `./scripts/push-images.sh debi`
-- Check they exist at: https://hub.docker.com/r/debi
+- Make sure you pushed all 5 images: `./scripts/push-images.sh mohamedeshmawy`
+- Check they exist at: https://hub.docker.com/r/mohamedeshmawy
 
 ## Why This Matters
 
