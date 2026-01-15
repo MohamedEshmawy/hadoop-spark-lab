@@ -11,15 +11,15 @@ A Docker-based environment for learning Hadoop HDFS and Apache Spark. This lab r
 
 ### Option 1: Use Pre-built Images (Recommended - Fastest)
 
-**Windows (PowerShell):**
-```powershell
-.\scripts\pull-images.ps1 mohamedeshmawy
-.\scripts\start-lab.ps1
+**All Platforms (Bash/Git Bash):**
+```bash
+./scripts/pull-images.sh --docker-hub-user mohamedeshmawy
+./scripts/start-lab.sh
 ```
 
-**Mac/Linux (Bash):**
+Or use the default Docker Hub user:
 ```bash
-./scripts/pull-images.sh mohamedeshmawy
+./scripts/pull-images.sh
 ./scripts/start-lab.sh
 ```
 
@@ -29,15 +29,9 @@ This pulls pre-built images from Docker Hub (takes 5-10 minutes depending on int
 
 If you prefer to build images from scratch:
 
-**Windows (PowerShell):**
-```powershell
-.\scripts\build-images.ps1
-.\scripts\start-lab.ps1
-```
-
-**Mac/Linux (Bash):**
+**All Platforms (Bash/Git Bash):**
 ```bash
-./scripts/build-images.sh
+./scripts/pull-images.sh --build
 ./scripts/start-lab.sh
 ```
 
@@ -137,24 +131,24 @@ Pre-built images are available on Docker Hub for quick setup:
 - `mohamedeshmawy/hadoop-spark-lab-jupyter:latest` - Jupyter Lab with PySpark
 - `mohamedeshmawy/hadoop-spark-lab-airflow:latest` - Apache Airflow
 
-**Pull images:**
+**Pull images from Docker Hub:**
 ```bash
-./scripts/pull-images.sh mohamedeshmawy
+./scripts/pull-images.sh --docker-hub-user mohamedeshmawy
 ```
 
 **Or build locally:**
 ```bash
-./scripts/build-images.sh
+./scripts/pull-images.sh --build
 ```
 
 ## Useful Commands
 
 ```bash
 # Pull pre-built images from Docker Hub
-./scripts/pull-images.sh mohamedeshmawy
+./scripts/pull-images.sh --docker-hub-user mohamedeshmawy
 
-# Build images locally
-./scripts/build-images.sh
+# Build images locally from scratch
+./scripts/pull-images.sh --build
 
 # Tag images for Docker Hub
 ./scripts/tag-images.sh mohamedeshmawy
