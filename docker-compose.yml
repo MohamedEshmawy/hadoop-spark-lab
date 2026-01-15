@@ -339,6 +339,32 @@ services:
     networks:
       - hadoop-network
 
+  # ============== PostgreSQL Web UI ==============
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: pgadmin
+    hostname: pgadmin
+    ports:
+      - "5050:80"    # pgAdmin Web UI
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@hadooplab.com
+      - PGADMIN_DEFAULT_PASSWORD=admin
+      - PGADMIN_CONFIG_SERVER_MODE=False
+      - PGADMIN_CONFIG_ENHANCED_COOKIE_PROTECTION=False
+      - PGADMIN_CONFIG_COOKIE_DEFAULT_SECURE=False
+      - PGADMIN_CONFIG_COOKIE_DEFAULT_SAMESITE='Lax'
+      - PGADMIN_CONFIG_PROXY_X_FOR_COUNT=1
+      - PGADMIN_CONFIG_PROXY_X_PROTO_COUNT=1
+      - PGADMIN_CONFIG_PROXY_X_HOST_COUNT=1
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+      - ./docker/postgres/servers.json:/var/lib/pgadmin/storage/pgadmin_server_group/servers.json
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - hadoop-network
+
 networks:
   hadoop-network:
     name: hadoopnet
@@ -351,4 +377,11 @@ volumes:
   spark_logs:
   postgres_data:
   airflow_logs:
+  pgadmin_data:
+
+
+
+
+
+
 
