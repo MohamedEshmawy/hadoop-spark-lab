@@ -2,11 +2,11 @@
 # ============================================================
 # Hadoop/Spark Teaching Lab - Pull/Build Docker Images
 # ============================================================
-# Usage: ./scripts/pull-images.sh [--build] [--docker-hub-user <username>]
+# Usage: ./scripts/pull-images.sh [--build]
 #
 # Options:
 #   --build              Build images from scratch instead of pulling
-#   --docker-hub-user    Docker Hub username to pull from (default: augmentcode)
+#   -h, --help           Show this help message
 
 set -e
 
@@ -24,7 +24,7 @@ NC='\033[0m'
 
 # Parse arguments
 BUILD_FROM_SCRATCH=false
-DOCKER_HUB_USER="augmentcode"
+DOCKER_HUB_USER="mohamedeshmawy"
 
 while [[ $# -gt 0 ]]; do
     case $1 in
@@ -32,17 +32,16 @@ while [[ $# -gt 0 ]]; do
             BUILD_FROM_SCRATCH=true
             shift
             ;;
-        --docker-hub-user)
-            DOCKER_HUB_USER="$2"
-            shift 2
-            ;;
         -h|--help)
             echo "Usage: $0 [OPTIONS]"
             echo ""
             echo "Options:"
-            echo "  --build                Build images from scratch"
-            echo "  --docker-hub-user      Docker Hub username (default: augmentcode)"
+            echo "  --build                Build images from scratch instead of pulling"
             echo "  -h, --help             Show this help message"
+            echo ""
+            echo "Examples:"
+            echo "  $0                     Pull pre-built images from Docker Hub"
+            echo "  $0 --build             Build images locally from scratch"
             exit 0
             ;;
         *)

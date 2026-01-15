@@ -11,13 +11,6 @@ A Docker-based environment for learning Hadoop HDFS and Apache Spark. This lab r
 
 ### Option 1: Use Pre-built Images (Recommended - Fastest)
 
-**All Platforms (Bash/Git Bash):**
-```bash
-./scripts/pull-images.sh --docker-hub-user mohamedeshmawy
-./scripts/start-lab.sh
-```
-
-Or use the default Docker Hub user:
 ```bash
 ./scripts/pull-images.sh
 ./scripts/start-lab.sh
@@ -29,7 +22,6 @@ This pulls pre-built images from Docker Hub (takes 5-10 minutes depending on int
 
 If you prefer to build images from scratch:
 
-**All Platforms (Bash/Git Bash):**
 ```bash
 ./scripts/pull-images.sh --build
 ./scripts/start-lab.sh
@@ -131,9 +123,9 @@ Pre-built images are available on Docker Hub for quick setup:
 - `mohamedeshmawy/hadoop-spark-lab-jupyter:latest` - Jupyter Lab with PySpark
 - `mohamedeshmawy/hadoop-spark-lab-airflow:latest` - Apache Airflow
 
-**Pull images from Docker Hub:**
+**Pull images:**
 ```bash
-./scripts/pull-images.sh --docker-hub-user mohamedeshmawy
+./scripts/pull-images.sh
 ```
 
 **Or build locally:**
@@ -145,7 +137,7 @@ Pre-built images are available on Docker Hub for quick setup:
 
 ```bash
 # Pull pre-built images from Docker Hub
-./scripts/pull-images.sh --docker-hub-user mohamedeshmawy
+./scripts/pull-images.sh
 
 # Build images locally from scratch
 ./scripts/pull-images.sh --build
