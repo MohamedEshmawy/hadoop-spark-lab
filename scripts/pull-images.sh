@@ -81,12 +81,22 @@ else
     IMAGES=("hadoop" "spark" "hive" "jupyter" "airflow")
 
     for image in "${IMAGES[@]}"; do
-        echo -e "${YELLOW}  Pulling ${DOCKER_HUB_USER}/hadoop-spark-lab-${image}:latest...${NC}"
-        docker pull "${DOCKER_HUB_USER}/hadoop-spark-lab-${image}:latest"
-        docker tag "${DOCKER_HUB_USER}/hadoop-spark-lab-${image}:latest" "hadoop-spark-lab/${image}:latest"
-        echo -e "${GREEN}  ✓ Pulled and tagged${NC}"
+        LOCAL_IMAGE="hadoop-spark-lab/${image}:latest"
+        
+        # Check if the image already exists locally
+        if docker image inspect "$LOCAL_IMAGE" > /dev/null 2>&1; then
+            echo -e "${GREEN}  ✓ ${LOCAL_IMAGE} already exists${NC}"
+        else
+            echo -e "${YELLOW}  Pulling ${DOCKER_HUB_USER}/hadoop-spark-lab-${image}:latest...${NC}"
+            docker pull "${DOCKER_HUB_USER}/hadoop-spark-lab-${image}:latest"
+            # Tag the image with the local repository name used by docker-compose
+            docker tag "${DOCKER_HUB_USER}/hadoop-spark-lab-${image}:latest" "$LOCAL_IMAGE"
+            # Remove the Docker Hub tag to avoid duplicate disk usage
+            docker rmi "${DOCKER_HUB_USER}/hadoop-spark-lab-${image}:latest"
+            echo -e "${GREEN}  ✓ Pulled and tagged${NC}"
+        fi
     done
-    echo -e "${GREEN}✓ All images pulled successfully${NC}"
+    echo -e "${GREEN}✓ All images ready${NC}"
 fi
 
 echo ""
