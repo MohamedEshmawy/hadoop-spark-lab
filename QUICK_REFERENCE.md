@@ -11,7 +11,7 @@
 ### Option 2: Pull Pre-built Images
 ```bash
 ./scripts/pull-images.sh
-# Uses default augmentcode Docker Hub account
+# Uses default debi Docker Hub account
 ```
 
 ### Option 3: Build from Scratch

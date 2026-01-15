@@ -128,12 +128,12 @@ This allows anyone to pull your images without authentication.
 
 ## For Official Maintainers
 
-If maintaining the official `augmentcode` repository:
+If maintaining the official `debi` repository:
 
 ```bash
 ./scripts/build-images.sh
-./scripts/tag-images.sh augmentcode
-./scripts/push-images.sh augmentcode
+./scripts/tag-images.sh debi
+./scripts/push-images.sh debi
 ```
 
 Users can then simply run:
