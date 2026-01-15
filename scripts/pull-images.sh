@@ -24,7 +24,7 @@ NC='\033[0m'
 
 # Parse arguments
 BUILD_FROM_SCRATCH=false
-DOCKER_HUB_USER="mohamedeshmawy"
+DOCKER_HUB_USER="bleadfast"
 
 while [[ $# -gt 0 ]]; do
     case $1 in
