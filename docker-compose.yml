@@ -6,6 +6,7 @@ version: '3.8'
 services:
   # ============== HDFS Services ==============
   namenode:
+    image: hadoop-spark-lab/hadoop:latest
     build:
       context: ./docker/hadoop
       dockerfile: Dockerfile
@@ -32,6 +33,7 @@ services:
       retries: 30
 
   datanode1:
+    image: hadoop-spark-lab/hadoop:latest
     build:
       context: ./docker/hadoop
       dockerfile: Dockerfile
@@ -52,6 +54,7 @@ services:
       - hadoop-network
 
   datanode2:
+    image: hadoop-spark-lab/hadoop:latest
     build:
       context: ./docker/hadoop
       dockerfile: Dockerfile
@@ -72,6 +75,7 @@ services:
       - hadoop-network
 
   datanode3:
+    image: hadoop-spark-lab/hadoop:latest
     build:
       context: ./docker/hadoop
       dockerfile: Dockerfile
@@ -93,6 +97,7 @@ services:
 
   # ============== YARN Services ==============
   resourcemanager:
+    image: hadoop-spark-lab/hadoop:latest
     build:
       context: ./docker/hadoop
       dockerfile: Dockerfile
@@ -119,6 +124,7 @@ services:
       retries: 5
 
   nodemanager1:
+    image: hadoop-spark-lab/hadoop:latest
     build:
       context: ./docker/hadoop
       dockerfile: Dockerfile
@@ -137,6 +143,7 @@ services:
       - hadoop-network
 
   nodemanager2:
+    image: hadoop-spark-lab/hadoop:latest
     build:
       context: ./docker/hadoop
       dockerfile: Dockerfile
@@ -156,6 +163,7 @@ services:
 
   # ============== Spark & History Server ==============
   spark-history:
+    image: hadoop-spark-lab/spark:latest
     build:
       context: ./docker/spark
       dockerfile: Dockerfile
@@ -177,6 +185,7 @@ services:
 
   # ============== Jupyter Lab with PySpark ==============
   jupyter:
+    image: hadoop-spark-lab/jupyter:latest
     build:
       context: ./docker/jupyter
       dockerfile: Dockerfile
@@ -228,6 +237,7 @@ services:
 
   # ============== Hive Services ==============
   hive-metastore:
+    image: hadoop-spark-lab/hive:latest
     build:
       context: ./docker/hive
       dockerfile: Dockerfile
@@ -253,6 +263,7 @@ services:
       retries: 5
 
   hiveserver2:
+    image: hadoop-spark-lab/hive:latest
     build:
       context: ./docker/hive
       dockerfile: Dockerfile
@@ -279,6 +290,7 @@ services:
 
   # ============== Airflow Services ==============
   airflow-webserver:
+    image: hadoop-spark-lab/airflow:latest
     build:
       context: ./docker/airflow
       dockerfile: Dockerfile
@@ -315,6 +327,7 @@ services:
       retries: 5
 
   airflow-scheduler:
+    image: hadoop-spark-lab/airflow:latest
     build:
       context: ./docker/airflow
       dockerfile: Dockerfile
