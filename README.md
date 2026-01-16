@@ -183,3 +183,8 @@ docker-compose down
 # Increase Docker Desktop memory to 8GB+
 ```
 
+** Github Codespaces **
+For making all ports public use this coammnd:
+```
+for p in 4040 4041 5050 5432 8080 8031 8032 8042 8043 8030 8038 8888 9000 9033 9083 9864 9865 9866 9870 10000 10002 10800; do gh codespace ports visibility "$p:public" -c "$CODESPACE_NAME" || true; done
+```
