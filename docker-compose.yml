@@ -185,9 +185,9 @@ services:
 
   # ============== Jupyter Lab with PySpark ==============
   jupyter:
-    image: hadoop-spark-lab/jupyter:latest
+    image: hadoop-spark-lab/jupyter-airflow:latest
     build:
-      context: ./docker/jupyter
+      context: ./docker/jupyter-airflow
       dockerfile: Dockerfile
     container_name: jupyter
     hostname: jupyter
@@ -196,6 +196,7 @@ services:
       - "4040:4040"   # Spark Application UI (driver)
       - "4041:4041"   # Additional Spark UI
     environment:
+      - SERVICE_MODE=jupyter
       - JUPYTER_TOKEN=hadooplab
       - PYSPARK_PYTHON=/opt/conda/bin/python3
       - PYSPARK_DRIVER_PYTHON=/opt/conda/bin/python3
@@ -290,16 +291,16 @@ services:
 
   # ============== Airflow Services ==============
   airflow-webserver:
-    image: hadoop-spark-lab/airflow:latest
+    image: hadoop-spark-lab/jupyter-airflow:latest
     build:
-      context: ./docker/airflow
+      context: ./docker/jupyter-airflow
       dockerfile: Dockerfile
     container_name: airflow-webserver
     hostname: airflow-webserver
     ports:
       - "8080:8080"    # Airflow Web UI
     environment:
-      - AIRFLOW_MODE=webserver
+      - SERVICE_MODE=webserver
       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
       - AIRFLOW__CORE__FERNET_KEY=FB0o_zt4e3Ziq3LdUUO7F2Z95cvFFx16hU8jTeR1ASM=
@@ -308,11 +309,9 @@ services:
       - AIRFLOW__WEBSERVER__RBAC=True
     volumes:
       - ./docker/airflow/dags:/opt/airflow/dags
-      - ./docker/airflow/scripts/entrypoint.sh:/entrypoint.sh
       - ./data:/data
       - ./exercises:/exercises
       - airflow_logs:/opt/airflow/logs
-    entrypoint: ["/bin/bash", "/entrypoint.sh"]
     depends_on:
       postgres:
         condition: service_healthy
@@ -327,25 +326,23 @@ services:
       retries: 5
 
   airflow-scheduler:
-    image: hadoop-spark-lab/airflow:latest
+    image: hadoop-spark-lab/jupyter-airflow:latest
     build:
-      context: ./docker/airflow
+      context: ./docker/jupyter-airflow
       dockerfile: Dockerfile
     container_name: airflow-scheduler
     hostname: airflow-scheduler
     environment:
-      - AIRFLOW_MODE=scheduler
+      - SERVICE_MODE=scheduler
       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
       - AIRFLOW__CORE__FERNET_KEY=FB0o_zt4e3Ziq3LdUUO7F2Z95cvFFx16hU8jTeR1ASM=
       - AIRFLOW__CORE__LOAD_EXAMPLES=False
     volumes:
       - ./docker/airflow/dags:/opt/airflow/dags
-      - ./docker/airflow/scripts/entrypoint.sh:/entrypoint.sh
       - ./data:/data
       - ./exercises:/exercises
       - airflow_logs:/opt/airflow/logs
-    entrypoint: ["/bin/bash", "/entrypoint.sh"]
     depends_on:
       postgres:
         condition: service_healthy

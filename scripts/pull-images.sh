@@ -78,7 +78,7 @@ if [ "$BUILD_FROM_SCRATCH" = true ]; then
 else
     # Pull from Docker Hub
     echo -e "${YELLOW}Pulling images from Docker Hub (user: ${DOCKER_HUB_USER})...${NC}"
-    IMAGES=("hadoop" "spark" "hive" "jupyter" "airflow")
+    IMAGES=("hadoop" "spark" "hive" "jupyter-airflow")
 
     for image in "${IMAGES[@]}"; do
         LOCAL_IMAGE="hadoop-spark-lab/${image}:latest"

@@ -40,8 +40,7 @@ IMAGES=(
     "hadoop:Hadoop HDFS/YARN"
     "spark:Spark & History Server"
     "hive:Apache Hive"
-    "jupyter:Jupyter Lab with PySpark"
-    "airflow:Apache Airflow"
+    "jupyter-airflow:Jupyter Lab + Apache Airflow"
 )
 
 for image_info in "${IMAGES[@]}"; do

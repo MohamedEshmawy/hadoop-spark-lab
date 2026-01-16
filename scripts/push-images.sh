@@ -44,7 +44,7 @@ echo -e "${GREEN}✓ Docker Hub login verified${NC}"
 echo ""
 
 # Push images
-IMAGES=("hadoop" "spark" "hive" "jupyter" "airflow")
+IMAGES=("hadoop" "spark" "hive" "jupyter-airflow")
 
 for image in "${IMAGES[@]}"; do
     echo -e "${YELLOW}Pushing ${DOCKER_USERNAME}/hadoop-spark-lab-${image}:latest...${NC}"

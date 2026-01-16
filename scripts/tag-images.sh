@@ -34,7 +34,7 @@ echo "Docker Hub Username: ${DOCKER_USERNAME}"
 echo ""
 
 # Tag images
-IMAGES=("hadoop" "spark" "hive" "jupyter" "airflow")
+IMAGES=("hadoop" "spark" "hive" "jupyter-airflow")
 
 for image in "${IMAGES[@]}"; do
     echo -e "${YELLOW}Tagging hadoop-spark-lab/${image}...${NC}"
