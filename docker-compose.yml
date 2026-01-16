@@ -213,7 +213,7 @@ services:
     networks:
       - hadoop-network
 
-  # ============== PostgreSQL (for Hive & Airflow) ==============
+  # ============== PostgreSQL (for Hive) ==============
   postgres:
     image: postgres:15-alpine
     container_name: postgres
@@ -288,70 +288,6 @@ services:
       timeout: 10s
       retries: 10
 
-  # ============== Airflow Services ==============
-  airflow-webserver:
-    image: hadoop-spark-lab/airflow:latest
-    build:
-      context: ./docker/airflow
-      dockerfile: Dockerfile
-    container_name: airflow-webserver
-    hostname: airflow-webserver
-    ports:
-      - "8080:8080"    # Airflow Web UI
-    environment:
-      - AIRFLOW_MODE=webserver
-      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
-      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
-      - AIRFLOW__CORE__FERNET_KEY=FB0o_zt4e3Ziq3LdUUO7F2Z95cvFFx16hU8jTeR1ASM=
-      - AIRFLOW__CORE__LOAD_EXAMPLES=False
-      - AIRFLOW__WEBSERVER__EXPOSE_CONFIG=True
-      - AIRFLOW__WEBSERVER__RBAC=True
-    volumes:
-      - ./docker/airflow/dags:/opt/airflow/dags
-      - ./docker/airflow/scripts/entrypoint.sh:/entrypoint.sh
-      - ./data:/data
-      - ./exercises:/exercises
-      - airflow_logs:/opt/airflow/logs
-    entrypoint: ["/bin/bash", "/entrypoint.sh"]
-    depends_on:
-      postgres:
-        condition: service_healthy
-      hiveserver2:
-        condition: service_healthy
-    networks:
-      - hadoop-network
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
-      interval: 30s
-      timeout: 10s
-      retries: 5
-
-  airflow-scheduler:
-    image: hadoop-spark-lab/airflow:latest
-    build:
-      context: ./docker/airflow
-      dockerfile: Dockerfile
-    container_name: airflow-scheduler
-    hostname: airflow-scheduler
-    environment:
-      - AIRFLOW_MODE=scheduler
-      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
-      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
-      - AIRFLOW__CORE__FERNET_KEY=FB0o_zt4e3Ziq3LdUUO7F2Z95cvFFx16hU8jTeR1ASM=
-      - AIRFLOW__CORE__LOAD_EXAMPLES=False
-    volumes:
-      - ./docker/airflow/dags:/opt/airflow/dags
-      - ./docker/airflow/scripts/entrypoint.sh:/entrypoint.sh
-      - ./data:/data
-      - ./exercises:/exercises
-      - airflow_logs:/opt/airflow/logs
-    entrypoint: ["/bin/bash", "/entrypoint.sh"]
-    depends_on:
-      postgres:
-        condition: service_healthy
-    networks:
-      - hadoop-network
-
   # ============== PostgreSQL Web UI ==============
   pgadmin:
     image: dpage/pgadmin4:latest
@@ -389,7 +325,6 @@ networks:
 volumes:
   spark_logs:
   postgres_data:
-  airflow_logs:
   pgadmin_data:
 
 
