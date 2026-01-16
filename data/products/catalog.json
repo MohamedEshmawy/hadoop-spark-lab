@@ -1,0 +1,500 @@
+{"product_id": "PROD00001", "product_name": "Clothing Item 1", "category": "Clothing", "unit_price": 17.38, "cost_price": 8.39, "supplier_id": "SUP015", "weight_kg": 2.88, "in_stock": true}
+{"product_id": "PROD00002", "product_name": "Automotive Item 2", "category": "Automotive", "unit_price": 48.03, "cost_price": 25.29, "supplier_id": "SUP002", "weight_kg": 1.96, "in_stock": true}
+{"product_id": "PROD00003", "product_name": "Automotive Item 3", "category": "Automotive", "unit_price": 303.0, "cost_price": 172.22, "supplier_id": "SUP046", "weight_kg": 13.03, "in_stock": false}
+{"product_id": "PROD00004", "product_name": "Books Item 4", "category": "Books", "unit_price": 227.36, "cost_price": 109.92, "supplier_id": "SUP001", "weight_kg": 15.2, "in_stock": true}
+{"product_id": "PROD00005", "product_name": "Food & Beverage Item 5", "category": "Food & Beverage", "unit_price": 173.42, "cost_price": 77.46, "supplier_id": "SUP049", "weight_kg": 6.8, "in_stock": true}
+{"product_id": "PROD00006", "product_name": "Food & Beverage Item 6", "category": "Food & Beverage", "unit_price": 52.87, "cost_price": 34.59, "supplier_id": "SUP039", "weight_kg": 5.36, "in_stock": true}
+{"product_id": "PROD00007", "product_name": "Health & Beauty Item 7", "category": "Health & Beauty", "unit_price": 270.43, "cost_price": 187.12, "supplier_id": "SUP025", "weight_kg": 1.67, "in_stock": true}
+{"product_id": "PROD00008", "product_name": "Office Item 8", "category": "Office", "unit_price": 443.3, "cost_price": 225.41, "supplier_id": "SUP013", "weight_kg": 14.12, "in_stock": true}
+{"product_id": "PROD00009", "product_name": "Books Item 9", "category": "Books", "unit_price": 387.67, "cost_price": 269.65, "supplier_id": "SUP015", "weight_kg": 17.34, "in_stock": false}
+{"product_id": "PROD00010", "product_name": "Sports Item 10", "category": "Sports", "unit_price": 229.44, "cost_price": 149.19, "supplier_id": "SUP011", "weight_kg": 7.47, "in_stock": true}
+{"product_id": "PROD00011", "product_name": "Sports Item 11", "category": "Sports", "unit_price": 352.4, "cost_price": 213.23, "supplier_id": "SUP005", "weight_kg": 12.22, "in_stock": true}
+{"product_id": "PROD00012", "product_name": "Automotive Item 12", "category": "Automotive", "unit_price": 365.92, "cost_price": 164.3, "supplier_id": "SUP025", "weight_kg": 5.47, "in_stock": true}
+{"product_id": "PROD00013", "product_name": "Toys Item 13", "category": "Toys", "unit_price": 422.21, "cost_price": 267.18, "supplier_id": "SUP015", "weight_kg": 16.45, "in_stock": true}
+{"product_id": "PROD00014", "product_name": "Food & Beverage Item 14", "category": "Food & Beverage", "unit_price": 137.53, "cost_price": 63.72, "supplier_id": "SUP037", "weight_kg": 17.54, "in_stock": true}
+{"product_id": "PROD00015", "product_name": "Books Item 15", "category": "Books", "unit_price": 329.44, "cost_price": 170.88, "supplier_id": "SUP042", "weight_kg": 9.23, "in_stock": true}
+{"product_id": "PROD00016", "product_name": "Home & Garden Item 16", "category": "Home & Garden", "unit_price": 127.08, "cost_price": 72.23, "supplier_id": "SUP017", "weight_kg": 14.97, "in_stock": false}
+{"product_id": "PROD00017", "product_name": "Office Item 17", "category": "Office", "unit_price": 202.7, "cost_price": 94.42, "supplier_id": "SUP009", "weight_kg": 10.24, "in_stock": true}
+{"product_id": "PROD00018", "product_name": "Electronics Item 18", "category": "Electronics", "unit_price": 431.25, "cost_price": 192.27, "supplier_id": "SUP011", "weight_kg": 15.86, "in_stock": false}
+{"product_id": "PROD00019", "product_name": "Office Item 19", "category": "Office", "unit_price": 36.45, "cost_price": 18.75, "supplier_id": "SUP030", "weight_kg": 10.63, "in_stock": true}
+{"product_id": "PROD00020", "product_name": "Clothing Item 20", "category": "Clothing", "unit_price": 342.45, "cost_price": 192.14, "supplier_id": "SUP018", "weight_kg": 15.4, "in_stock": true}
+{"product_id": "PROD00021", "product_name": "Clothing Item 21", "category": "Clothing", "unit_price": 150.28, "cost_price": 67.24, "supplier_id": "SUP001", "weight_kg": 19.08, "in_stock": true}
+{"product_id": "PROD00022", "product_name": "Automotive Item 22", "category": "Automotive", "unit_price": 382.17, "cost_price": 211.07, "supplier_id": "SUP007", "weight_kg": 17.42, "in_stock": true}
+{"product_id": "PROD00023", "product_name": "Automotive Item 23", "category": "Automotive", "unit_price": 306.44, "cost_price": 136.63, "supplier_id": "SUP049", "weight_kg": 3.31, "in_stock": true}
+{"product_id": "PROD00024", "product_name": "Office Item 24", "category": "Office", "unit_price": 165.46, "cost_price": 67.15, "supplier_id": "SUP024", "weight_kg": 17.59, "in_stock": true}
+{"product_id": "PROD00025", "product_name": "Books Item 25", "category": "Books", "unit_price": 33.67, "cost_price": 22.34, "supplier_id": "SUP006", "weight_kg": 1.8, "in_stock": false}
+{"product_id": "PROD00026", "product_name": "Clothing Item 26", "category": "Clothing", "unit_price": 489.1, "cost_price": 273.81, "supplier_id": "SUP009", "weight_kg": 2.65, "in_stock": false}
+{"product_id": "PROD00027", "product_name": "Automotive Item 27", "category": "Automotive", "unit_price": 86.74, "cost_price": 48.43, "supplier_id": "SUP039", "weight_kg": 8.52, "in_stock": true}
+{"product_id": "PROD00028", "product_name": "Automotive Item 28", "category": "Automotive", "unit_price": 378.86, "cost_price": 229.95, "supplier_id": "SUP046", "weight_kg": 6.3, "in_stock": true}
+{"product_id": "PROD00029", "product_name": "Health & Beauty Item 29", "category": "Health & Beauty", "unit_price": 450.31, "cost_price": 241.12, "supplier_id": "SUP016", "weight_kg": 4.57, "in_stock": true}
+{"product_id": "PROD00030", "product_name": "Electronics Item 30", "category": "Electronics", "unit_price": 296.21, "cost_price": 138.93, "supplier_id": "SUP015", "weight_kg": 0.24, "in_stock": true}
+{"product_id": "PROD00031", "product_name": "Books Item 31", "category": "Books", "unit_price": 38.36, "cost_price": 15.71, "supplier_id": "SUP022", "weight_kg": 1.51, "in_stock": true}
+{"product_id": "PROD00032", "product_name": "Sports Item 32", "category": "Sports", "unit_price": 336.14, "cost_price": 156.06, "supplier_id": "SUP009", "weight_kg": 14.49, "in_stock": false}
+{"product_id": "PROD00033", "product_name": "Books Item 33", "category": "Books", "unit_price": 393.39, "cost_price": 252.65, "supplier_id": "SUP013", "weight_kg": 1.98, "in_stock": false}
+{"product_id": "PROD00034", "product_name": "Toys Item 34", "category": "Toys", "unit_price": 214.67, "cost_price": 115.95, "supplier_id": "SUP047", "weight_kg": 1.18, "in_stock": true}
+{"product_id": "PROD00035", "product_name": "Electronics Item 35", "category": "Electronics", "unit_price": 204.3, "cost_price": 102.51, "supplier_id": "SUP007", "weight_kg": 5.05, "in_stock": true}
+{"product_id": "PROD00036", "product_name": "Automotive Item 36", "category": "Automotive", "unit_price": 227.06, "cost_price": 119.56, "supplier_id": "SUP018", "weight_kg": 9.31, "in_stock": true}
+{"product_id": "PROD00037", "product_name": "Health & Beauty Item 37", "category": "Health & Beauty", "unit_price": 404.97, "cost_price": 265.98, "supplier_id": "SUP007", "weight_kg": 1.11, "in_stock": true}
+{"product_id": "PROD00038", "product_name": "Clothing Item 38", "category": "Clothing", "unit_price": 463.55, "cost_price": 303.44, "supplier_id": "SUP011", "weight_kg": 8.19, "in_stock": false}
+{"product_id": "PROD00039", "product_name": "Books Item 39", "category": "Books", "unit_price": 433.0, "cost_price": 290.43, "supplier_id": "SUP011", "weight_kg": 7.64, "in_stock": false}
+{"product_id": "PROD00040", "product_name": "Sports Item 40", "category": "Sports", "unit_price": 463.63, "cost_price": 294.65, "supplier_id": "SUP019", "weight_kg": 8.52, "in_stock": false}
+{"product_id": "PROD00041", "product_name": "Home & Garden Item 41", "category": "Home & Garden", "unit_price": 99.0, "cost_price": 46.07, "supplier_id": "SUP004", "weight_kg": 11.63, "in_stock": true}
+{"product_id": "PROD00042", "product_name": "Toys Item 42", "category": "Toys", "unit_price": 33.3, "cost_price": 19.15, "supplier_id": "SUP033", "weight_kg": 18.4, "in_stock": true}
+{"product_id": "PROD00043", "product_name": "Electronics Item 43", "category": "Electronics", "unit_price": 480.59, "cost_price": 203.78, "supplier_id": "SUP012", "weight_kg": 1.46, "in_stock": true}
+{"product_id": "PROD00044", "product_name": "Books Item 44", "category": "Books", "unit_price": 204.87, "cost_price": 139.82, "supplier_id": "SUP037", "weight_kg": 5.0, "in_stock": true}
+{"product_id": "PROD00045", "product_name": "Office Item 45", "category": "Office", "unit_price": 45.58, "cost_price": 27.22, "supplier_id": "SUP037", "weight_kg": 10.5, "in_stock": true}
+{"product_id": "PROD00046", "product_name": "Books Item 46", "category": "Books", "unit_price": 336.51, "cost_price": 166.32, "supplier_id": "SUP017", "weight_kg": 7.98, "in_stock": true}
+{"product_id": "PROD00047", "product_name": "Health & Beauty Item 47", "category": "Health & Beauty", "unit_price": 161.51, "cost_price": 101.03, "supplier_id": "SUP005", "weight_kg": 0.29, "in_stock": true}
+{"product_id": "PROD00048", "product_name": "Clothing Item 48", "category": "Clothing", "unit_price": 271.13, "cost_price": 149.6, "supplier_id": "SUP009", "weight_kg": 18.67, "in_stock": true}
+{"product_id": "PROD00049", "product_name": "Books Item 49", "category": "Books", "unit_price": 187.92, "cost_price": 84.06, "supplier_id": "SUP035", "weight_kg": 14.1, "in_stock": true}
+{"product_id": "PROD00050", "product_name": "Automotive Item 50", "category": "Automotive", "unit_price": 153.19, "cost_price": 91.76, "supplier_id": "SUP009", "weight_kg": 5.36, "in_stock": true}
+{"product_id": "PROD00051", "product_name": "Automotive Item 51", "category": "Automotive", "unit_price": 81.95, "cost_price": 39.71, "supplier_id": "SUP014", "weight_kg": 14.38, "in_stock": true}
+{"product_id": "PROD00052", "product_name": "Sports Item 52", "category": "Sports", "unit_price": 255.18, "cost_price": 121.3, "supplier_id": "SUP004", "weight_kg": 1.94, "in_stock": false}
+{"product_id": "PROD00053", "product_name": "Sports Item 53", "category": "Sports", "unit_price": 26.82, "cost_price": 13.41, "supplier_id": "SUP009", "weight_kg": 12.78, "in_stock": true}
+{"product_id": "PROD00054", "product_name": "Home & Garden Item 54", "category": "Home & Garden", "unit_price": 371.91, "cost_price": 210.32, "supplier_id": "SUP028", "weight_kg": 11.26, "in_stock": true}
+{"product_id": "PROD00055", "product_name": "Clothing Item 55", "category": "Clothing", "unit_price": 472.8, "cost_price": 287.13, "supplier_id": "SUP010", "weight_kg": 10.96, "in_stock": true}
+{"product_id": "PROD00056", "product_name": "Office Item 56", "category": "Office", "unit_price": 278.5, "cost_price": 147.31, "supplier_id": "SUP003", "weight_kg": 6.23, "in_stock": true}
+{"product_id": "PROD00057", "product_name": "Toys Item 57", "category": "Toys", "unit_price": 108.99, "cost_price": 51.75, "supplier_id": "SUP007", "weight_kg": 7.14, "in_stock": false}
+{"product_id": "PROD00058", "product_name": "Office Item 58", "category": "Office", "unit_price": 375.99, "cost_price": 254.82, "supplier_id": "SUP016", "weight_kg": 17.31, "in_stock": true}
+{"product_id": "PROD00059", "product_name": "Food & Beverage Item 59", "category": "Food & Beverage", "unit_price": 17.27, "cost_price": 10.72, "supplier_id": "SUP022", "weight_kg": 15.67, "in_stock": false}
+{"product_id": "PROD00060", "product_name": "Books Item 60", "category": "Books", "unit_price": 137.07, "cost_price": 87.2, "supplier_id": "SUP007", "weight_kg": 7.71, "in_stock": true}
+{"product_id": "PROD00061", "product_name": "Health & Beauty Item 61", "category": "Health & Beauty", "unit_price": 115.1, "cost_price": 74.24, "supplier_id": "SUP030", "weight_kg": 7.06, "in_stock": true}
+{"product_id": "PROD00062", "product_name": "Books Item 62", "category": "Books", "unit_price": 16.71, "cost_price": 7.65, "supplier_id": "SUP022", "weight_kg": 5.64, "in_stock": true}
+{"product_id": "PROD00063", "product_name": "Sports Item 63", "category": "Sports", "unit_price": 178.82, "cost_price": 98.85, "supplier_id": "SUP044", "weight_kg": 19.62, "in_stock": true}
+{"product_id": "PROD00064", "product_name": "Electronics Item 64", "category": "Electronics", "unit_price": 62.09, "cost_price": 42.91, "supplier_id": "SUP012", "weight_kg": 11.65, "in_stock": true}
+{"product_id": "PROD00065", "product_name": "Electronics Item 65", "category": "Electronics", "unit_price": 58.66, "cost_price": 31.11, "supplier_id": "SUP047", "weight_kg": 15.75, "in_stock": false}
+{"product_id": "PROD00066", "product_name": "Office Item 66", "category": "Office", "unit_price": 492.2, "cost_price": 213.95, "supplier_id": "SUP037", "weight_kg": 3.88, "in_stock": true}
+{"product_id": "PROD00067", "product_name": "Food & Beverage Item 67", "category": "Food & Beverage", "unit_price": 5.84, "cost_price": 3.96, "supplier_id": "SUP035", "weight_kg": 13.77, "in_stock": true}
+{"product_id": "PROD00068", "product_name": "Toys Item 68", "category": "Toys", "unit_price": 218.49, "cost_price": 149.59, "supplier_id": "SUP022", "weight_kg": 12.5, "in_stock": true}
+{"product_id": "PROD00069", "product_name": "Sports Item 69", "category": "Sports", "unit_price": 256.03, "cost_price": 153.63, "supplier_id": "SUP021", "weight_kg": 8.11, "in_stock": true}
+{"product_id": "PROD00070", "product_name": "Automotive Item 70", "category": "Automotive", "unit_price": 68.01, "cost_price": 35.78, "supplier_id": "SUP025", "weight_kg": 13.58, "in_stock": true}
+{"product_id": "PROD00071", "product_name": "Office Item 71", "category": "Office", "unit_price": 286.71, "cost_price": 149.61, "supplier_id": "SUP001", "weight_kg": 6.15, "in_stock": true}
+{"product_id": "PROD00072", "product_name": "Food & Beverage Item 72", "category": "Food & Beverage", "unit_price": 393.95, "cost_price": 229.28, "supplier_id": "SUP021", "weight_kg": 9.35, "in_stock": false}
+{"product_id": "PROD00073", "product_name": "Books Item 73", "category": "Books", "unit_price": 258.03, "cost_price": 164.65, "supplier_id": "SUP048", "weight_kg": 3.48, "in_stock": true}
+{"product_id": "PROD00074", "product_name": "Sports Item 74", "category": "Sports", "unit_price": 260.15, "cost_price": 153.46, "supplier_id": "SUP022", "weight_kg": 1.96, "in_stock": true}
+{"product_id": "PROD00075", "product_name": "Sports Item 75", "category": "Sports", "unit_price": 116.2, "cost_price": 53.42, "supplier_id": "SUP002", "weight_kg": 1.02, "in_stock": false}
+{"product_id": "PROD00076", "product_name": "Office Item 76", "category": "Office", "unit_price": 425.62, "cost_price": 179.55, "supplier_id": "SUP027", "weight_kg": 17.73, "in_stock": true}
+{"product_id": "PROD00077", "product_name": "Food & Beverage Item 77", "category": "Food & Beverage", "unit_price": 249.72, "cost_price": 118.16, "supplier_id": "SUP042", "weight_kg": 13.78, "in_stock": true}
+{"product_id": "PROD00078", "product_name": "Food & Beverage Item 78", "category": "Food & Beverage", "unit_price": 113.33, "cost_price": 72.67, "supplier_id": "SUP045", "weight_kg": 10.41, "in_stock": true}
+{"product_id": "PROD00079", "product_name": "Automotive Item 79", "category": "Automotive", "unit_price": 128.35, "cost_price": 84.01, "supplier_id": "SUP030", "weight_kg": 2.75, "in_stock": false}
+{"product_id": "PROD00080", "product_name": "Automotive Item 80", "category": "Automotive", "unit_price": 494.01, "cost_price": 285.85, "supplier_id": "SUP049", "weight_kg": 17.84, "in_stock": false}
+{"product_id": "PROD00081", "product_name": "Automotive Item 81", "category": "Automotive", "unit_price": 225.73, "cost_price": 101.07, "supplier_id": "SUP031", "weight_kg": 9.06, "in_stock": true}
+{"product_id": "PROD00082", "product_name": "Sports Item 82", "category": "Sports", "unit_price": 384.08, "cost_price": 213.7, "supplier_id": "SUP041", "weight_kg": 4.86, "in_stock": false}
+{"product_id": "PROD00083", "product_name": "Clothing Item 83", "category": "Clothing", "unit_price": 358.2, "cost_price": 168.48, "supplier_id": "SUP022", "weight_kg": 6.46, "in_stock": true}
+{"product_id": "PROD00084", "product_name": "Home & Garden Item 84", "category": "Home & Garden", "unit_price": 79.66, "cost_price": 41.02, "supplier_id": "SUP010", "weight_kg": 14.16, "in_stock": true}
+{"product_id": "PROD00085", "product_name": "Food & Beverage Item 85", "category": "Food & Beverage", "unit_price": 206.76, "cost_price": 116.36, "supplier_id": "SUP027", "weight_kg": 1.34, "in_stock": false}
+{"product_id": "PROD00086", "product_name": "Food & Beverage Item 86", "category": "Food & Beverage", "unit_price": 452.9, "cost_price": 260.52, "supplier_id": "SUP045", "weight_kg": 0.49, "in_stock": false}
+{"product_id": "PROD00087", "product_name": "Health & Beauty Item 87", "category": "Health & Beauty", "unit_price": 7.92, "cost_price": 4.0, "supplier_id": "SUP049", "weight_kg": 7.86, "in_stock": false}
+{"product_id": "PROD00088", "product_name": "Automotive Item 88", "category": "Automotive", "unit_price": 375.02, "cost_price": 211.45, "supplier_id": "SUP039", "weight_kg": 17.97, "in_stock": false}
+{"product_id": "PROD00089", "product_name": "Books Item 89", "category": "Books", "unit_price": 140.1, "cost_price": 76.45, "supplier_id": "SUP025", "weight_kg": 6.79, "in_stock": false}
+{"product_id": "PROD00090", "product_name": "Home & Garden Item 90", "category": "Home & Garden", "unit_price": 421.05, "cost_price": 284.57, "supplier_id": "SUP040", "weight_kg": 10.73, "in_stock": false}
+{"product_id": "PROD00091", "product_name": "Office Item 91", "category": "Office", "unit_price": 284.37, "cost_price": 116.06, "supplier_id": "SUP042", "weight_kg": 8.63, "in_stock": false}
+{"product_id": "PROD00092", "product_name": "Home & Garden Item 92", "category": "Home & Garden", "unit_price": 29.89, "cost_price": 15.36, "supplier_id": "SUP014", "weight_kg": 9.15, "in_stock": true}
+{"product_id": "PROD00093", "product_name": "Food & Beverage Item 93", "category": "Food & Beverage", "unit_price": 142.74, "cost_price": 97.83, "supplier_id": "SUP027", "weight_kg": 5.12, "in_stock": true}
+{"product_id": "PROD00094", "product_name": "Health & Beauty Item 94", "category": "Health & Beauty", "unit_price": 14.59, "cost_price": 8.2, "supplier_id": "SUP023", "weight_kg": 4.56, "in_stock": true}
+{"product_id": "PROD00095", "product_name": "Electronics Item 95", "category": "Electronics", "unit_price": 378.35, "cost_price": 259.12, "supplier_id": "SUP013", "weight_kg": 16.8, "in_stock": true}
+{"product_id": "PROD00096", "product_name": "Books Item 96", "category": "Books", "unit_price": 67.48, "cost_price": 40.54, "supplier_id": "SUP037", "weight_kg": 18.96, "in_stock": false}
+{"product_id": "PROD00097", "product_name": "Sports Item 97", "category": "Sports", "unit_price": 384.61, "cost_price": 173.21, "supplier_id": "SUP039", "weight_kg": 19.28, "in_stock": true}
+{"product_id": "PROD00098", "product_name": "Home & Garden Item 98", "category": "Home & Garden", "unit_price": 482.54, "cost_price": 208.66, "supplier_id": "SUP002", "weight_kg": 18.58, "in_stock": false}
+{"product_id": "PROD00099", "product_name": "Food & Beverage Item 99", "category": "Food & Beverage", "unit_price": 471.03, "cost_price": 216.44, "supplier_id": "SUP038", "weight_kg": 13.84, "in_stock": true}
+{"product_id": "PROD00100", "product_name": "Clothing Item 100", "category": "Clothing", "unit_price": 350.11, "cost_price": 171.72, "supplier_id": "SUP044", "weight_kg": 12.05, "in_stock": true}
+{"product_id": "PROD00101", "product_name": "Office Item 101", "category": "Office", "unit_price": 392.4, "cost_price": 197.84, "supplier_id": "SUP028", "weight_kg": 13.26, "in_stock": true}
+{"product_id": "PROD00102", "product_name": "Automotive Item 102", "category": "Automotive", "unit_price": 325.53, "cost_price": 131.45, "supplier_id": "SUP027", "weight_kg": 16.46, "in_stock": true}
+{"product_id": "PROD00103", "product_name": "Food & Beverage Item 103", "category": "Food & Beverage", "unit_price": 480.59, "cost_price": 283.87, "supplier_id": "SUP030", "weight_kg": 14.18, "in_stock": false}
+{"product_id": "PROD00104", "product_name": "Home & Garden Item 104", "category": "Home & Garden", "unit_price": 368.23, "cost_price": 253.95, "supplier_id": "SUP018", "weight_kg": 12.36, "in_stock": false}
+{"product_id": "PROD00105", "product_name": "Health & Beauty Item 105", "category": "Health & Beauty", "unit_price": 220.61, "cost_price": 136.63, "supplier_id": "SUP018", "weight_kg": 6.51, "in_stock": true}
+{"product_id": "PROD00106", "product_name": "Clothing Item 106", "category": "Clothing", "unit_price": 143.07, "cost_price": 76.58, "supplier_id": "SUP049", "weight_kg": 9.35, "in_stock": false}
+{"product_id": "PROD00107", "product_name": "Toys Item 107", "category": "Toys", "unit_price": 19.21, "cost_price": 12.59, "supplier_id": "SUP012", "weight_kg": 9.8, "in_stock": true}
+{"product_id": "PROD00108", "product_name": "Sports Item 108", "category": "Sports", "unit_price": 173.47, "cost_price": 115.2, "supplier_id": "SUP045", "weight_kg": 17.61, "in_stock": true}
+{"product_id": "PROD00109", "product_name": "Automotive Item 109", "category": "Automotive", "unit_price": 474.29, "cost_price": 201.9, "supplier_id": "SUP047", "weight_kg": 8.19, "in_stock": true}
+{"product_id": "PROD00110", "product_name": "Health & Beauty Item 110", "category": "Health & Beauty", "unit_price": 324.72, "cost_price": 177.7, "supplier_id": "SUP002", "weight_kg": 1.95, "in_stock": true}
+{"product_id": "PROD00111", "product_name": "Food & Beverage Item 111", "category": "Food & Beverage", "unit_price": 347.43, "cost_price": 170.89, "supplier_id": "SUP038", "weight_kg": 7.44, "in_stock": true}
+{"product_id": "PROD00112", "product_name": "Food & Beverage Item 112", "category": "Food & Beverage", "unit_price": 498.33, "cost_price": 281.62, "supplier_id": "SUP023", "weight_kg": 14.09, "in_stock": true}
+{"product_id": "PROD00113", "product_name": "Sports Item 113", "category": "Sports", "unit_price": 129.44, "cost_price": 56.46, "supplier_id": "SUP013", "weight_kg": 6.38, "in_stock": true}
+{"product_id": "PROD00114", "product_name": "Books Item 114", "category": "Books", "unit_price": 112.11, "cost_price": 61.13, "supplier_id": "SUP047", "weight_kg": 11.83, "in_stock": true}
+{"product_id": "PROD00115", "product_name": "Clothing Item 115", "category": "Clothing", "unit_price": 417.15, "cost_price": 203.93, "supplier_id": "SUP024", "weight_kg": 3.67, "in_stock": true}
+{"product_id": "PROD00116", "product_name": "Automotive Item 116", "category": "Automotive", "unit_price": 67.66, "cost_price": 27.99, "supplier_id": "SUP004", "weight_kg": 11.11, "in_stock": true}
+{"product_id": "PROD00117", "product_name": "Health & Beauty Item 117", "category": "Health & Beauty", "unit_price": 55.78, "cost_price": 22.52, "supplier_id": "SUP019", "weight_kg": 9.44, "in_stock": false}
+{"product_id": "PROD00118", "product_name": "Toys Item 118", "category": "Toys", "unit_price": 96.26, "cost_price": 39.99, "supplier_id": "SUP031", "weight_kg": 2.37, "in_stock": true}
+{"product_id": "PROD00119", "product_name": "Food & Beverage Item 119", "category": "Food & Beverage", "unit_price": 248.41, "cost_price": 142.37, "supplier_id": "SUP044", "weight_kg": 1.17, "in_stock": true}
+{"product_id": "PROD00120", "product_name": "Office Item 120", "category": "Office", "unit_price": 474.82, "cost_price": 202.06, "supplier_id": "SUP016", "weight_kg": 2.46, "in_stock": false}
+{"product_id": "PROD00121", "product_name": "Office Item 121", "category": "Office", "unit_price": 300.08, "cost_price": 175.71, "supplier_id": "SUP050", "weight_kg": 10.5, "in_stock": false}
+{"product_id": "PROD00122", "product_name": "Health & Beauty Item 122", "category": "Health & Beauty", "unit_price": 152.19, "cost_price": 87.75, "supplier_id": "SUP028", "weight_kg": 6.18, "in_stock": true}
+{"product_id": "PROD00123", "product_name": "Office Item 123", "category": "Office", "unit_price": 480.25, "cost_price": 206.4, "supplier_id": "SUP049", "weight_kg": 4.23, "in_stock": true}
+{"product_id": "PROD00124", "product_name": "Sports Item 124", "category": "Sports", "unit_price": 331.91, "cost_price": 148.4, "supplier_id": "SUP012", "weight_kg": 11.08, "in_stock": true}
+{"product_id": "PROD00125", "product_name": "Electronics Item 125", "category": "Electronics", "unit_price": 207.22, "cost_price": 125.74, "supplier_id": "SUP031", "weight_kg": 5.9, "in_stock": true}
+{"product_id": "PROD00126", "product_name": "Sports Item 126", "category": "Sports", "unit_price": 354.94, "cost_price": 216.83, "supplier_id": "SUP030", "weight_kg": 1.52, "in_stock": true}
+{"product_id": "PROD00127", "product_name": "Sports Item 127", "category": "Sports", "unit_price": 394.97, "cost_price": 232.05, "supplier_id": "SUP043", "weight_kg": 16.1, "in_stock": true}
+{"product_id": "PROD00128", "product_name": "Food & Beverage Item 128", "category": "Food & Beverage", "unit_price": 61.81, "cost_price": 28.89, "supplier_id": "SUP010", "weight_kg": 18.18, "in_stock": true}
+{"product_id": "PROD00129", "product_name": "Clothing Item 129", "category": "Clothing", "unit_price": 34.52, "cost_price": 22.02, "supplier_id": "SUP039", "weight_kg": 15.0, "in_stock": true}
+{"product_id": "PROD00130", "product_name": "Health & Beauty Item 130", "category": "Health & Beauty", "unit_price": 66.56, "cost_price": 40.37, "supplier_id": "SUP045", "weight_kg": 8.11, "in_stock": true}
+{"product_id": "PROD00131", "product_name": "Automotive Item 131", "category": "Automotive", "unit_price": 272.29, "cost_price": 144.68, "supplier_id": "SUP039", "weight_kg": 0.89, "in_stock": false}
+{"product_id": "PROD00132", "product_name": "Toys Item 132", "category": "Toys", "unit_price": 303.84, "cost_price": 123.89, "supplier_id": "SUP015", "weight_kg": 19.24, "in_stock": true}
+{"product_id": "PROD00133", "product_name": "Sports Item 133", "category": "Sports", "unit_price": 290.24, "cost_price": 182.54, "supplier_id": "SUP012", "weight_kg": 9.46, "in_stock": false}
+{"product_id": "PROD00134", "product_name": "Sports Item 134", "category": "Sports", "unit_price": 94.84, "cost_price": 54.59, "supplier_id": "SUP041", "weight_kg": 16.3, "in_stock": true}
+{"product_id": "PROD00135", "product_name": "Health & Beauty Item 135", "category": "Health & Beauty", "unit_price": 177.24, "cost_price": 88.62, "supplier_id": "SUP043", "weight_kg": 2.18, "in_stock": true}
+{"product_id": "PROD00136", "product_name": "Toys Item 136", "category": "Toys", "unit_price": 208.76, "cost_price": 114.54, "supplier_id": "SUP043", "weight_kg": 18.91, "in_stock": true}
+{"product_id": "PROD00137", "product_name": "Health & Beauty Item 137", "category": "Health & Beauty", "unit_price": 48.59, "cost_price": 23.12, "supplier_id": "SUP008", "weight_kg": 19.41, "in_stock": false}
+{"product_id": "PROD00138", "product_name": "Automotive Item 138", "category": "Automotive", "unit_price": 413.34, "cost_price": 165.48, "supplier_id": "SUP035", "weight_kg": 9.29, "in_stock": true}
+{"product_id": "PROD00139", "product_name": "Books Item 139", "category": "Books", "unit_price": 261.63, "cost_price": 153.52, "supplier_id": "SUP032", "weight_kg": 12.55, "in_stock": true}
+{"product_id": "PROD00140", "product_name": "Books Item 140", "category": "Books", "unit_price": 137.19, "cost_price": 60.27, "supplier_id": "SUP019", "weight_kg": 8.82, "in_stock": false}
+{"product_id": "PROD00141", "product_name": "Clothing Item 141", "category": "Clothing", "unit_price": 19.29, "cost_price": 11.36, "supplier_id": "SUP016", "weight_kg": 14.22, "in_stock": true}
+{"product_id": "PROD00142", "product_name": "Automotive Item 142", "category": "Automotive", "unit_price": 11.77, "cost_price": 6.15, "supplier_id": "SUP015", "weight_kg": 19.85, "in_stock": true}
+{"product_id": "PROD00143", "product_name": "Health & Beauty Item 143", "category": "Health & Beauty", "unit_price": 473.8, "cost_price": 281.58, "supplier_id": "SUP010", "weight_kg": 10.02, "in_stock": true}
+{"product_id": "PROD00144", "product_name": "Automotive Item 144", "category": "Automotive", "unit_price": 354.18, "cost_price": 185.82, "supplier_id": "SUP031", "weight_kg": 19.61, "in_stock": true}
+{"product_id": "PROD00145", "product_name": "Health & Beauty Item 145", "category": "Health & Beauty", "unit_price": 277.88, "cost_price": 143.13, "supplier_id": "SUP039", "weight_kg": 10.21, "in_stock": true}
+{"product_id": "PROD00146", "product_name": "Clothing Item 146", "category": "Clothing", "unit_price": 141.74, "cost_price": 90.29, "supplier_id": "SUP027", "weight_kg": 6.86, "in_stock": true}
+{"product_id": "PROD00147", "product_name": "Electronics Item 147", "category": "Electronics", "unit_price": 145.01, "cost_price": 70.99, "supplier_id": "SUP038", "weight_kg": 11.64, "in_stock": false}
+{"product_id": "PROD00148", "product_name": "Home & Garden Item 148", "category": "Home & Garden", "unit_price": 226.04, "cost_price": 123.26, "supplier_id": "SUP022", "weight_kg": 11.08, "in_stock": false}
+{"product_id": "PROD00149", "product_name": "Health & Beauty Item 149", "category": "Health & Beauty", "unit_price": 466.76, "cost_price": 308.47, "supplier_id": "SUP045", "weight_kg": 4.85, "in_stock": false}
+{"product_id": "PROD00150", "product_name": "Books Item 150", "category": "Books", "unit_price": 428.73, "cost_price": 224.32, "supplier_id": "SUP021", "weight_kg": 14.92, "in_stock": false}
+{"product_id": "PROD00151", "product_name": "Food & Beverage Item 151", "category": "Food & Beverage", "unit_price": 494.26, "cost_price": 315.2, "supplier_id": "SUP042", "weight_kg": 19.62, "in_stock": false}
+{"product_id": "PROD00152", "product_name": "Electronics Item 152", "category": "Electronics", "unit_price": 67.49, "cost_price": 46.54, "supplier_id": "SUP022", "weight_kg": 17.41, "in_stock": false}
+{"product_id": "PROD00153", "product_name": "Clothing Item 153", "category": "Clothing", "unit_price": 265.35, "cost_price": 142.51, "supplier_id": "SUP047", "weight_kg": 2.97, "in_stock": true}
+{"product_id": "PROD00154", "product_name": "Clothing Item 154", "category": "Clothing", "unit_price": 237.4, "cost_price": 163.99, "supplier_id": "SUP022", "weight_kg": 12.5, "in_stock": false}
+{"product_id": "PROD00155", "product_name": "Clothing Item 155", "category": "Clothing", "unit_price": 426.62, "cost_price": 279.74, "supplier_id": "SUP035", "weight_kg": 7.66, "in_stock": true}
+{"product_id": "PROD00156", "product_name": "Health & Beauty Item 156", "category": "Health & Beauty", "unit_price": 436.83, "cost_price": 179.44, "supplier_id": "SUP005", "weight_kg": 4.77, "in_stock": true}
+{"product_id": "PROD00157", "product_name": "Books Item 157", "category": "Books", "unit_price": 374.65, "cost_price": 198.64, "supplier_id": "SUP007", "weight_kg": 15.23, "in_stock": true}
+{"product_id": "PROD00158", "product_name": "Health & Beauty Item 158", "category": "Health & Beauty", "unit_price": 87.35, "cost_price": 42.79, "supplier_id": "SUP002", "weight_kg": 1.02, "in_stock": true}
+{"product_id": "PROD00159", "product_name": "Sports Item 159", "category": "Sports", "unit_price": 182.44, "cost_price": 96.55, "supplier_id": "SUP016", "weight_kg": 10.67, "in_stock": true}
+{"product_id": "PROD00160", "product_name": "Home & Garden Item 160", "category": "Home & Garden", "unit_price": 91.66, "cost_price": 53.42, "supplier_id": "SUP025", "weight_kg": 12.43, "in_stock": true}
+{"product_id": "PROD00161", "product_name": "Health & Beauty Item 161", "category": "Health & Beauty", "unit_price": 456.85, "cost_price": 202.36, "supplier_id": "SUP030", "weight_kg": 12.79, "in_stock": false}
+{"product_id": "PROD00162", "product_name": "Sports Item 162", "category": "Sports", "unit_price": 335.09, "cost_price": 224.4, "supplier_id": "SUP030", "weight_kg": 18.03, "in_stock": true}
+{"product_id": "PROD00163", "product_name": "Clothing Item 163", "category": "Clothing", "unit_price": 223.66, "cost_price": 112.65, "supplier_id": "SUP038", "weight_kg": 6.05, "in_stock": false}
+{"product_id": "PROD00164", "product_name": "Sports Item 164", "category": "Sports", "unit_price": 231.13, "cost_price": 113.4, "supplier_id": "SUP025", "weight_kg": 17.08, "in_stock": true}
+{"product_id": "PROD00165", "product_name": "Books Item 165", "category": "Books", "unit_price": 193.78, "cost_price": 98.38, "supplier_id": "SUP019", "weight_kg": 19.85, "in_stock": true}
+{"product_id": "PROD00166", "product_name": "Electronics Item 166", "category": "Electronics", "unit_price": 489.08, "cost_price": 292.21, "supplier_id": "SUP018", "weight_kg": 0.26, "in_stock": true}
+{"product_id": "PROD00167", "product_name": "Office Item 167", "category": "Office", "unit_price": 373.86, "cost_price": 242.95, "supplier_id": "SUP019", "weight_kg": 15.54, "in_stock": true}
+{"product_id": "PROD00168", "product_name": "Office Item 168", "category": "Office", "unit_price": 401.96, "cost_price": 187.19, "supplier_id": "SUP013", "weight_kg": 12.46, "in_stock": true}
+{"product_id": "PROD00169", "product_name": "Clothing Item 169", "category": "Clothing", "unit_price": 452.18, "cost_price": 268.55, "supplier_id": "SUP020", "weight_kg": 15.79, "in_stock": true}
+{"product_id": "PROD00170", "product_name": "Office Item 170", "category": "Office", "unit_price": 185.61, "cost_price": 81.56, "supplier_id": "SUP019", "weight_kg": 6.6, "in_stock": false}
+{"product_id": "PROD00171", "product_name": "Home & Garden Item 171", "category": "Home & Garden", "unit_price": 104.39, "cost_price": 66.39, "supplier_id": "SUP024", "weight_kg": 10.66, "in_stock": true}
+{"product_id": "PROD00172", "product_name": "Home & Garden Item 172", "category": "Home & Garden", "unit_price": 132.2, "cost_price": 85.59, "supplier_id": "SUP031", "weight_kg": 19.35, "in_stock": true}
+{"product_id": "PROD00173", "product_name": "Toys Item 173", "category": "Toys", "unit_price": 403.1, "cost_price": 217.87, "supplier_id": "SUP005", "weight_kg": 2.9, "in_stock": true}
+{"product_id": "PROD00174", "product_name": "Food & Beverage Item 174", "category": "Food & Beverage", "unit_price": 483.8, "cost_price": 310.3, "supplier_id": "SUP024", "weight_kg": 1.9, "in_stock": false}
+{"product_id": "PROD00175", "product_name": "Electronics Item 175", "category": "Electronics", "unit_price": 135.91, "cost_price": 59.4, "supplier_id": "SUP024", "weight_kg": 13.49, "in_stock": true}
+{"product_id": "PROD00176", "product_name": "Office Item 176", "category": "Office", "unit_price": 193.61, "cost_price": 114.53, "supplier_id": "SUP024", "weight_kg": 2.26, "in_stock": true}
+{"product_id": "PROD00177", "product_name": "Health & Beauty Item 177", "category": "Health & Beauty", "unit_price": 17.39, "cost_price": 11.57, "supplier_id": "SUP036", "weight_kg": 6.63, "in_stock": true}
+{"product_id": "PROD00178", "product_name": "Clothing Item 178", "category": "Clothing", "unit_price": 319.52, "cost_price": 172.31, "supplier_id": "SUP045", "weight_kg": 6.11, "in_stock": false}
+{"product_id": "PROD00179", "product_name": "Clothing Item 179", "category": "Clothing", "unit_price": 74.19, "cost_price": 50.74, "supplier_id": "SUP020", "weight_kg": 19.92, "in_stock": true}
+{"product_id": "PROD00180", "product_name": "Clothing Item 180", "category": "Clothing", "unit_price": 121.23, "cost_price": 68.04, "supplier_id": "SUP025", "weight_kg": 9.13, "in_stock": false}
+{"product_id": "PROD00181", "product_name": "Office Item 181", "category": "Office", "unit_price": 372.42, "cost_price": 166.23, "supplier_id": "SUP027", "weight_kg": 13.13, "in_stock": false}
+{"product_id": "PROD00182", "product_name": "Office Item 182", "category": "Office", "unit_price": 207.02, "cost_price": 141.9, "supplier_id": "SUP003", "weight_kg": 13.84, "in_stock": true}
+{"product_id": "PROD00183", "product_name": "Health & Beauty Item 183", "category": "Health & Beauty", "unit_price": 225.12, "cost_price": 106.0, "supplier_id": "SUP024", "weight_kg": 2.08, "in_stock": true}
+{"product_id": "PROD00184", "product_name": "Automotive Item 184", "category": "Automotive", "unit_price": 451.34, "cost_price": 267.85, "supplier_id": "SUP004", "weight_kg": 8.02, "in_stock": true}
+{"product_id": "PROD00185", "product_name": "Clothing Item 185", "category": "Clothing", "unit_price": 474.76, "cost_price": 307.29, "supplier_id": "SUP006", "weight_kg": 13.29, "in_stock": true}
+{"product_id": "PROD00186", "product_name": "Electronics Item 186", "category": "Electronics", "unit_price": 394.46, "cost_price": 186.61, "supplier_id": "SUP009", "weight_kg": 15.76, "in_stock": true}
+{"product_id": "PROD00187", "product_name": "Clothing Item 187", "category": "Clothing", "unit_price": 415.76, "cost_price": 235.43, "supplier_id": "SUP038", "weight_kg": 4.4, "in_stock": true}
+{"product_id": "PROD00188", "product_name": "Toys Item 188", "category": "Toys", "unit_price": 388.31, "cost_price": 247.2, "supplier_id": "SUP039", "weight_kg": 0.16, "in_stock": true}
+{"product_id": "PROD00189", "product_name": "Home & Garden Item 189", "category": "Home & Garden", "unit_price": 272.41, "cost_price": 174.22, "supplier_id": "SUP008", "weight_kg": 13.26, "in_stock": true}
+{"product_id": "PROD00190", "product_name": "Home & Garden Item 190", "category": "Home & Garden", "unit_price": 12.36, "cost_price": 7.87, "supplier_id": "SUP016", "weight_kg": 11.82, "in_stock": true}
+{"product_id": "PROD00191", "product_name": "Home & Garden Item 191", "category": "Home & Garden", "unit_price": 136.36, "cost_price": 59.73, "supplier_id": "SUP027", "weight_kg": 10.57, "in_stock": true}
+{"product_id": "PROD00192", "product_name": "Health & Beauty Item 192", "category": "Health & Beauty", "unit_price": 226.9, "cost_price": 115.4, "supplier_id": "SUP038", "weight_kg": 2.27, "in_stock": true}
+{"product_id": "PROD00193", "product_name": "Office Item 193", "category": "Office", "unit_price": 26.47, "cost_price": 16.8, "supplier_id": "SUP043", "weight_kg": 10.48, "in_stock": false}
+{"product_id": "PROD00194", "product_name": "Electronics Item 194", "category": "Electronics", "unit_price": 35.11, "cost_price": 19.09, "supplier_id": "SUP026", "weight_kg": 8.58, "in_stock": true}
+{"product_id": "PROD00195", "product_name": "Health & Beauty Item 195", "category": "Health & Beauty", "unit_price": 357.64, "cost_price": 190.65, "supplier_id": "SUP006", "weight_kg": 6.51, "in_stock": true}
+{"product_id": "PROD00196", "product_name": "Clothing Item 196", "category": "Clothing", "unit_price": 67.46, "cost_price": 39.62, "supplier_id": "SUP038", "weight_kg": 11.01, "in_stock": true}
+{"product_id": "PROD00197", "product_name": "Food & Beverage Item 197", "category": "Food & Beverage", "unit_price": 497.34, "cost_price": 278.1, "supplier_id": "SUP030", "weight_kg": 10.16, "in_stock": false}
+{"product_id": "PROD00198", "product_name": "Clothing Item 198", "category": "Clothing", "unit_price": 397.58, "cost_price": 172.68, "supplier_id": "SUP042", "weight_kg": 13.05, "in_stock": true}
+{"product_id": "PROD00199", "product_name": "Food & Beverage Item 199", "category": "Food & Beverage", "unit_price": 228.52, "cost_price": 107.07, "supplier_id": "SUP022", "weight_kg": 16.57, "in_stock": false}
+{"product_id": "PROD00200", "product_name": "Food & Beverage Item 200", "category": "Food & Beverage", "unit_price": 366.16, "cost_price": 180.8, "supplier_id": "SUP021", "weight_kg": 13.34, "in_stock": true}
+{"product_id": "PROD00201", "product_name": "Home & Garden Item 201", "category": "Home & Garden", "unit_price": 344.98, "cost_price": 187.07, "supplier_id": "SUP006", "weight_kg": 16.65, "in_stock": true}
+{"product_id": "PROD00202", "product_name": "Food & Beverage Item 202", "category": "Food & Beverage", "unit_price": 52.8, "cost_price": 32.82, "supplier_id": "SUP009", "weight_kg": 11.17, "in_stock": true}
+{"product_id": "PROD00203", "product_name": "Clothing Item 203", "category": "Clothing", "unit_price": 208.35, "cost_price": 137.95, "supplier_id": "SUP049", "weight_kg": 8.52, "in_stock": true}
+{"product_id": "PROD00204", "product_name": "Sports Item 204", "category": "Sports", "unit_price": 302.2, "cost_price": 152.76, "supplier_id": "SUP037", "weight_kg": 10.2, "in_stock": true}
+{"product_id": "PROD00205", "product_name": "Health & Beauty Item 205", "category": "Health & Beauty", "unit_price": 116.0, "cost_price": 50.17, "supplier_id": "SUP036", "weight_kg": 7.41, "in_stock": true}
+{"product_id": "PROD00206", "product_name": "Office Item 206", "category": "Office", "unit_price": 116.95, "cost_price": 61.83, "supplier_id": "SUP036", "weight_kg": 19.49, "in_stock": true}
+{"product_id": "PROD00207", "product_name": "Office Item 207", "category": "Office", "unit_price": 464.9, "cost_price": 301.64, "supplier_id": "SUP018", "weight_kg": 0.68, "in_stock": true}
+{"product_id": "PROD00208", "product_name": "Sports Item 208", "category": "Sports", "unit_price": 461.16, "cost_price": 233.03, "supplier_id": "SUP012", "weight_kg": 17.41, "in_stock": false}
+{"product_id": "PROD00209", "product_name": "Clothing Item 209", "category": "Clothing", "unit_price": 75.23, "cost_price": 44.38, "supplier_id": "SUP002", "weight_kg": 1.93, "in_stock": true}
+{"product_id": "PROD00210", "product_name": "Food & Beverage Item 210", "category": "Food & Beverage", "unit_price": 212.82, "cost_price": 106.89, "supplier_id": "SUP024", "weight_kg": 6.3, "in_stock": true}
+{"product_id": "PROD00211", "product_name": "Office Item 211", "category": "Office", "unit_price": 300.13, "cost_price": 199.59, "supplier_id": "SUP010", "weight_kg": 3.23, "in_stock": true}
+{"product_id": "PROD00212", "product_name": "Clothing Item 212", "category": "Clothing", "unit_price": 139.69, "cost_price": 83.62, "supplier_id": "SUP032", "weight_kg": 12.18, "in_stock": false}
+{"product_id": "PROD00213", "product_name": "Sports Item 213", "category": "Sports", "unit_price": 111.71, "cost_price": 61.85, "supplier_id": "SUP023", "weight_kg": 8.66, "in_stock": true}
+{"product_id": "PROD00214", "product_name": "Office Item 214", "category": "Office", "unit_price": 245.88, "cost_price": 147.56, "supplier_id": "SUP003", "weight_kg": 4.49, "in_stock": true}
+{"product_id": "PROD00215", "product_name": "Electronics Item 215", "category": "Electronics", "unit_price": 106.19, "cost_price": 72.59, "supplier_id": "SUP050", "weight_kg": 2.83, "in_stock": true}
+{"product_id": "PROD00216", "product_name": "Sports Item 216", "category": "Sports", "unit_price": 167.42, "cost_price": 67.36, "supplier_id": "SUP048", "weight_kg": 8.67, "in_stock": true}
+{"product_id": "PROD00217", "product_name": "Food & Beverage Item 217", "category": "Food & Beverage", "unit_price": 268.63, "cost_price": 126.0, "supplier_id": "SUP036", "weight_kg": 16.68, "in_stock": true}
+{"product_id": "PROD00218", "product_name": "Clothing Item 218", "category": "Clothing", "unit_price": 201.55, "cost_price": 125.49, "supplier_id": "SUP028", "weight_kg": 0.47, "in_stock": true}
+{"product_id": "PROD00219", "product_name": "Toys Item 219", "category": "Toys", "unit_price": 290.0, "cost_price": 165.89, "supplier_id": "SUP046", "weight_kg": 12.84, "in_stock": true}
+{"product_id": "PROD00220", "product_name": "Clothing Item 220", "category": "Clothing", "unit_price": 205.49, "cost_price": 141.76, "supplier_id": "SUP011", "weight_kg": 16.05, "in_stock": false}
+{"product_id": "PROD00221", "product_name": "Toys Item 221", "category": "Toys", "unit_price": 48.62, "cost_price": 31.77, "supplier_id": "SUP016", "weight_kg": 8.77, "in_stock": false}
+{"product_id": "PROD00222", "product_name": "Automotive Item 222", "category": "Automotive", "unit_price": 43.93, "cost_price": 29.04, "supplier_id": "SUP048", "weight_kg": 6.86, "in_stock": true}
+{"product_id": "PROD00223", "product_name": "Home & Garden Item 223", "category": "Home & Garden", "unit_price": 42.81, "cost_price": 25.26, "supplier_id": "SUP034", "weight_kg": 10.25, "in_stock": true}
+{"product_id": "PROD00224", "product_name": "Toys Item 224", "category": "Toys", "unit_price": 365.05, "cost_price": 235.71, "supplier_id": "SUP010", "weight_kg": 4.8, "in_stock": true}
+{"product_id": "PROD00225", "product_name": "Sports Item 225", "category": "Sports", "unit_price": 102.65, "cost_price": 59.61, "supplier_id": "SUP049", "weight_kg": 15.21, "in_stock": true}
+{"product_id": "PROD00226", "product_name": "Home & Garden Item 226", "category": "Home & Garden", "unit_price": 475.89, "cost_price": 280.01, "supplier_id": "SUP030", "weight_kg": 15.11, "in_stock": false}
+{"product_id": "PROD00227", "product_name": "Office Item 227", "category": "Office", "unit_price": 323.28, "cost_price": 224.99, "supplier_id": "SUP021", "weight_kg": 17.3, "in_stock": true}
+{"product_id": "PROD00228", "product_name": "Home & Garden Item 228", "category": "Home & Garden", "unit_price": 222.68, "cost_price": 120.4, "supplier_id": "SUP041", "weight_kg": 6.13, "in_stock": true}
+{"product_id": "PROD00229", "product_name": "Office Item 229", "category": "Office", "unit_price": 32.81, "cost_price": 18.12, "supplier_id": "SUP020", "weight_kg": 9.29, "in_stock": true}
+{"product_id": "PROD00230", "product_name": "Electronics Item 230", "category": "Electronics", "unit_price": 187.53, "cost_price": 91.16, "supplier_id": "SUP042", "weight_kg": 17.3, "in_stock": true}
+{"product_id": "PROD00231", "product_name": "Office Item 231", "category": "Office", "unit_price": 299.07, "cost_price": 154.12, "supplier_id": "SUP038", "weight_kg": 11.13, "in_stock": true}
+{"product_id": "PROD00232", "product_name": "Health & Beauty Item 232", "category": "Health & Beauty", "unit_price": 454.98, "cost_price": 260.02, "supplier_id": "SUP013", "weight_kg": 6.5, "in_stock": false}
+{"product_id": "PROD00233", "product_name": "Automotive Item 233", "category": "Automotive", "unit_price": 79.68, "cost_price": 33.35, "supplier_id": "SUP007", "weight_kg": 16.24, "in_stock": true}
+{"product_id": "PROD00234", "product_name": "Clothing Item 234", "category": "Clothing", "unit_price": 254.75, "cost_price": 115.09, "supplier_id": "SUP016", "weight_kg": 14.18, "in_stock": false}
+{"product_id": "PROD00235", "product_name": "Automotive Item 235", "category": "Automotive", "unit_price": 263.76, "cost_price": 118.07, "supplier_id": "SUP024", "weight_kg": 18.37, "in_stock": false}
+{"product_id": "PROD00236", "product_name": "Food & Beverage Item 236", "category": "Food & Beverage", "unit_price": 388.36, "cost_price": 234.44, "supplier_id": "SUP004", "weight_kg": 15.81, "in_stock": true}
+{"product_id": "PROD00237", "product_name": "Clothing Item 237", "category": "Clothing", "unit_price": 168.2, "cost_price": 95.43, "supplier_id": "SUP025", "weight_kg": 5.75, "in_stock": true}
+{"product_id": "PROD00238", "product_name": "Toys Item 238", "category": "Toys", "unit_price": 45.34, "cost_price": 27.16, "supplier_id": "SUP023", "weight_kg": 6.27, "in_stock": false}
+{"product_id": "PROD00239", "product_name": "Home & Garden Item 239", "category": "Home & Garden", "unit_price": 299.55, "cost_price": 204.11, "supplier_id": "SUP020", "weight_kg": 11.22, "in_stock": true}
+{"product_id": "PROD00240", "product_name": "Home & Garden Item 240", "category": "Home & Garden", "unit_price": 336.71, "cost_price": 218.42, "supplier_id": "SUP048", "weight_kg": 19.94, "in_stock": true}
+{"product_id": "PROD00241", "product_name": "Food & Beverage Item 241", "category": "Food & Beverage", "unit_price": 256.7, "cost_price": 104.08, "supplier_id": "SUP020", "weight_kg": 3.69, "in_stock": true}
+{"product_id": "PROD00242", "product_name": "Toys Item 242", "category": "Toys", "unit_price": 474.1, "cost_price": 258.8, "supplier_id": "SUP015", "weight_kg": 20.0, "in_stock": true}
+{"product_id": "PROD00243", "product_name": "Clothing Item 243", "category": "Clothing", "unit_price": 151.42, "cost_price": 96.37, "supplier_id": "SUP033", "weight_kg": 15.44, "in_stock": true}
+{"product_id": "PROD00244", "product_name": "Toys Item 244", "category": "Toys", "unit_price": 438.81, "cost_price": 256.89, "supplier_id": "SUP039", "weight_kg": 7.6, "in_stock": true}
+{"product_id": "PROD00245", "product_name": "Home & Garden Item 245", "category": "Home & Garden", "unit_price": 416.52, "cost_price": 262.96, "supplier_id": "SUP011", "weight_kg": 14.45, "in_stock": true}
+{"product_id": "PROD00246", "product_name": "Food & Beverage Item 246", "category": "Food & Beverage", "unit_price": 185.33, "cost_price": 114.14, "supplier_id": "SUP029", "weight_kg": 12.25, "in_stock": false}
+{"product_id": "PROD00247", "product_name": "Books Item 247", "category": "Books", "unit_price": 269.34, "cost_price": 132.74, "supplier_id": "SUP031", "weight_kg": 18.09, "in_stock": true}
+{"product_id": "PROD00248", "product_name": "Toys Item 248", "category": "Toys", "unit_price": 340.76, "cost_price": 194.62, "supplier_id": "SUP029", "weight_kg": 9.29, "in_stock": true}
+{"product_id": "PROD00249", "product_name": "Food & Beverage Item 249", "category": "Food & Beverage", "unit_price": 253.94, "cost_price": 133.47, "supplier_id": "SUP011", "weight_kg": 16.36, "in_stock": true}
+{"product_id": "PROD00250", "product_name": "Sports Item 250", "category": "Sports", "unit_price": 30.83, "cost_price": 16.78, "supplier_id": "SUP024", "weight_kg": 11.14, "in_stock": true}
+{"product_id": "PROD00251", "product_name": "Automotive Item 251", "category": "Automotive", "unit_price": 426.33, "cost_price": 206.99, "supplier_id": "SUP049", "weight_kg": 3.29, "in_stock": false}
+{"product_id": "PROD00252", "product_name": "Automotive Item 252", "category": "Automotive", "unit_price": 77.94, "cost_price": 41.4, "supplier_id": "SUP015", "weight_kg": 16.35, "in_stock": true}
+{"product_id": "PROD00253", "product_name": "Electronics Item 253", "category": "Electronics", "unit_price": 210.37, "cost_price": 109.17, "supplier_id": "SUP024", "weight_kg": 4.79, "in_stock": true}
+{"product_id": "PROD00254", "product_name": "Toys Item 254", "category": "Toys", "unit_price": 116.15, "cost_price": 57.56, "supplier_id": "SUP007", "weight_kg": 16.8, "in_stock": true}
+{"product_id": "PROD00255", "product_name": "Home & Garden Item 255", "category": "Home & Garden", "unit_price": 73.11, "cost_price": 35.54, "supplier_id": "SUP031", "weight_kg": 13.95, "in_stock": true}
+{"product_id": "PROD00256", "product_name": "Health & Beauty Item 256", "category": "Health & Beauty", "unit_price": 227.06, "cost_price": 91.18, "supplier_id": "SUP006", "weight_kg": 0.48, "in_stock": true}
+{"product_id": "PROD00257", "product_name": "Home & Garden Item 257", "category": "Home & Garden", "unit_price": 276.66, "cost_price": 171.02, "supplier_id": "SUP034", "weight_kg": 8.52, "in_stock": true}
+{"product_id": "PROD00258", "product_name": "Books Item 258", "category": "Books", "unit_price": 154.07, "cost_price": 63.83, "supplier_id": "SUP027", "weight_kg": 12.82, "in_stock": false}
+{"product_id": "PROD00259", "product_name": "Clothing Item 259", "category": "Clothing", "unit_price": 59.87, "cost_price": 40.21, "supplier_id": "SUP039", "weight_kg": 10.77, "in_stock": true}
+{"product_id": "PROD00260", "product_name": "Home & Garden Item 260", "category": "Home & Garden", "unit_price": 149.18, "cost_price": 59.74, "supplier_id": "SUP023", "weight_kg": 4.89, "in_stock": false}
+{"product_id": "PROD00261", "product_name": "Home & Garden Item 261", "category": "Home & Garden", "unit_price": 333.86, "cost_price": 142.12, "supplier_id": "SUP024", "weight_kg": 1.45, "in_stock": true}
+{"product_id": "PROD00262", "product_name": "Food & Beverage Item 262", "category": "Food & Beverage", "unit_price": 437.3, "cost_price": 180.63, "supplier_id": "SUP025", "weight_kg": 19.62, "in_stock": true}
+{"product_id": "PROD00263", "product_name": "Electronics Item 263", "category": "Electronics", "unit_price": 181.76, "cost_price": 76.39, "supplier_id": "SUP016", "weight_kg": 14.69, "in_stock": true}
+{"product_id": "PROD00264", "product_name": "Office Item 264", "category": "Office", "unit_price": 368.92, "cost_price": 184.37, "supplier_id": "SUP003", "weight_kg": 7.11, "in_stock": true}
+{"product_id": "PROD00265", "product_name": "Home & Garden Item 265", "category": "Home & Garden", "unit_price": 416.04, "cost_price": 251.87, "supplier_id": "SUP045", "weight_kg": 9.62, "in_stock": true}
+{"product_id": "PROD00266", "product_name": "Home & Garden Item 266", "category": "Home & Garden", "unit_price": 36.23, "cost_price": 22.93, "supplier_id": "SUP030", "weight_kg": 0.84, "in_stock": true}
+{"product_id": "PROD00267", "product_name": "Electronics Item 267", "category": "Electronics", "unit_price": 396.6, "cost_price": 264.03, "supplier_id": "SUP021", "weight_kg": 18.67, "in_stock": false}
+{"product_id": "PROD00268", "product_name": "Automotive Item 268", "category": "Automotive", "unit_price": 239.33, "cost_price": 98.36, "supplier_id": "SUP042", "weight_kg": 3.9, "in_stock": true}
+{"product_id": "PROD00269", "product_name": "Electronics Item 269", "category": "Electronics", "unit_price": 433.57, "cost_price": 216.6, "supplier_id": "SUP008", "weight_kg": 16.01, "in_stock": false}
+{"product_id": "PROD00270", "product_name": "Food & Beverage Item 270", "category": "Food & Beverage", "unit_price": 372.94, "cost_price": 249.27, "supplier_id": "SUP025", "weight_kg": 6.85, "in_stock": true}
+{"product_id": "PROD00271", "product_name": "Health & Beauty Item 271", "category": "Health & Beauty", "unit_price": 347.57, "cost_price": 177.33, "supplier_id": "SUP034", "weight_kg": 5.41, "in_stock": true}
+{"product_id": "PROD00272", "product_name": "Food & Beverage Item 272", "category": "Food & Beverage", "unit_price": 44.07, "cost_price": 25.59, "supplier_id": "SUP012", "weight_kg": 10.95, "in_stock": true}
+{"product_id": "PROD00273", "product_name": "Clothing Item 273", "category": "Clothing", "unit_price": 44.63, "cost_price": 26.7, "supplier_id": "SUP020", "weight_kg": 8.97, "in_stock": false}
+{"product_id": "PROD00274", "product_name": "Home & Garden Item 274", "category": "Home & Garden", "unit_price": 346.43, "cost_price": 175.11, "supplier_id": "SUP003", "weight_kg": 14.56, "in_stock": true}
+{"product_id": "PROD00275", "product_name": "Office Item 275", "category": "Office", "unit_price": 499.08, "cost_price": 240.74, "supplier_id": "SUP004", "weight_kg": 1.59, "in_stock": false}
+{"product_id": "PROD00276", "product_name": "Toys Item 276", "category": "Toys", "unit_price": 258.98, "cost_price": 161.85, "supplier_id": "SUP011", "weight_kg": 19.06, "in_stock": true}
+{"product_id": "PROD00277", "product_name": "Office Item 277", "category": "Office", "unit_price": 340.65, "cost_price": 181.04, "supplier_id": "SUP009", "weight_kg": 1.44, "in_stock": true}
+{"product_id": "PROD00278", "product_name": "Toys Item 278", "category": "Toys", "unit_price": 194.51, "cost_price": 110.91, "supplier_id": "SUP039", "weight_kg": 3.15, "in_stock": false}
+{"product_id": "PROD00279", "product_name": "Toys Item 279", "category": "Toys", "unit_price": 189.15, "cost_price": 118.96, "supplier_id": "SUP037", "weight_kg": 2.84, "in_stock": true}
+{"product_id": "PROD00280", "product_name": "Food & Beverage Item 280", "category": "Food & Beverage", "unit_price": 160.62, "cost_price": 77.68, "supplier_id": "SUP008", "weight_kg": 0.62, "in_stock": true}
+{"product_id": "PROD00281", "product_name": "Health & Beauty Item 281", "category": "Health & Beauty", "unit_price": 261.28, "cost_price": 176.12, "supplier_id": "SUP008", "weight_kg": 5.31, "in_stock": true}
+{"product_id": "PROD00282", "product_name": "Health & Beauty Item 282", "category": "Health & Beauty", "unit_price": 111.21, "cost_price": 64.9, "supplier_id": "SUP045", "weight_kg": 18.34, "in_stock": false}
+{"product_id": "PROD00283", "product_name": "Books Item 283", "category": "Books", "unit_price": 65.71, "cost_price": 43.09, "supplier_id": "SUP029", "weight_kg": 3.54, "in_stock": false}
+{"product_id": "PROD00284", "product_name": "Clothing Item 284", "category": "Clothing", "unit_price": 406.2, "cost_price": 280.39, "supplier_id": "SUP021", "weight_kg": 13.39, "in_stock": true}
+{"product_id": "PROD00285", "product_name": "Automotive Item 285", "category": "Automotive", "unit_price": 273.37, "cost_price": 182.45, "supplier_id": "SUP011", "weight_kg": 14.27, "in_stock": true}
+{"product_id": "PROD00286", "product_name": "Toys Item 286", "category": "Toys", "unit_price": 256.83, "cost_price": 112.08, "supplier_id": "SUP013", "weight_kg": 15.86, "in_stock": true}
+{"product_id": "PROD00287", "product_name": "Health & Beauty Item 287", "category": "Health & Beauty", "unit_price": 18.01, "cost_price": 10.2, "supplier_id": "SUP024", "weight_kg": 9.4, "in_stock": true}
+{"product_id": "PROD00288", "product_name": "Office Item 288", "category": "Office", "unit_price": 442.7, "cost_price": 185.81, "supplier_id": "SUP026", "weight_kg": 19.99, "in_stock": false}
+{"product_id": "PROD00289", "product_name": "Automotive Item 289", "category": "Automotive", "unit_price": 208.34, "cost_price": 108.93, "supplier_id": "SUP037", "weight_kg": 1.57, "in_stock": true}
+{"product_id": "PROD00290", "product_name": "Clothing Item 290", "category": "Clothing", "unit_price": 227.74, "cost_price": 137.56, "supplier_id": "SUP023", "weight_kg": 2.65, "in_stock": true}
+{"product_id": "PROD00291", "product_name": "Home & Garden Item 291", "category": "Home & Garden", "unit_price": 219.15, "cost_price": 147.53, "supplier_id": "SUP004", "weight_kg": 16.64, "in_stock": true}
+{"product_id": "PROD00292", "product_name": "Sports Item 292", "category": "Sports", "unit_price": 86.51, "cost_price": 42.98, "supplier_id": "SUP046", "weight_kg": 4.59, "in_stock": true}
+{"product_id": "PROD00293", "product_name": "Clothing Item 293", "category": "Clothing", "unit_price": 129.05, "cost_price": 76.21, "supplier_id": "SUP036", "weight_kg": 5.56, "in_stock": true}
+{"product_id": "PROD00294", "product_name": "Office Item 294", "category": "Office", "unit_price": 269.07, "cost_price": 148.2, "supplier_id": "SUP011", "weight_kg": 11.88, "in_stock": true}
+{"product_id": "PROD00295", "product_name": "Home & Garden Item 295", "category": "Home & Garden", "unit_price": 331.07, "cost_price": 204.0, "supplier_id": "SUP039", "weight_kg": 6.82, "in_stock": true}
+{"product_id": "PROD00296", "product_name": "Electronics Item 296", "category": "Electronics", "unit_price": 45.21, "cost_price": 30.95, "supplier_id": "SUP050", "weight_kg": 11.58, "in_stock": true}
+{"product_id": "PROD00297", "product_name": "Office Item 297", "category": "Office", "unit_price": 211.21, "cost_price": 124.97, "supplier_id": "SUP032", "weight_kg": 17.79, "in_stock": true}
+{"product_id": "PROD00298", "product_name": "Sports Item 298", "category": "Sports", "unit_price": 244.06, "cost_price": 156.54, "supplier_id": "SUP044", "weight_kg": 8.18, "in_stock": false}
+{"product_id": "PROD00299", "product_name": "Clothing Item 299", "category": "Clothing", "unit_price": 345.86, "cost_price": 154.75, "supplier_id": "SUP027", "weight_kg": 9.74, "in_stock": true}
+{"product_id": "PROD00300", "product_name": "Toys Item 300", "category": "Toys", "unit_price": 305.3, "cost_price": 150.75, "supplier_id": "SUP046", "weight_kg": 6.45, "in_stock": true}
+{"product_id": "PROD00301", "product_name": "Food & Beverage Item 301", "category": "Food & Beverage", "unit_price": 69.73, "cost_price": 35.64, "supplier_id": "SUP036", "weight_kg": 2.21, "in_stock": true}
+{"product_id": "PROD00302", "product_name": "Health & Beauty Item 302", "category": "Health & Beauty", "unit_price": 65.65, "cost_price": 35.11, "supplier_id": "SUP010", "weight_kg": 2.03, "in_stock": true}
+{"product_id": "PROD00303", "product_name": "Food & Beverage Item 303", "category": "Food & Beverage", "unit_price": 432.76, "cost_price": 227.39, "supplier_id": "SUP011", "weight_kg": 16.29, "in_stock": true}
+{"product_id": "PROD00304", "product_name": "Books Item 304", "category": "Books", "unit_price": 382.75, "cost_price": 210.31, "supplier_id": "SUP033", "weight_kg": 9.39, "in_stock": true}
+{"product_id": "PROD00305", "product_name": "Health & Beauty Item 305", "category": "Health & Beauty", "unit_price": 16.47, "cost_price": 11.26, "supplier_id": "SUP033", "weight_kg": 9.2, "in_stock": true}
+{"product_id": "PROD00306", "product_name": "Books Item 306", "category": "Books", "unit_price": 293.76, "cost_price": 121.79, "supplier_id": "SUP019", "weight_kg": 9.95, "in_stock": false}
+{"product_id": "PROD00307", "product_name": "Sports Item 307", "category": "Sports", "unit_price": 270.66, "cost_price": 177.05, "supplier_id": "SUP028", "weight_kg": 2.77, "in_stock": true}
+{"product_id": "PROD00308", "product_name": "Toys Item 308", "category": "Toys", "unit_price": 383.11, "cost_price": 195.3, "supplier_id": "SUP026", "weight_kg": 1.12, "in_stock": true}
+{"product_id": "PROD00309", "product_name": "Toys Item 309", "category": "Toys", "unit_price": 278.85, "cost_price": 117.69, "supplier_id": "SUP033", "weight_kg": 9.06, "in_stock": true}
+{"product_id": "PROD00310", "product_name": "Office Item 310", "category": "Office", "unit_price": 341.8, "cost_price": 148.9, "supplier_id": "SUP007", "weight_kg": 7.94, "in_stock": true}
+{"product_id": "PROD00311", "product_name": "Automotive Item 311", "category": "Automotive", "unit_price": 469.78, "cost_price": 294.31, "supplier_id": "SUP013", "weight_kg": 12.09, "in_stock": false}
+{"product_id": "PROD00312", "product_name": "Automotive Item 312", "category": "Automotive", "unit_price": 24.93, "cost_price": 10.26, "supplier_id": "SUP046", "weight_kg": 6.73, "in_stock": false}
+{"product_id": "PROD00313", "product_name": "Automotive Item 313", "category": "Automotive", "unit_price": 231.21, "cost_price": 134.54, "supplier_id": "SUP033", "weight_kg": 2.88, "in_stock": true}
+{"product_id": "PROD00314", "product_name": "Home & Garden Item 314", "category": "Home & Garden", "unit_price": 199.51, "cost_price": 116.7, "supplier_id": "SUP020", "weight_kg": 11.92, "in_stock": false}
+{"product_id": "PROD00315", "product_name": "Office Item 315", "category": "Office", "unit_price": 153.4, "cost_price": 98.9, "supplier_id": "SUP024", "weight_kg": 6.69, "in_stock": true}
+{"product_id": "PROD00316", "product_name": "Food & Beverage Item 316", "category": "Food & Beverage", "unit_price": 293.93, "cost_price": 187.83, "supplier_id": "SUP047", "weight_kg": 17.45, "in_stock": true}
+{"product_id": "PROD00317", "product_name": "Office Item 317", "category": "Office", "unit_price": 239.92, "cost_price": 165.58, "supplier_id": "SUP050", "weight_kg": 11.61, "in_stock": true}
+{"product_id": "PROD00318", "product_name": "Electronics Item 318", "category": "Electronics", "unit_price": 293.84, "cost_price": 132.57, "supplier_id": "SUP041", "weight_kg": 14.45, "in_stock": false}
+{"product_id": "PROD00319", "product_name": "Home & Garden Item 319", "category": "Home & Garden", "unit_price": 411.72, "cost_price": 194.6, "supplier_id": "SUP037", "weight_kg": 18.97, "in_stock": true}
+{"product_id": "PROD00320", "product_name": "Books Item 320", "category": "Books", "unit_price": 14.37, "cost_price": 7.1, "supplier_id": "SUP010", "weight_kg": 8.32, "in_stock": true}
+{"product_id": "PROD00321", "product_name": "Food & Beverage Item 321", "category": "Food & Beverage", "unit_price": 253.4, "cost_price": 147.84, "supplier_id": "SUP031", "weight_kg": 17.47, "in_stock": true}
+{"product_id": "PROD00322", "product_name": "Home & Garden Item 322", "category": "Home & Garden", "unit_price": 261.75, "cost_price": 148.74, "supplier_id": "SUP043", "weight_kg": 9.62, "in_stock": false}
+{"product_id": "PROD00323", "product_name": "Toys Item 323", "category": "Toys", "unit_price": 478.56, "cost_price": 257.42, "supplier_id": "SUP035", "weight_kg": 6.91, "in_stock": true}
+{"product_id": "PROD00324", "product_name": "Sports Item 324", "category": "Sports", "unit_price": 306.99, "cost_price": 140.5, "supplier_id": "SUP016", "weight_kg": 5.65, "in_stock": true}
+{"product_id": "PROD00325", "product_name": "Books Item 325", "category": "Books", "unit_price": 471.04, "cost_price": 327.22, "supplier_id": "SUP050", "weight_kg": 5.85, "in_stock": true}
+{"product_id": "PROD00326", "product_name": "Health & Beauty Item 326", "category": "Health & Beauty", "unit_price": 161.94, "cost_price": 81.72, "supplier_id": "SUP047", "weight_kg": 5.54, "in_stock": true}
+{"product_id": "PROD00327", "product_name": "Office Item 327", "category": "Office", "unit_price": 339.93, "cost_price": 174.69, "supplier_id": "SUP026", "weight_kg": 16.39, "in_stock": true}
+{"product_id": "PROD00328", "product_name": "Sports Item 328", "category": "Sports", "unit_price": 25.82, "cost_price": 17.73, "supplier_id": "SUP006", "weight_kg": 6.99, "in_stock": false}
+{"product_id": "PROD00329", "product_name": "Sports Item 329", "category": "Sports", "unit_price": 374.93, "cost_price": 174.04, "supplier_id": "SUP035", "weight_kg": 5.5, "in_stock": true}
+{"product_id": "PROD00330", "product_name": "Home & Garden Item 330", "category": "Home & Garden", "unit_price": 59.07, "cost_price": 36.76, "supplier_id": "SUP016", "weight_kg": 4.92, "in_stock": true}
+{"product_id": "PROD00331", "product_name": "Books Item 331", "category": "Books", "unit_price": 30.98, "cost_price": 16.23, "supplier_id": "SUP046", "weight_kg": 9.5, "in_stock": true}
+{"product_id": "PROD00332", "product_name": "Electronics Item 332", "category": "Electronics", "unit_price": 482.44, "cost_price": 334.51, "supplier_id": "SUP011", "weight_kg": 8.2, "in_stock": false}
+{"product_id": "PROD00333", "product_name": "Health & Beauty Item 333", "category": "Health & Beauty", "unit_price": 327.02, "cost_price": 204.97, "supplier_id": "SUP019", "weight_kg": 6.49, "in_stock": true}
+{"product_id": "PROD00334", "product_name": "Clothing Item 334", "category": "Clothing", "unit_price": 327.89, "cost_price": 154.0, "supplier_id": "SUP048", "weight_kg": 14.49, "in_stock": true}
+{"product_id": "PROD00335", "product_name": "Home & Garden Item 335", "category": "Home & Garden", "unit_price": 211.85, "cost_price": 137.98, "supplier_id": "SUP003", "weight_kg": 19.94, "in_stock": false}
+{"product_id": "PROD00336", "product_name": "Health & Beauty Item 336", "category": "Health & Beauty", "unit_price": 97.22, "cost_price": 60.74, "supplier_id": "SUP019", "weight_kg": 17.55, "in_stock": true}
+{"product_id": "PROD00337", "product_name": "Sports Item 337", "category": "Sports", "unit_price": 286.14, "cost_price": 123.67, "supplier_id": "SUP022", "weight_kg": 5.76, "in_stock": false}
+{"product_id": "PROD00338", "product_name": "Home & Garden Item 338", "category": "Home & Garden", "unit_price": 426.27, "cost_price": 230.36, "supplier_id": "SUP013", "weight_kg": 16.2, "in_stock": true}
+{"product_id": "PROD00339", "product_name": "Home & Garden Item 339", "category": "Home & Garden", "unit_price": 366.9, "cost_price": 218.12, "supplier_id": "SUP046", "weight_kg": 3.81, "in_stock": true}
+{"product_id": "PROD00340", "product_name": "Sports Item 340", "category": "Sports", "unit_price": 286.05, "cost_price": 179.41, "supplier_id": "SUP012", "weight_kg": 12.26, "in_stock": false}
+{"product_id": "PROD00341", "product_name": "Food & Beverage Item 341", "category": "Food & Beverage", "unit_price": 260.06, "cost_price": 110.79, "supplier_id": "SUP043", "weight_kg": 2.0, "in_stock": true}
+{"product_id": "PROD00342", "product_name": "Health & Beauty Item 342", "category": "Health & Beauty", "unit_price": 165.18, "cost_price": 78.37, "supplier_id": "SUP017", "weight_kg": 7.73, "in_stock": false}
+{"product_id": "PROD00343", "product_name": "Sports Item 343", "category": "Sports", "unit_price": 477.25, "cost_price": 234.13, "supplier_id": "SUP047", "weight_kg": 11.5, "in_stock": true}
+{"product_id": "PROD00344", "product_name": "Toys Item 344", "category": "Toys", "unit_price": 347.92, "cost_price": 145.65, "supplier_id": "SUP008", "weight_kg": 9.36, "in_stock": true}
+{"product_id": "PROD00345", "product_name": "Food & Beverage Item 345", "category": "Food & Beverage", "unit_price": 344.61, "cost_price": 233.28, "supplier_id": "SUP046", "weight_kg": 15.42, "in_stock": true}
+{"product_id": "PROD00346", "product_name": "Sports Item 346", "category": "Sports", "unit_price": 186.93, "cost_price": 87.16, "supplier_id": "SUP009", "weight_kg": 9.62, "in_stock": false}
+{"product_id": "PROD00347", "product_name": "Office Item 347", "category": "Office", "unit_price": 189.94, "cost_price": 115.98, "supplier_id": "SUP031", "weight_kg": 15.17, "in_stock": true}
+{"product_id": "PROD00348", "product_name": "Books Item 348", "category": "Books", "unit_price": 341.77, "cost_price": 197.8, "supplier_id": "SUP006", "weight_kg": 10.56, "in_stock": true}
+{"product_id": "PROD00349", "product_name": "Clothing Item 349", "category": "Clothing", "unit_price": 459.04, "cost_price": 199.07, "supplier_id": "SUP036", "weight_kg": 18.07, "in_stock": true}
+{"product_id": "PROD00350", "product_name": "Office Item 350", "category": "Office", "unit_price": 270.65, "cost_price": 121.62, "supplier_id": "SUP034", "weight_kg": 8.89, "in_stock": true}
+{"product_id": "PROD00351", "product_name": "Office Item 351", "category": "Office", "unit_price": 246.97, "cost_price": 165.39, "supplier_id": "SUP029", "weight_kg": 16.19, "in_stock": false}
+{"product_id": "PROD00352", "product_name": "Home & Garden Item 352", "category": "Home & Garden", "unit_price": 259.06, "cost_price": 139.12, "supplier_id": "SUP004", "weight_kg": 11.22, "in_stock": true}
+{"product_id": "PROD00353", "product_name": "Electronics Item 353", "category": "Electronics", "unit_price": 200.99, "cost_price": 129.63, "supplier_id": "SUP048", "weight_kg": 4.44, "in_stock": true}
+{"product_id": "PROD00354", "product_name": "Electronics Item 354", "category": "Electronics", "unit_price": 214.73, "cost_price": 131.01, "supplier_id": "SUP035", "weight_kg": 19.88, "in_stock": true}
+{"product_id": "PROD00355", "product_name": "Health & Beauty Item 355", "category": "Health & Beauty", "unit_price": 20.71, "cost_price": 10.82, "supplier_id": "SUP050", "weight_kg": 2.8, "in_stock": false}
+{"product_id": "PROD00356", "product_name": "Toys Item 356", "category": "Toys", "unit_price": 496.46, "cost_price": 255.55, "supplier_id": "SUP025", "weight_kg": 7.58, "in_stock": true}
+{"product_id": "PROD00357", "product_name": "Toys Item 357", "category": "Toys", "unit_price": 63.72, "cost_price": 44.47, "supplier_id": "SUP026", "weight_kg": 10.62, "in_stock": true}
+{"product_id": "PROD00358", "product_name": "Electronics Item 358", "category": "Electronics", "unit_price": 379.31, "cost_price": 263.07, "supplier_id": "SUP030", "weight_kg": 13.5, "in_stock": false}
+{"product_id": "PROD00359", "product_name": "Automotive Item 359", "category": "Automotive", "unit_price": 192.74, "cost_price": 90.38, "supplier_id": "SUP030", "weight_kg": 6.99, "in_stock": true}
+{"product_id": "PROD00360", "product_name": "Books Item 360", "category": "Books", "unit_price": 469.02, "cost_price": 289.62, "supplier_id": "SUP008", "weight_kg": 0.74, "in_stock": false}
+{"product_id": "PROD00361", "product_name": "Office Item 361", "category": "Office", "unit_price": 384.2, "cost_price": 255.54, "supplier_id": "SUP002", "weight_kg": 4.89, "in_stock": true}
+{"product_id": "PROD00362", "product_name": "Clothing Item 362", "category": "Clothing", "unit_price": 299.0, "cost_price": 159.65, "supplier_id": "SUP044", "weight_kg": 14.1, "in_stock": true}
+{"product_id": "PROD00363", "product_name": "Books Item 363", "category": "Books", "unit_price": 371.57, "cost_price": 193.47, "supplier_id": "SUP015", "weight_kg": 10.84, "in_stock": true}
+{"product_id": "PROD00364", "product_name": "Home & Garden Item 364", "category": "Home & Garden", "unit_price": 254.43, "cost_price": 123.85, "supplier_id": "SUP047", "weight_kg": 11.56, "in_stock": true}
+{"product_id": "PROD00365", "product_name": "Books Item 365", "category": "Books", "unit_price": 154.37, "cost_price": 68.38, "supplier_id": "SUP043", "weight_kg": 10.47, "in_stock": false}
+{"product_id": "PROD00366", "product_name": "Sports Item 366", "category": "Sports", "unit_price": 141.2, "cost_price": 80.06, "supplier_id": "SUP038", "weight_kg": 17.61, "in_stock": true}
+{"product_id": "PROD00367", "product_name": "Food & Beverage Item 367", "category": "Food & Beverage", "unit_price": 280.15, "cost_price": 116.0, "supplier_id": "SUP023", "weight_kg": 18.84, "in_stock": false}
+{"product_id": "PROD00368", "product_name": "Automotive Item 368", "category": "Automotive", "unit_price": 162.77, "cost_price": 85.44, "supplier_id": "SUP010", "weight_kg": 6.07, "in_stock": true}
+{"product_id": "PROD00369", "product_name": "Automotive Item 369", "category": "Automotive", "unit_price": 239.39, "cost_price": 156.75, "supplier_id": "SUP020", "weight_kg": 17.17, "in_stock": true}
+{"product_id": "PROD00370", "product_name": "Health & Beauty Item 370", "category": "Health & Beauty", "unit_price": 457.8, "cost_price": 260.36, "supplier_id": "SUP027", "weight_kg": 11.19, "in_stock": true}
+{"product_id": "PROD00371", "product_name": "Food & Beverage Item 371", "category": "Food & Beverage", "unit_price": 125.21, "cost_price": 57.72, "supplier_id": "SUP042", "weight_kg": 1.67, "in_stock": false}
+{"product_id": "PROD00372", "product_name": "Toys Item 372", "category": "Toys", "unit_price": 50.77, "cost_price": 31.34, "supplier_id": "SUP013", "weight_kg": 1.13, "in_stock": false}
+{"product_id": "PROD00373", "product_name": "Office Item 373", "category": "Office", "unit_price": 303.45, "cost_price": 200.91, "supplier_id": "SUP013", "weight_kg": 16.11, "in_stock": true}
+{"product_id": "PROD00374", "product_name": "Health & Beauty Item 374", "category": "Health & Beauty", "unit_price": 108.4, "cost_price": 72.86, "supplier_id": "SUP020", "weight_kg": 19.14, "in_stock": true}
+{"product_id": "PROD00375", "product_name": "Books Item 375", "category": "Books", "unit_price": 468.89, "cost_price": 322.89, "supplier_id": "SUP008", "weight_kg": 14.96, "in_stock": false}
+{"product_id": "PROD00376", "product_name": "Books Item 376", "category": "Books", "unit_price": 349.34, "cost_price": 213.49, "supplier_id": "SUP026", "weight_kg": 18.31, "in_stock": true}
+{"product_id": "PROD00377", "product_name": "Sports Item 377", "category": "Sports", "unit_price": 193.43, "cost_price": 108.34, "supplier_id": "SUP023", "weight_kg": 6.24, "in_stock": true}
+{"product_id": "PROD00378", "product_name": "Automotive Item 378", "category": "Automotive", "unit_price": 441.99, "cost_price": 238.59, "supplier_id": "SUP047", "weight_kg": 9.44, "in_stock": true}
+{"product_id": "PROD00379", "product_name": "Books Item 379", "category": "Books", "unit_price": 188.5, "cost_price": 98.81, "supplier_id": "SUP037", "weight_kg": 17.3, "in_stock": true}
+{"product_id": "PROD00380", "product_name": "Electronics Item 380", "category": "Electronics", "unit_price": 134.08, "cost_price": 91.23, "supplier_id": "SUP038", "weight_kg": 14.43, "in_stock": true}
+{"product_id": "PROD00381", "product_name": "Home & Garden Item 381", "category": "Home & Garden", "unit_price": 102.11, "cost_price": 47.89, "supplier_id": "SUP037", "weight_kg": 16.68, "in_stock": false}
+{"product_id": "PROD00382", "product_name": "Automotive Item 382", "category": "Automotive", "unit_price": 329.03, "cost_price": 199.21, "supplier_id": "SUP017", "weight_kg": 15.29, "in_stock": false}
+{"product_id": "PROD00383", "product_name": "Health & Beauty Item 383", "category": "Health & Beauty", "unit_price": 233.11, "cost_price": 144.49, "supplier_id": "SUP023", "weight_kg": 3.47, "in_stock": false}
+{"product_id": "PROD00384", "product_name": "Home & Garden Item 384", "category": "Home & Garden", "unit_price": 458.87, "cost_price": 258.18, "supplier_id": "SUP042", "weight_kg": 19.15, "in_stock": true}
+{"product_id": "PROD00385", "product_name": "Clothing Item 385", "category": "Clothing", "unit_price": 472.87, "cost_price": 283.94, "supplier_id": "SUP049", "weight_kg": 0.23, "in_stock": true}
+{"product_id": "PROD00386", "product_name": "Books Item 386", "category": "Books", "unit_price": 38.64, "cost_price": 17.21, "supplier_id": "SUP014", "weight_kg": 10.16, "in_stock": true}
+{"product_id": "PROD00387", "product_name": "Electronics Item 387", "category": "Electronics", "unit_price": 310.83, "cost_price": 186.51, "supplier_id": "SUP040", "weight_kg": 18.26, "in_stock": false}
+{"product_id": "PROD00388", "product_name": "Electronics Item 388", "category": "Electronics", "unit_price": 8.27, "cost_price": 4.68, "supplier_id": "SUP001", "weight_kg": 0.43, "in_stock": true}
+{"product_id": "PROD00389", "product_name": "Automotive Item 389", "category": "Automotive", "unit_price": 488.85, "cost_price": 198.05, "supplier_id": "SUP045", "weight_kg": 13.51, "in_stock": true}
+{"product_id": "PROD00390", "product_name": "Clothing Item 390", "category": "Clothing", "unit_price": 459.43, "cost_price": 256.05, "supplier_id": "SUP016", "weight_kg": 3.92, "in_stock": true}
+{"product_id": "PROD00391", "product_name": "Toys Item 391", "category": "Toys", "unit_price": 137.33, "cost_price": 71.28, "supplier_id": "SUP024", "weight_kg": 19.19, "in_stock": false}
+{"product_id": "PROD00392", "product_name": "Office Item 392", "category": "Office", "unit_price": 125.39, "cost_price": 76.38, "supplier_id": "SUP020", "weight_kg": 13.71, "in_stock": true}
+{"product_id": "PROD00393", "product_name": "Electronics Item 393", "category": "Electronics", "unit_price": 51.28, "cost_price": 26.35, "supplier_id": "SUP036", "weight_kg": 9.57, "in_stock": true}
+{"product_id": "PROD00394", "product_name": "Home & Garden Item 394", "category": "Home & Garden", "unit_price": 45.93, "cost_price": 30.02, "supplier_id": "SUP042", "weight_kg": 15.71, "in_stock": true}
+{"product_id": "PROD00395", "product_name": "Automotive Item 395", "category": "Automotive", "unit_price": 459.98, "cost_price": 215.7, "supplier_id": "SUP045", "weight_kg": 17.76, "in_stock": false}
+{"product_id": "PROD00396", "product_name": "Sports Item 396", "category": "Sports", "unit_price": 28.05, "cost_price": 11.84, "supplier_id": "SUP018", "weight_kg": 18.0, "in_stock": true}
+{"product_id": "PROD00397", "product_name": "Home & Garden Item 397", "category": "Home & Garden", "unit_price": 464.74, "cost_price": 229.74, "supplier_id": "SUP014", "weight_kg": 11.78, "in_stock": false}
+{"product_id": "PROD00398", "product_name": "Clothing Item 398", "category": "Clothing", "unit_price": 153.14, "cost_price": 87.17, "supplier_id": "SUP037", "weight_kg": 16.71, "in_stock": false}
+{"product_id": "PROD00399", "product_name": "Automotive Item 399", "category": "Automotive", "unit_price": 169.21, "cost_price": 106.04, "supplier_id": "SUP009", "weight_kg": 15.83, "in_stock": true}
+{"product_id": "PROD00400", "product_name": "Automotive Item 400", "category": "Automotive", "unit_price": 374.0, "cost_price": 188.41, "supplier_id": "SUP007", "weight_kg": 8.8, "in_stock": true}
+{"product_id": "PROD00401", "product_name": "Toys Item 401", "category": "Toys", "unit_price": 304.56, "cost_price": 177.91, "supplier_id": "SUP039", "weight_kg": 7.99, "in_stock": true}
+{"product_id": "PROD00402", "product_name": "Electronics Item 402", "category": "Electronics", "unit_price": 318.89, "cost_price": 202.52, "supplier_id": "SUP029", "weight_kg": 9.86, "in_stock": true}
+{"product_id": "PROD00403", "product_name": "Automotive Item 403", "category": "Automotive", "unit_price": 470.87, "cost_price": 249.35, "supplier_id": "SUP044", "weight_kg": 11.76, "in_stock": false}
+{"product_id": "PROD00404", "product_name": "Clothing Item 404", "category": "Clothing", "unit_price": 387.22, "cost_price": 189.2, "supplier_id": "SUP016", "weight_kg": 14.29, "in_stock": true}
+{"product_id": "PROD00405", "product_name": "Sports Item 405", "category": "Sports", "unit_price": 81.34, "cost_price": 49.9, "supplier_id": "SUP041", "weight_kg": 3.17, "in_stock": false}
+{"product_id": "PROD00406", "product_name": "Toys Item 406", "category": "Toys", "unit_price": 183.55, "cost_price": 78.46, "supplier_id": "SUP020", "weight_kg": 8.95, "in_stock": true}
+{"product_id": "PROD00407", "product_name": "Clothing Item 407", "category": "Clothing", "unit_price": 70.59, "cost_price": 32.2, "supplier_id": "SUP029", "weight_kg": 11.18, "in_stock": false}
+{"product_id": "PROD00408", "product_name": "Clothing Item 408", "category": "Clothing", "unit_price": 18.0, "cost_price": 9.11, "supplier_id": "SUP006", "weight_kg": 11.98, "in_stock": true}
+{"product_id": "PROD00409", "product_name": "Food & Beverage Item 409", "category": "Food & Beverage", "unit_price": 11.11, "cost_price": 5.82, "supplier_id": "SUP050", "weight_kg": 1.79, "in_stock": true}
+{"product_id": "PROD00410", "product_name": "Office Item 410", "category": "Office", "unit_price": 262.95, "cost_price": 159.24, "supplier_id": "SUP011", "weight_kg": 2.86, "in_stock": true}
+{"product_id": "PROD00411", "product_name": "Sports Item 411", "category": "Sports", "unit_price": 249.1, "cost_price": 104.37, "supplier_id": "SUP028", "weight_kg": 5.59, "in_stock": true}
+{"product_id": "PROD00412", "product_name": "Health & Beauty Item 412", "category": "Health & Beauty", "unit_price": 392.42, "cost_price": 199.48, "supplier_id": "SUP016", "weight_kg": 14.45, "in_stock": false}
+{"product_id": "PROD00413", "product_name": "Office Item 413", "category": "Office", "unit_price": 310.25, "cost_price": 166.72, "supplier_id": "SUP009", "weight_kg": 6.16, "in_stock": false}
+{"product_id": "PROD00414", "product_name": "Toys Item 414", "category": "Toys", "unit_price": 421.6, "cost_price": 216.69, "supplier_id": "SUP022", "weight_kg": 8.86, "in_stock": false}
+{"product_id": "PROD00415", "product_name": "Office Item 415", "category": "Office", "unit_price": 72.38, "cost_price": 35.92, "supplier_id": "SUP045", "weight_kg": 4.1, "in_stock": true}
+{"product_id": "PROD00416", "product_name": "Home & Garden Item 416", "category": "Home & Garden", "unit_price": 482.46, "cost_price": 333.2, "supplier_id": "SUP019", "weight_kg": 14.72, "in_stock": false}
+{"product_id": "PROD00417", "product_name": "Office Item 417", "category": "Office", "unit_price": 392.08, "cost_price": 195.16, "supplier_id": "SUP018", "weight_kg": 16.35, "in_stock": false}
+{"product_id": "PROD00418", "product_name": "Toys Item 418", "category": "Toys", "unit_price": 61.37, "cost_price": 34.93, "supplier_id": "SUP038", "weight_kg": 19.95, "in_stock": true}
+{"product_id": "PROD00419", "product_name": "Automotive Item 419", "category": "Automotive", "unit_price": 18.32, "cost_price": 11.33, "supplier_id": "SUP046", "weight_kg": 4.27, "in_stock": true}
+{"product_id": "PROD00420", "product_name": "Clothing Item 420", "category": "Clothing", "unit_price": 410.39, "cost_price": 262.11, "supplier_id": "SUP027", "weight_kg": 13.49, "in_stock": true}
+{"product_id": "PROD00421", "product_name": "Sports Item 421", "category": "Sports", "unit_price": 124.8, "cost_price": 74.58, "supplier_id": "SUP046", "weight_kg": 8.52, "in_stock": false}
+{"product_id": "PROD00422", "product_name": "Clothing Item 422", "category": "Clothing", "unit_price": 227.29, "cost_price": 131.69, "supplier_id": "SUP038", "weight_kg": 8.08, "in_stock": false}
+{"product_id": "PROD00423", "product_name": "Automotive Item 423", "category": "Automotive", "unit_price": 23.2, "cost_price": 16.02, "supplier_id": "SUP045", "weight_kg": 17.92, "in_stock": true}
+{"product_id": "PROD00424", "product_name": "Clothing Item 424", "category": "Clothing", "unit_price": 385.63, "cost_price": 230.33, "supplier_id": "SUP023", "weight_kg": 3.41, "in_stock": true}
+{"product_id": "PROD00425", "product_name": "Office Item 425", "category": "Office", "unit_price": 491.89, "cost_price": 296.73, "supplier_id": "SUP026", "weight_kg": 19.34, "in_stock": true}
+{"product_id": "PROD00426", "product_name": "Food & Beverage Item 426", "category": "Food & Beverage", "unit_price": 57.44, "cost_price": 24.68, "supplier_id": "SUP015", "weight_kg": 10.26, "in_stock": true}
+{"product_id": "PROD00427", "product_name": "Health & Beauty Item 427", "category": "Health & Beauty", "unit_price": 190.19, "cost_price": 102.5, "supplier_id": "SUP044", "weight_kg": 11.81, "in_stock": true}
+{"product_id": "PROD00428", "product_name": "Toys Item 428", "category": "Toys", "unit_price": 498.86, "cost_price": 271.8, "supplier_id": "SUP019", "weight_kg": 8.38, "in_stock": true}
+{"product_id": "PROD00429", "product_name": "Clothing Item 429", "category": "Clothing", "unit_price": 416.5, "cost_price": 257.83, "supplier_id": "SUP023", "weight_kg": 6.31, "in_stock": false}
+{"product_id": "PROD00430", "product_name": "Books Item 430", "category": "Books", "unit_price": 262.95, "cost_price": 132.66, "supplier_id": "SUP007", "weight_kg": 8.82, "in_stock": false}
+{"product_id": "PROD00431", "product_name": "Toys Item 431", "category": "Toys", "unit_price": 38.25, "cost_price": 15.81, "supplier_id": "SUP046", "weight_kg": 2.39, "in_stock": true}
+{"product_id": "PROD00432", "product_name": "Clothing Item 432", "category": "Clothing", "unit_price": 340.18, "cost_price": 152.85, "supplier_id": "SUP048", "weight_kg": 4.95, "in_stock": true}
+{"product_id": "PROD00433", "product_name": "Automotive Item 433", "category": "Automotive", "unit_price": 84.27, "cost_price": 47.86, "supplier_id": "SUP030", "weight_kg": 4.71, "in_stock": false}
+{"product_id": "PROD00434", "product_name": "Home & Garden Item 434", "category": "Home & Garden", "unit_price": 97.26, "cost_price": 58.08, "supplier_id": "SUP026", "weight_kg": 0.68, "in_stock": true}
+{"product_id": "PROD00435", "product_name": "Health & Beauty Item 435", "category": "Health & Beauty", "unit_price": 298.14, "cost_price": 154.03, "supplier_id": "SUP046", "weight_kg": 4.37, "in_stock": true}
+{"product_id": "PROD00436", "product_name": "Clothing Item 436", "category": "Clothing", "unit_price": 290.79, "cost_price": 186.06, "supplier_id": "SUP035", "weight_kg": 3.82, "in_stock": true}
+{"product_id": "PROD00437", "product_name": "Books Item 437", "category": "Books", "unit_price": 231.49, "cost_price": 110.81, "supplier_id": "SUP032", "weight_kg": 10.6, "in_stock": true}
+{"product_id": "PROD00438", "product_name": "Office Item 438", "category": "Office", "unit_price": 197.38, "cost_price": 102.19, "supplier_id": "SUP008", "weight_kg": 7.02, "in_stock": false}
+{"product_id": "PROD00439", "product_name": "Office Item 439", "category": "Office", "unit_price": 90.4, "cost_price": 54.43, "supplier_id": "SUP020", "weight_kg": 18.38, "in_stock": true}
+{"product_id": "PROD00440", "product_name": "Home & Garden Item 440", "category": "Home & Garden", "unit_price": 160.03, "cost_price": 75.46, "supplier_id": "SUP008", "weight_kg": 3.74, "in_stock": true}
+{"product_id": "PROD00441", "product_name": "Automotive Item 441", "category": "Automotive", "unit_price": 197.29, "cost_price": 114.22, "supplier_id": "SUP037", "weight_kg": 7.74, "in_stock": true}
+{"product_id": "PROD00442", "product_name": "Health & Beauty Item 442", "category": "Health & Beauty", "unit_price": 319.57, "cost_price": 194.31, "supplier_id": "SUP042", "weight_kg": 18.62, "in_stock": true}
+{"product_id": "PROD00443", "product_name": "Automotive Item 443", "category": "Automotive", "unit_price": 87.6, "cost_price": 42.63, "supplier_id": "SUP012", "weight_kg": 6.36, "in_stock": false}
+{"product_id": "PROD00444", "product_name": "Office Item 444", "category": "Office", "unit_price": 31.54, "cost_price": 16.01, "supplier_id": "SUP001", "weight_kg": 9.74, "in_stock": true}
+{"product_id": "PROD00445", "product_name": "Food & Beverage Item 445", "category": "Food & Beverage", "unit_price": 482.1, "cost_price": 265.94, "supplier_id": "SUP032", "weight_kg": 8.24, "in_stock": false}
+{"product_id": "PROD00446", "product_name": "Food & Beverage Item 446", "category": "Food & Beverage", "unit_price": 356.52, "cost_price": 190.08, "supplier_id": "SUP011", "weight_kg": 1.75, "in_stock": true}
+{"product_id": "PROD00447", "product_name": "Books Item 447", "category": "Books", "unit_price": 149.58, "cost_price": 72.17, "supplier_id": "SUP035", "weight_kg": 5.84, "in_stock": false}
+{"product_id": "PROD00448", "product_name": "Office Item 448", "category": "Office", "unit_price": 372.55, "cost_price": 234.62, "supplier_id": "SUP036", "weight_kg": 10.27, "in_stock": true}
+{"product_id": "PROD00449", "product_name": "Sports Item 449", "category": "Sports", "unit_price": 388.68, "cost_price": 251.47, "supplier_id": "SUP024", "weight_kg": 10.89, "in_stock": true}
+{"product_id": "PROD00450", "product_name": "Health & Beauty Item 450", "category": "Health & Beauty", "unit_price": 275.44, "cost_price": 191.97, "supplier_id": "SUP007", "weight_kg": 14.75, "in_stock": true}
+{"product_id": "PROD00451", "product_name": "Sports Item 451", "category": "Sports", "unit_price": 438.03, "cost_price": 179.45, "supplier_id": "SUP017", "weight_kg": 7.04, "in_stock": true}
+{"product_id": "PROD00452", "product_name": "Health & Beauty Item 452", "category": "Health & Beauty", "unit_price": 433.32, "cost_price": 188.59, "supplier_id": "SUP016", "weight_kg": 4.28, "in_stock": true}
+{"product_id": "PROD00453", "product_name": "Office Item 453", "category": "Office", "unit_price": 318.22, "cost_price": 143.13, "supplier_id": "SUP009", "weight_kg": 15.72, "in_stock": true}
+{"product_id": "PROD00454", "product_name": "Electronics Item 454", "category": "Electronics", "unit_price": 287.19, "cost_price": 160.73, "supplier_id": "SUP039", "weight_kg": 10.82, "in_stock": true}
+{"product_id": "PROD00455", "product_name": "Sports Item 455", "category": "Sports", "unit_price": 148.22, "cost_price": 71.18, "supplier_id": "SUP033", "weight_kg": 19.71, "in_stock": true}
+{"product_id": "PROD00456", "product_name": "Home & Garden Item 456", "category": "Home & Garden", "unit_price": 481.57, "cost_price": 306.14, "supplier_id": "SUP004", "weight_kg": 19.85, "in_stock": true}
+{"product_id": "PROD00457", "product_name": "Home & Garden Item 457", "category": "Home & Garden", "unit_price": 128.59, "cost_price": 78.88, "supplier_id": "SUP016", "weight_kg": 15.25, "in_stock": false}
+{"product_id": "PROD00458", "product_name": "Health & Beauty Item 458", "category": "Health & Beauty", "unit_price": 75.37, "cost_price": 44.45, "supplier_id": "SUP041", "weight_kg": 8.34, "in_stock": false}
+{"product_id": "PROD00459", "product_name": "Clothing Item 459", "category": "Clothing", "unit_price": 318.65, "cost_price": 211.59, "supplier_id": "SUP006", "weight_kg": 8.12, "in_stock": true}
+{"product_id": "PROD00460", "product_name": "Toys Item 460", "category": "Toys", "unit_price": 230.07, "cost_price": 125.72, "supplier_id": "SUP038", "weight_kg": 0.15, "in_stock": true}
+{"product_id": "PROD00461", "product_name": "Health & Beauty Item 461", "category": "Health & Beauty", "unit_price": 319.25, "cost_price": 194.48, "supplier_id": "SUP005", "weight_kg": 15.93, "in_stock": false}
+{"product_id": "PROD00462", "product_name": "Books Item 462", "category": "Books", "unit_price": 484.22, "cost_price": 313.51, "supplier_id": "SUP032", "weight_kg": 5.44, "in_stock": true}
+{"product_id": "PROD00463", "product_name": "Toys Item 463", "category": "Toys", "unit_price": 275.92, "cost_price": 121.18, "supplier_id": "SUP032", "weight_kg": 15.79, "in_stock": true}
+{"product_id": "PROD00464", "product_name": "Electronics Item 464", "category": "Electronics", "unit_price": 54.29, "cost_price": 34.48, "supplier_id": "SUP030", "weight_kg": 0.42, "in_stock": true}
+{"product_id": "PROD00465", "product_name": "Health & Beauty Item 465", "category": "Health & Beauty", "unit_price": 230.98, "cost_price": 161.12, "supplier_id": "SUP028", "weight_kg": 4.13, "in_stock": true}
+{"product_id": "PROD00466", "product_name": "Sports Item 466", "category": "Sports", "unit_price": 83.69, "cost_price": 56.9, "supplier_id": "SUP018", "weight_kg": 1.96, "in_stock": true}
+{"product_id": "PROD00467", "product_name": "Sports Item 467", "category": "Sports", "unit_price": 45.8, "cost_price": 27.45, "supplier_id": "SUP042", "weight_kg": 3.39, "in_stock": false}
+{"product_id": "PROD00468", "product_name": "Sports Item 468", "category": "Sports", "unit_price": 364.36, "cost_price": 228.3, "supplier_id": "SUP028", "weight_kg": 13.14, "in_stock": true}
+{"product_id": "PROD00469", "product_name": "Electronics Item 469", "category": "Electronics", "unit_price": 110.64, "cost_price": 46.84, "supplier_id": "SUP038", "weight_kg": 4.6, "in_stock": false}
+{"product_id": "PROD00470", "product_name": "Electronics Item 470", "category": "Electronics", "unit_price": 8.99, "cost_price": 4.52, "supplier_id": "SUP008", "weight_kg": 19.76, "in_stock": false}
+{"product_id": "PROD00471", "product_name": "Home & Garden Item 471", "category": "Home & Garden", "unit_price": 241.46, "cost_price": 113.17, "supplier_id": "SUP006", "weight_kg": 14.64, "in_stock": true}
+{"product_id": "PROD00472", "product_name": "Clothing Item 472", "category": "Clothing", "unit_price": 160.11, "cost_price": 106.36, "supplier_id": "SUP009", "weight_kg": 7.72, "in_stock": true}
+{"product_id": "PROD00473", "product_name": "Home & Garden Item 473", "category": "Home & Garden", "unit_price": 38.86, "cost_price": 22.11, "supplier_id": "SUP040", "weight_kg": 13.04, "in_stock": false}
+{"product_id": "PROD00474", "product_name": "Toys Item 474", "category": "Toys", "unit_price": 362.6, "cost_price": 213.36, "supplier_id": "SUP010", "weight_kg": 18.41, "in_stock": false}
+{"product_id": "PROD00475", "product_name": "Books Item 475", "category": "Books", "unit_price": 47.91, "cost_price": 20.61, "supplier_id": "SUP049", "weight_kg": 2.55, "in_stock": false}
+{"product_id": "PROD00476", "product_name": "Toys Item 476", "category": "Toys", "unit_price": 481.81, "cost_price": 238.18, "supplier_id": "SUP009", "weight_kg": 5.03, "in_stock": true}
+{"product_id": "PROD00477", "product_name": "Books Item 477", "category": "Books", "unit_price": 278.93, "cost_price": 161.78, "supplier_id": "SUP039", "weight_kg": 5.77, "in_stock": true}
+{"product_id": "PROD00478", "product_name": "Sports Item 478", "category": "Sports", "unit_price": 106.7, "cost_price": 62.11, "supplier_id": "SUP013", "weight_kg": 14.98, "in_stock": true}
+{"product_id": "PROD00479", "product_name": "Electronics Item 479", "category": "Electronics", "unit_price": 392.98, "cost_price": 250.77, "supplier_id": "SUP016", "weight_kg": 9.95, "in_stock": true}
+{"product_id": "PROD00480", "product_name": "Books Item 480", "category": "Books", "unit_price": 252.29, "cost_price": 145.87, "supplier_id": "SUP034", "weight_kg": 17.79, "in_stock": true}
+{"product_id": "PROD00481", "product_name": "Toys Item 481", "category": "Toys", "unit_price": 467.29, "cost_price": 205.42, "supplier_id": "SUP037", "weight_kg": 8.48, "in_stock": true}
+{"product_id": "PROD00482", "product_name": "Health & Beauty Item 482", "category": "Health & Beauty", "unit_price": 477.45, "cost_price": 301.33, "supplier_id": "SUP002", "weight_kg": 11.79, "in_stock": true}
+{"product_id": "PROD00483", "product_name": "Sports Item 483", "category": "Sports", "unit_price": 111.79, "cost_price": 75.66, "supplier_id": "SUP026", "weight_kg": 10.18, "in_stock": false}
+{"product_id": "PROD00484", "product_name": "Food & Beverage Item 484", "category": "Food & Beverage", "unit_price": 352.4, "cost_price": 149.67, "supplier_id": "SUP035", "weight_kg": 10.8, "in_stock": true}
+{"product_id": "PROD00485", "product_name": "Sports Item 485", "category": "Sports", "unit_price": 46.38, "cost_price": 19.65, "supplier_id": "SUP014", "weight_kg": 19.49, "in_stock": true}
+{"product_id": "PROD00486", "product_name": "Automotive Item 486", "category": "Automotive", "unit_price": 166.74, "cost_price": 96.03, "supplier_id": "SUP049", "weight_kg": 16.71, "in_stock": true}
+{"product_id": "PROD00487", "product_name": "Sports Item 487", "category": "Sports", "unit_price": 350.84, "cost_price": 217.17, "supplier_id": "SUP016", "weight_kg": 1.25, "in_stock": true}
+{"product_id": "PROD00488", "product_name": "Food & Beverage Item 488", "category": "Food & Beverage", "unit_price": 62.41, "cost_price": 36.43, "supplier_id": "SUP004", "weight_kg": 6.25, "in_stock": true}
+{"product_id": "PROD00489", "product_name": "Clothing Item 489", "category": "Clothing", "unit_price": 11.27, "cost_price": 4.97, "supplier_id": "SUP001", "weight_kg": 3.36, "in_stock": true}
+{"product_id": "PROD00490", "product_name": "Automotive Item 490", "category": "Automotive", "unit_price": 261.03, "cost_price": 168.82, "supplier_id": "SUP017", "weight_kg": 3.42, "in_stock": true}
+{"product_id": "PROD00491", "product_name": "Sports Item 491", "category": "Sports", "unit_price": 367.8, "cost_price": 160.15, "supplier_id": "SUP002", "weight_kg": 6.77, "in_stock": false}
+{"product_id": "PROD00492", "product_name": "Sports Item 492", "category": "Sports", "unit_price": 264.31, "cost_price": 126.57, "supplier_id": "SUP037", "weight_kg": 12.59, "in_stock": false}
+{"product_id": "PROD00493", "product_name": "Health & Beauty Item 493", "category": "Health & Beauty", "unit_price": 257.84, "cost_price": 107.42, "supplier_id": "SUP037", "weight_kg": 3.42, "in_stock": true}
+{"product_id": "PROD00494", "product_name": "Sports Item 494", "category": "Sports", "unit_price": 387.8, "cost_price": 259.16, "supplier_id": "SUP044", "weight_kg": 14.48, "in_stock": true}
+{"product_id": "PROD00495", "product_name": "Automotive Item 495", "category": "Automotive", "unit_price": 6.27, "cost_price": 4.12, "supplier_id": "SUP001", "weight_kg": 4.97, "in_stock": false}
+{"product_id": "PROD00496", "product_name": "Toys Item 496", "category": "Toys", "unit_price": 194.57, "cost_price": 86.59, "supplier_id": "SUP003", "weight_kg": 11.1, "in_stock": false}
+{"product_id": "PROD00497", "product_name": "Books Item 497", "category": "Books", "unit_price": 164.29, "cost_price": 86.23, "supplier_id": "SUP047", "weight_kg": 6.47, "in_stock": true}
+{"product_id": "PROD00498", "product_name": "Office Item 498", "category": "Office", "unit_price": 189.54, "cost_price": 104.36, "supplier_id": "SUP004", "weight_kg": 3.67, "in_stock": true}
+{"product_id": "PROD00499", "product_name": "Food & Beverage Item 499", "category": "Food & Beverage", "unit_price": 39.12, "cost_price": 21.11, "supplier_id": "SUP019", "weight_kg": 15.49, "in_stock": true}
+{"product_id": "PROD00500", "product_name": "Toys Item 500", "category": "Toys", "unit_price": 47.76, "cost_price": 25.65, "supplier_id": "SUP024", "weight_kg": 4.09, "in_stock": true}

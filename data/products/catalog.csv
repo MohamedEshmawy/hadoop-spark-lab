@@ -1,0 +1,501 @@
+product_id,product_name,category,unit_price,cost_price,supplier_id,weight_kg,in_stock
+PROD00001,Clothing Item 1,Clothing,17.38,8.39,SUP015,2.88,True
+PROD00002,Automotive Item 2,Automotive,48.03,25.29,SUP002,1.96,True
+PROD00003,Automotive Item 3,Automotive,303.0,172.22,SUP046,13.03,False
+PROD00004,Books Item 4,Books,227.36,109.92,SUP001,15.2,True
+PROD00005,Food & Beverage Item 5,Food & Beverage,173.42,77.46,SUP049,6.8,True
+PROD00006,Food & Beverage Item 6,Food & Beverage,52.87,34.59,SUP039,5.36,True
+PROD00007,Health & Beauty Item 7,Health & Beauty,270.43,187.12,SUP025,1.67,True
+PROD00008,Office Item 8,Office,443.3,225.41,SUP013,14.12,True
+PROD00009,Books Item 9,Books,387.67,269.65,SUP015,17.34,False
+PROD00010,Sports Item 10,Sports,229.44,149.19,SUP011,7.47,True
+PROD00011,Sports Item 11,Sports,352.4,213.23,SUP005,12.22,True
+PROD00012,Automotive Item 12,Automotive,365.92,164.3,SUP025,5.47,True
+PROD00013,Toys Item 13,Toys,422.21,267.18,SUP015,16.45,True
+PROD00014,Food & Beverage Item 14,Food & Beverage,137.53,63.72,SUP037,17.54,True
+PROD00015,Books Item 15,Books,329.44,170.88,SUP042,9.23,True
+PROD00016,Home & Garden Item 16,Home & Garden,127.08,72.23,SUP017,14.97,False
+PROD00017,Office Item 17,Office,202.7,94.42,SUP009,10.24,True
+PROD00018,Electronics Item 18,Electronics,431.25,192.27,SUP011,15.86,False
+PROD00019,Office Item 19,Office,36.45,18.75,SUP030,10.63,True
+PROD00020,Clothing Item 20,Clothing,342.45,192.14,SUP018,15.4,True
+PROD00021,Clothing Item 21,Clothing,150.28,67.24,SUP001,19.08,True
+PROD00022,Automotive Item 22,Automotive,382.17,211.07,SUP007,17.42,True
+PROD00023,Automotive Item 23,Automotive,306.44,136.63,SUP049,3.31,True
+PROD00024,Office Item 24,Office,165.46,67.15,SUP024,17.59,True
+PROD00025,Books Item 25,Books,33.67,22.34,SUP006,1.8,False
+PROD00026,Clothing Item 26,Clothing,489.1,273.81,SUP009,2.65,False
+PROD00027,Automotive Item 27,Automotive,86.74,48.43,SUP039,8.52,True
+PROD00028,Automotive Item 28,Automotive,378.86,229.95,SUP046,6.3,True
+PROD00029,Health & Beauty Item 29,Health & Beauty,450.31,241.12,SUP016,4.57,True
+PROD00030,Electronics Item 30,Electronics,296.21,138.93,SUP015,0.24,True
+PROD00031,Books Item 31,Books,38.36,15.71,SUP022,1.51,True
+PROD00032,Sports Item 32,Sports,336.14,156.06,SUP009,14.49,False
+PROD00033,Books Item 33,Books,393.39,252.65,SUP013,1.98,False
+PROD00034,Toys Item 34,Toys,214.67,115.95,SUP047,1.18,True
+PROD00035,Electronics Item 35,Electronics,204.3,102.51,SUP007,5.05,True
+PROD00036,Automotive Item 36,Automotive,227.06,119.56,SUP018,9.31,True
+PROD00037,Health & Beauty Item 37,Health & Beauty,404.97,265.98,SUP007,1.11,True
+PROD00038,Clothing Item 38,Clothing,463.55,303.44,SUP011,8.19,False
+PROD00039,Books Item 39,Books,433.0,290.43,SUP011,7.64,False
+PROD00040,Sports Item 40,Sports,463.63,294.65,SUP019,8.52,False
+PROD00041,Home & Garden Item 41,Home & Garden,99.0,46.07,SUP004,11.63,True
+PROD00042,Toys Item 42,Toys,33.3,19.15,SUP033,18.4,True
+PROD00043,Electronics Item 43,Electronics,480.59,203.78,SUP012,1.46,True
+PROD00044,Books Item 44,Books,204.87,139.82,SUP037,5.0,True
+PROD00045,Office Item 45,Office,45.58,27.22,SUP037,10.5,True
+PROD00046,Books Item 46,Books,336.51,166.32,SUP017,7.98,True
+PROD00047,Health & Beauty Item 47,Health & Beauty,161.51,101.03,SUP005,0.29,True
+PROD00048,Clothing Item 48,Clothing,271.13,149.6,SUP009,18.67,True
+PROD00049,Books Item 49,Books,187.92,84.06,SUP035,14.1,True
+PROD00050,Automotive Item 50,Automotive,153.19,91.76,SUP009,5.36,True
+PROD00051,Automotive Item 51,Automotive,81.95,39.71,SUP014,14.38,True
+PROD00052,Sports Item 52,Sports,255.18,121.3,SUP004,1.94,False
+PROD00053,Sports Item 53,Sports,26.82,13.41,SUP009,12.78,True
+PROD00054,Home & Garden Item 54,Home & Garden,371.91,210.32,SUP028,11.26,True
+PROD00055,Clothing Item 55,Clothing,472.8,287.13,SUP010,10.96,True
+PROD00056,Office Item 56,Office,278.5,147.31,SUP003,6.23,True
+PROD00057,Toys Item 57,Toys,108.99,51.75,SUP007,7.14,False
+PROD00058,Office Item 58,Office,375.99,254.82,SUP016,17.31,True
+PROD00059,Food & Beverage Item 59,Food & Beverage,17.27,10.72,SUP022,15.67,False
+PROD00060,Books Item 60,Books,137.07,87.2,SUP007,7.71,True
+PROD00061,Health & Beauty Item 61,Health & Beauty,115.1,74.24,SUP030,7.06,True
+PROD00062,Books Item 62,Books,16.71,7.65,SUP022,5.64,True
+PROD00063,Sports Item 63,Sports,178.82,98.85,SUP044,19.62,True
+PROD00064,Electronics Item 64,Electronics,62.09,42.91,SUP012,11.65,True
+PROD00065,Electronics Item 65,Electronics,58.66,31.11,SUP047,15.75,False
+PROD00066,Office Item 66,Office,492.2,213.95,SUP037,3.88,True
+PROD00067,Food & Beverage Item 67,Food & Beverage,5.84,3.96,SUP035,13.77,True
+PROD00068,Toys Item 68,Toys,218.49,149.59,SUP022,12.5,True
+PROD00069,Sports Item 69,Sports,256.03,153.63,SUP021,8.11,True
+PROD00070,Automotive Item 70,Automotive,68.01,35.78,SUP025,13.58,True
+PROD00071,Office Item 71,Office,286.71,149.61,SUP001,6.15,True
+PROD00072,Food & Beverage Item 72,Food & Beverage,393.95,229.28,SUP021,9.35,False
+PROD00073,Books Item 73,Books,258.03,164.65,SUP048,3.48,True
+PROD00074,Sports Item 74,Sports,260.15,153.46,SUP022,1.96,True
+PROD00075,Sports Item 75,Sports,116.2,53.42,SUP002,1.02,False
+PROD00076,Office Item 76,Office,425.62,179.55,SUP027,17.73,True
+PROD00077,Food & Beverage Item 77,Food & Beverage,249.72,118.16,SUP042,13.78,True
+PROD00078,Food & Beverage Item 78,Food & Beverage,113.33,72.67,SUP045,10.41,True
+PROD00079,Automotive Item 79,Automotive,128.35,84.01,SUP030,2.75,False
+PROD00080,Automotive Item 80,Automotive,494.01,285.85,SUP049,17.84,False
+PROD00081,Automotive Item 81,Automotive,225.73,101.07,SUP031,9.06,True
+PROD00082,Sports Item 82,Sports,384.08,213.7,SUP041,4.86,False
+PROD00083,Clothing Item 83,Clothing,358.2,168.48,SUP022,6.46,True
+PROD00084,Home & Garden Item 84,Home & Garden,79.66,41.02,SUP010,14.16,True
+PROD00085,Food & Beverage Item 85,Food & Beverage,206.76,116.36,SUP027,1.34,False
+PROD00086,Food & Beverage Item 86,Food & Beverage,452.9,260.52,SUP045,0.49,False
+PROD00087,Health & Beauty Item 87,Health & Beauty,7.92,4.0,SUP049,7.86,False
+PROD00088,Automotive Item 88,Automotive,375.02,211.45,SUP039,17.97,False
+PROD00089,Books Item 89,Books,140.1,76.45,SUP025,6.79,False
+PROD00090,Home & Garden Item 90,Home & Garden,421.05,284.57,SUP040,10.73,False
+PROD00091,Office Item 91,Office,284.37,116.06,SUP042,8.63,False
+PROD00092,Home & Garden Item 92,Home & Garden,29.89,15.36,SUP014,9.15,True
+PROD00093,Food & Beverage Item 93,Food & Beverage,142.74,97.83,SUP027,5.12,True
+PROD00094,Health & Beauty Item 94,Health & Beauty,14.59,8.2,SUP023,4.56,True
+PROD00095,Electronics Item 95,Electronics,378.35,259.12,SUP013,16.8,True
+PROD00096,Books Item 96,Books,67.48,40.54,SUP037,18.96,False
+PROD00097,Sports Item 97,Sports,384.61,173.21,SUP039,19.28,True
+PROD00098,Home & Garden Item 98,Home & Garden,482.54,208.66,SUP002,18.58,False
+PROD00099,Food & Beverage Item 99,Food & Beverage,471.03,216.44,SUP038,13.84,True
+PROD00100,Clothing Item 100,Clothing,350.11,171.72,SUP044,12.05,True
+PROD00101,Office Item 101,Office,392.4,197.84,SUP028,13.26,True
+PROD00102,Automotive Item 102,Automotive,325.53,131.45,SUP027,16.46,True
+PROD00103,Food & Beverage Item 103,Food & Beverage,480.59,283.87,SUP030,14.18,False
+PROD00104,Home & Garden Item 104,Home & Garden,368.23,253.95,SUP018,12.36,False
+PROD00105,Health & Beauty Item 105,Health & Beauty,220.61,136.63,SUP018,6.51,True
+PROD00106,Clothing Item 106,Clothing,143.07,76.58,SUP049,9.35,False
+PROD00107,Toys Item 107,Toys,19.21,12.59,SUP012,9.8,True
+PROD00108,Sports Item 108,Sports,173.47,115.2,SUP045,17.61,True
+PROD00109,Automotive Item 109,Automotive,474.29,201.9,SUP047,8.19,True
+PROD00110,Health & Beauty Item 110,Health & Beauty,324.72,177.7,SUP002,1.95,True
+PROD00111,Food & Beverage Item 111,Food & Beverage,347.43,170.89,SUP038,7.44,True
+PROD00112,Food & Beverage Item 112,Food & Beverage,498.33,281.62,SUP023,14.09,True
+PROD00113,Sports Item 113,Sports,129.44,56.46,SUP013,6.38,True
+PROD00114,Books Item 114,Books,112.11,61.13,SUP047,11.83,True
+PROD00115,Clothing Item 115,Clothing,417.15,203.93,SUP024,3.67,True
+PROD00116,Automotive Item 116,Automotive,67.66,27.99,SUP004,11.11,True
+PROD00117,Health & Beauty Item 117,Health & Beauty,55.78,22.52,SUP019,9.44,False
+PROD00118,Toys Item 118,Toys,96.26,39.99,SUP031,2.37,True
+PROD00119,Food & Beverage Item 119,Food & Beverage,248.41,142.37,SUP044,1.17,True
+PROD00120,Office Item 120,Office,474.82,202.06,SUP016,2.46,False
+PROD00121,Office Item 121,Office,300.08,175.71,SUP050,10.5,False
+PROD00122,Health & Beauty Item 122,Health & Beauty,152.19,87.75,SUP028,6.18,True
+PROD00123,Office Item 123,Office,480.25,206.4,SUP049,4.23,True
+PROD00124,Sports Item 124,Sports,331.91,148.4,SUP012,11.08,True
+PROD00125,Electronics Item 125,Electronics,207.22,125.74,SUP031,5.9,True
+PROD00126,Sports Item 126,Sports,354.94,216.83,SUP030,1.52,True
+PROD00127,Sports Item 127,Sports,394.97,232.05,SUP043,16.1,True
+PROD00128,Food & Beverage Item 128,Food & Beverage,61.81,28.89,SUP010,18.18,True
+PROD00129,Clothing Item 129,Clothing,34.52,22.02,SUP039,15.0,True
+PROD00130,Health & Beauty Item 130,Health & Beauty,66.56,40.37,SUP045,8.11,True
+PROD00131,Automotive Item 131,Automotive,272.29,144.68,SUP039,0.89,False
+PROD00132,Toys Item 132,Toys,303.84,123.89,SUP015,19.24,True
+PROD00133,Sports Item 133,Sports,290.24,182.54,SUP012,9.46,False
+PROD00134,Sports Item 134,Sports,94.84,54.59,SUP041,16.3,True
+PROD00135,Health & Beauty Item 135,Health & Beauty,177.24,88.62,SUP043,2.18,True
+PROD00136,Toys Item 136,Toys,208.76,114.54,SUP043,18.91,True
+PROD00137,Health & Beauty Item 137,Health & Beauty,48.59,23.12,SUP008,19.41,False
+PROD00138,Automotive Item 138,Automotive,413.34,165.48,SUP035,9.29,True
+PROD00139,Books Item 139,Books,261.63,153.52,SUP032,12.55,True
+PROD00140,Books Item 140,Books,137.19,60.27,SUP019,8.82,False
+PROD00141,Clothing Item 141,Clothing,19.29,11.36,SUP016,14.22,True
+PROD00142,Automotive Item 142,Automotive,11.77,6.15,SUP015,19.85,True
+PROD00143,Health & Beauty Item 143,Health & Beauty,473.8,281.58,SUP010,10.02,True
+PROD00144,Automotive Item 144,Automotive,354.18,185.82,SUP031,19.61,True
+PROD00145,Health & Beauty Item 145,Health & Beauty,277.88,143.13,SUP039,10.21,True
+PROD00146,Clothing Item 146,Clothing,141.74,90.29,SUP027,6.86,True
+PROD00147,Electronics Item 147,Electronics,145.01,70.99,SUP038,11.64,False
+PROD00148,Home & Garden Item 148,Home & Garden,226.04,123.26,SUP022,11.08,False
+PROD00149,Health & Beauty Item 149,Health & Beauty,466.76,308.47,SUP045,4.85,False
+PROD00150,Books Item 150,Books,428.73,224.32,SUP021,14.92,False
+PROD00151,Food & Beverage Item 151,Food & Beverage,494.26,315.2,SUP042,19.62,False
+PROD00152,Electronics Item 152,Electronics,67.49,46.54,SUP022,17.41,False
+PROD00153,Clothing Item 153,Clothing,265.35,142.51,SUP047,2.97,True
+PROD00154,Clothing Item 154,Clothing,237.4,163.99,SUP022,12.5,False
+PROD00155,Clothing Item 155,Clothing,426.62,279.74,SUP035,7.66,True
+PROD00156,Health & Beauty Item 156,Health & Beauty,436.83,179.44,SUP005,4.77,True
+PROD00157,Books Item 157,Books,374.65,198.64,SUP007,15.23,True
+PROD00158,Health & Beauty Item 158,Health & Beauty,87.35,42.79,SUP002,1.02,True
+PROD00159,Sports Item 159,Sports,182.44,96.55,SUP016,10.67,True
+PROD00160,Home & Garden Item 160,Home & Garden,91.66,53.42,SUP025,12.43,True
+PROD00161,Health & Beauty Item 161,Health & Beauty,456.85,202.36,SUP030,12.79,False
+PROD00162,Sports Item 162,Sports,335.09,224.4,SUP030,18.03,True
+PROD00163,Clothing Item 163,Clothing,223.66,112.65,SUP038,6.05,False
+PROD00164,Sports Item 164,Sports,231.13,113.4,SUP025,17.08,True
+PROD00165,Books Item 165,Books,193.78,98.38,SUP019,19.85,True
+PROD00166,Electronics Item 166,Electronics,489.08,292.21,SUP018,0.26,True
+PROD00167,Office Item 167,Office,373.86,242.95,SUP019,15.54,True
+PROD00168,Office Item 168,Office,401.96,187.19,SUP013,12.46,True
+PROD00169,Clothing Item 169,Clothing,452.18,268.55,SUP020,15.79,True
+PROD00170,Office Item 170,Office,185.61,81.56,SUP019,6.6,False
+PROD00171,Home & Garden Item 171,Home & Garden,104.39,66.39,SUP024,10.66,True
+PROD00172,Home & Garden Item 172,Home & Garden,132.2,85.59,SUP031,19.35,True
+PROD00173,Toys Item 173,Toys,403.1,217.87,SUP005,2.9,True
+PROD00174,Food & Beverage Item 174,Food & Beverage,483.8,310.3,SUP024,1.9,False
+PROD00175,Electronics Item 175,Electronics,135.91,59.4,SUP024,13.49,True
+PROD00176,Office Item 176,Office,193.61,114.53,SUP024,2.26,True
+PROD00177,Health & Beauty Item 177,Health & Beauty,17.39,11.57,SUP036,6.63,True
+PROD00178,Clothing Item 178,Clothing,319.52,172.31,SUP045,6.11,False
+PROD00179,Clothing Item 179,Clothing,74.19,50.74,SUP020,19.92,True
+PROD00180,Clothing Item 180,Clothing,121.23,68.04,SUP025,9.13,False
+PROD00181,Office Item 181,Office,372.42,166.23,SUP027,13.13,False
+PROD00182,Office Item 182,Office,207.02,141.9,SUP003,13.84,True
+PROD00183,Health & Beauty Item 183,Health & Beauty,225.12,106.0,SUP024,2.08,True
+PROD00184,Automotive Item 184,Automotive,451.34,267.85,SUP004,8.02,True
+PROD00185,Clothing Item 185,Clothing,474.76,307.29,SUP006,13.29,True
+PROD00186,Electronics Item 186,Electronics,394.46,186.61,SUP009,15.76,True
+PROD00187,Clothing Item 187,Clothing,415.76,235.43,SUP038,4.4,True
+PROD00188,Toys Item 188,Toys,388.31,247.2,SUP039,0.16,True
+PROD00189,Home & Garden Item 189,Home & Garden,272.41,174.22,SUP008,13.26,True
+PROD00190,Home & Garden Item 190,Home & Garden,12.36,7.87,SUP016,11.82,True
+PROD00191,Home & Garden Item 191,Home & Garden,136.36,59.73,SUP027,10.57,True
+PROD00192,Health & Beauty Item 192,Health & Beauty,226.9,115.4,SUP038,2.27,True
+PROD00193,Office Item 193,Office,26.47,16.8,SUP043,10.48,False
+PROD00194,Electronics Item 194,Electronics,35.11,19.09,SUP026,8.58,True
+PROD00195,Health & Beauty Item 195,Health & Beauty,357.64,190.65,SUP006,6.51,True
+PROD00196,Clothing Item 196,Clothing,67.46,39.62,SUP038,11.01,True
+PROD00197,Food & Beverage Item 197,Food & Beverage,497.34,278.1,SUP030,10.16,False
+PROD00198,Clothing Item 198,Clothing,397.58,172.68,SUP042,13.05,True
+PROD00199,Food & Beverage Item 199,Food & Beverage,228.52,107.07,SUP022,16.57,False
+PROD00200,Food & Beverage Item 200,Food & Beverage,366.16,180.8,SUP021,13.34,True
+PROD00201,Home & Garden Item 201,Home & Garden,344.98,187.07,SUP006,16.65,True
+PROD00202,Food & Beverage Item 202,Food & Beverage,52.8,32.82,SUP009,11.17,True
+PROD00203,Clothing Item 203,Clothing,208.35,137.95,SUP049,8.52,True
+PROD00204,Sports Item 204,Sports,302.2,152.76,SUP037,10.2,True
+PROD00205,Health & Beauty Item 205,Health & Beauty,116.0,50.17,SUP036,7.41,True
+PROD00206,Office Item 206,Office,116.95,61.83,SUP036,19.49,True
+PROD00207,Office Item 207,Office,464.9,301.64,SUP018,0.68,True
+PROD00208,Sports Item 208,Sports,461.16,233.03,SUP012,17.41,False
+PROD00209,Clothing Item 209,Clothing,75.23,44.38,SUP002,1.93,True
+PROD00210,Food & Beverage Item 210,Food & Beverage,212.82,106.89,SUP024,6.3,True
+PROD00211,Office Item 211,Office,300.13,199.59,SUP010,3.23,True
+PROD00212,Clothing Item 212,Clothing,139.69,83.62,SUP032,12.18,False
+PROD00213,Sports Item 213,Sports,111.71,61.85,SUP023,8.66,True
+PROD00214,Office Item 214,Office,245.88,147.56,SUP003,4.49,True
+PROD00215,Electronics Item 215,Electronics,106.19,72.59,SUP050,2.83,True
+PROD00216,Sports Item 216,Sports,167.42,67.36,SUP048,8.67,True
+PROD00217,Food & Beverage Item 217,Food & Beverage,268.63,126.0,SUP036,16.68,True
+PROD00218,Clothing Item 218,Clothing,201.55,125.49,SUP028,0.47,True
+PROD00219,Toys Item 219,Toys,290.0,165.89,SUP046,12.84,True
+PROD00220,Clothing Item 220,Clothing,205.49,141.76,SUP011,16.05,False
+PROD00221,Toys Item 221,Toys,48.62,31.77,SUP016,8.77,False
+PROD00222,Automotive Item 222,Automotive,43.93,29.04,SUP048,6.86,True
+PROD00223,Home & Garden Item 223,Home & Garden,42.81,25.26,SUP034,10.25,True
+PROD00224,Toys Item 224,Toys,365.05,235.71,SUP010,4.8,True
+PROD00225,Sports Item 225,Sports,102.65,59.61,SUP049,15.21,True
+PROD00226,Home & Garden Item 226,Home & Garden,475.89,280.01,SUP030,15.11,False
+PROD00227,Office Item 227,Office,323.28,224.99,SUP021,17.3,True
+PROD00228,Home & Garden Item 228,Home & Garden,222.68,120.4,SUP041,6.13,True
+PROD00229,Office Item 229,Office,32.81,18.12,SUP020,9.29,True
+PROD00230,Electronics Item 230,Electronics,187.53,91.16,SUP042,17.3,True
+PROD00231,Office Item 231,Office,299.07,154.12,SUP038,11.13,True
+PROD00232,Health & Beauty Item 232,Health & Beauty,454.98,260.02,SUP013,6.5,False
+PROD00233,Automotive Item 233,Automotive,79.68,33.35,SUP007,16.24,True
+PROD00234,Clothing Item 234,Clothing,254.75,115.09,SUP016,14.18,False
+PROD00235,Automotive Item 235,Automotive,263.76,118.07,SUP024,18.37,False
+PROD00236,Food & Beverage Item 236,Food & Beverage,388.36,234.44,SUP004,15.81,True
+PROD00237,Clothing Item 237,Clothing,168.2,95.43,SUP025,5.75,True
+PROD00238,Toys Item 238,Toys,45.34,27.16,SUP023,6.27,False
+PROD00239,Home & Garden Item 239,Home & Garden,299.55,204.11,SUP020,11.22,True
+PROD00240,Home & Garden Item 240,Home & Garden,336.71,218.42,SUP048,19.94,True
+PROD00241,Food & Beverage Item 241,Food & Beverage,256.7,104.08,SUP020,3.69,True
+PROD00242,Toys Item 242,Toys,474.1,258.8,SUP015,20.0,True
+PROD00243,Clothing Item 243,Clothing,151.42,96.37,SUP033,15.44,True
+PROD00244,Toys Item 244,Toys,438.81,256.89,SUP039,7.6,True
+PROD00245,Home & Garden Item 245,Home & Garden,416.52,262.96,SUP011,14.45,True
+PROD00246,Food & Beverage Item 246,Food & Beverage,185.33,114.14,SUP029,12.25,False
+PROD00247,Books Item 247,Books,269.34,132.74,SUP031,18.09,True
+PROD00248,Toys Item 248,Toys,340.76,194.62,SUP029,9.29,True
+PROD00249,Food & Beverage Item 249,Food & Beverage,253.94,133.47,SUP011,16.36,True
+PROD00250,Sports Item 250,Sports,30.83,16.78,SUP024,11.14,True
+PROD00251,Automotive Item 251,Automotive,426.33,206.99,SUP049,3.29,False
+PROD00252,Automotive Item 252,Automotive,77.94,41.4,SUP015,16.35,True
+PROD00253,Electronics Item 253,Electronics,210.37,109.17,SUP024,4.79,True
+PROD00254,Toys Item 254,Toys,116.15,57.56,SUP007,16.8,True
+PROD00255,Home & Garden Item 255,Home & Garden,73.11,35.54,SUP031,13.95,True
+PROD00256,Health & Beauty Item 256,Health & Beauty,227.06,91.18,SUP006,0.48,True
+PROD00257,Home & Garden Item 257,Home & Garden,276.66,171.02,SUP034,8.52,True
+PROD00258,Books Item 258,Books,154.07,63.83,SUP027,12.82,False
+PROD00259,Clothing Item 259,Clothing,59.87,40.21,SUP039,10.77,True
+PROD00260,Home & Garden Item 260,Home & Garden,149.18,59.74,SUP023,4.89,False
+PROD00261,Home & Garden Item 261,Home & Garden,333.86,142.12,SUP024,1.45,True
+PROD00262,Food & Beverage Item 262,Food & Beverage,437.3,180.63,SUP025,19.62,True
+PROD00263,Electronics Item 263,Electronics,181.76,76.39,SUP016,14.69,True
+PROD00264,Office Item 264,Office,368.92,184.37,SUP003,7.11,True
+PROD00265,Home & Garden Item 265,Home & Garden,416.04,251.87,SUP045,9.62,True
+PROD00266,Home & Garden Item 266,Home & Garden,36.23,22.93,SUP030,0.84,True
+PROD00267,Electronics Item 267,Electronics,396.6,264.03,SUP021,18.67,False
+PROD00268,Automotive Item 268,Automotive,239.33,98.36,SUP042,3.9,True
+PROD00269,Electronics Item 269,Electronics,433.57,216.6,SUP008,16.01,False
+PROD00270,Food & Beverage Item 270,Food & Beverage,372.94,249.27,SUP025,6.85,True
+PROD00271,Health & Beauty Item 271,Health & Beauty,347.57,177.33,SUP034,5.41,True
+PROD00272,Food & Beverage Item 272,Food & Beverage,44.07,25.59,SUP012,10.95,True
+PROD00273,Clothing Item 273,Clothing,44.63,26.7,SUP020,8.97,False
+PROD00274,Home & Garden Item 274,Home & Garden,346.43,175.11,SUP003,14.56,True
+PROD00275,Office Item 275,Office,499.08,240.74,SUP004,1.59,False
+PROD00276,Toys Item 276,Toys,258.98,161.85,SUP011,19.06,True
+PROD00277,Office Item 277,Office,340.65,181.04,SUP009,1.44,True
+PROD00278,Toys Item 278,Toys,194.51,110.91,SUP039,3.15,False
+PROD00279,Toys Item 279,Toys,189.15,118.96,SUP037,2.84,True
+PROD00280,Food & Beverage Item 280,Food & Beverage,160.62,77.68,SUP008,0.62,True
+PROD00281,Health & Beauty Item 281,Health & Beauty,261.28,176.12,SUP008,5.31,True
+PROD00282,Health & Beauty Item 282,Health & Beauty,111.21,64.9,SUP045,18.34,False
+PROD00283,Books Item 283,Books,65.71,43.09,SUP029,3.54,False
+PROD00284,Clothing Item 284,Clothing,406.2,280.39,SUP021,13.39,True
+PROD00285,Automotive Item 285,Automotive,273.37,182.45,SUP011,14.27,True
+PROD00286,Toys Item 286,Toys,256.83,112.08,SUP013,15.86,True
+PROD00287,Health & Beauty Item 287,Health & Beauty,18.01,10.2,SUP024,9.4,True
+PROD00288,Office Item 288,Office,442.7,185.81,SUP026,19.99,False
+PROD00289,Automotive Item 289,Automotive,208.34,108.93,SUP037,1.57,True
+PROD00290,Clothing Item 290,Clothing,227.74,137.56,SUP023,2.65,True
+PROD00291,Home & Garden Item 291,Home & Garden,219.15,147.53,SUP004,16.64,True
+PROD00292,Sports Item 292,Sports,86.51,42.98,SUP046,4.59,True
+PROD00293,Clothing Item 293,Clothing,129.05,76.21,SUP036,5.56,True
+PROD00294,Office Item 294,Office,269.07,148.2,SUP011,11.88,True
+PROD00295,Home & Garden Item 295,Home & Garden,331.07,204.0,SUP039,6.82,True
+PROD00296,Electronics Item 296,Electronics,45.21,30.95,SUP050,11.58,True
+PROD00297,Office Item 297,Office,211.21,124.97,SUP032,17.79,True
+PROD00298,Sports Item 298,Sports,244.06,156.54,SUP044,8.18,False
+PROD00299,Clothing Item 299,Clothing,345.86,154.75,SUP027,9.74,True
+PROD00300,Toys Item 300,Toys,305.3,150.75,SUP046,6.45,True
+PROD00301,Food & Beverage Item 301,Food & Beverage,69.73,35.64,SUP036,2.21,True
+PROD00302,Health & Beauty Item 302,Health & Beauty,65.65,35.11,SUP010,2.03,True
+PROD00303,Food & Beverage Item 303,Food & Beverage,432.76,227.39,SUP011,16.29,True
+PROD00304,Books Item 304,Books,382.75,210.31,SUP033,9.39,True
+PROD00305,Health & Beauty Item 305,Health & Beauty,16.47,11.26,SUP033,9.2,True
+PROD00306,Books Item 306,Books,293.76,121.79,SUP019,9.95,False
+PROD00307,Sports Item 307,Sports,270.66,177.05,SUP028,2.77,True
+PROD00308,Toys Item 308,Toys,383.11,195.3,SUP026,1.12,True
+PROD00309,Toys Item 309,Toys,278.85,117.69,SUP033,9.06,True
+PROD00310,Office Item 310,Office,341.8,148.9,SUP007,7.94,True
+PROD00311,Automotive Item 311,Automotive,469.78,294.31,SUP013,12.09,False
+PROD00312,Automotive Item 312,Automotive,24.93,10.26,SUP046,6.73,False
+PROD00313,Automotive Item 313,Automotive,231.21,134.54,SUP033,2.88,True
+PROD00314,Home & Garden Item 314,Home & Garden,199.51,116.7,SUP020,11.92,False
+PROD00315,Office Item 315,Office,153.4,98.9,SUP024,6.69,True
+PROD00316,Food & Beverage Item 316,Food & Beverage,293.93,187.83,SUP047,17.45,True
+PROD00317,Office Item 317,Office,239.92,165.58,SUP050,11.61,True
+PROD00318,Electronics Item 318,Electronics,293.84,132.57,SUP041,14.45,False
+PROD00319,Home & Garden Item 319,Home & Garden,411.72,194.6,SUP037,18.97,True
+PROD00320,Books Item 320,Books,14.37,7.1,SUP010,8.32,True
+PROD00321,Food & Beverage Item 321,Food & Beverage,253.4,147.84,SUP031,17.47,True
+PROD00322,Home & Garden Item 322,Home & Garden,261.75,148.74,SUP043,9.62,False
+PROD00323,Toys Item 323,Toys,478.56,257.42,SUP035,6.91,True
+PROD00324,Sports Item 324,Sports,306.99,140.5,SUP016,5.65,True
+PROD00325,Books Item 325,Books,471.04,327.22,SUP050,5.85,True
+PROD00326,Health & Beauty Item 326,Health & Beauty,161.94,81.72,SUP047,5.54,True
+PROD00327,Office Item 327,Office,339.93,174.69,SUP026,16.39,True
+PROD00328,Sports Item 328,Sports,25.82,17.73,SUP006,6.99,False
+PROD00329,Sports Item 329,Sports,374.93,174.04,SUP035,5.5,True
+PROD00330,Home & Garden Item 330,Home & Garden,59.07,36.76,SUP016,4.92,True
+PROD00331,Books Item 331,Books,30.98,16.23,SUP046,9.5,True
+PROD00332,Electronics Item 332,Electronics,482.44,334.51,SUP011,8.2,False
+PROD00333,Health & Beauty Item 333,Health & Beauty,327.02,204.97,SUP019,6.49,True
+PROD00334,Clothing Item 334,Clothing,327.89,154.0,SUP048,14.49,True
+PROD00335,Home & Garden Item 335,Home & Garden,211.85,137.98,SUP003,19.94,False
+PROD00336,Health & Beauty Item 336,Health & Beauty,97.22,60.74,SUP019,17.55,True
+PROD00337,Sports Item 337,Sports,286.14,123.67,SUP022,5.76,False
+PROD00338,Home & Garden Item 338,Home & Garden,426.27,230.36,SUP013,16.2,True
+PROD00339,Home & Garden Item 339,Home & Garden,366.9,218.12,SUP046,3.81,True
+PROD00340,Sports Item 340,Sports,286.05,179.41,SUP012,12.26,False
+PROD00341,Food & Beverage Item 341,Food & Beverage,260.06,110.79,SUP043,2.0,True
+PROD00342,Health & Beauty Item 342,Health & Beauty,165.18,78.37,SUP017,7.73,False
+PROD00343,Sports Item 343,Sports,477.25,234.13,SUP047,11.5,True
+PROD00344,Toys Item 344,Toys,347.92,145.65,SUP008,9.36,True
+PROD00345,Food & Beverage Item 345,Food & Beverage,344.61,233.28,SUP046,15.42,True
+PROD00346,Sports Item 346,Sports,186.93,87.16,SUP009,9.62,False
+PROD00347,Office Item 347,Office,189.94,115.98,SUP031,15.17,True
+PROD00348,Books Item 348,Books,341.77,197.8,SUP006,10.56,True
+PROD00349,Clothing Item 349,Clothing,459.04,199.07,SUP036,18.07,True
+PROD00350,Office Item 350,Office,270.65,121.62,SUP034,8.89,True
+PROD00351,Office Item 351,Office,246.97,165.39,SUP029,16.19,False
+PROD00352,Home & Garden Item 352,Home & Garden,259.06,139.12,SUP004,11.22,True
+PROD00353,Electronics Item 353,Electronics,200.99,129.63,SUP048,4.44,True
+PROD00354,Electronics Item 354,Electronics,214.73,131.01,SUP035,19.88,True
+PROD00355,Health & Beauty Item 355,Health & Beauty,20.71,10.82,SUP050,2.8,False
+PROD00356,Toys Item 356,Toys,496.46,255.55,SUP025,7.58,True
+PROD00357,Toys Item 357,Toys,63.72,44.47,SUP026,10.62,True
+PROD00358,Electronics Item 358,Electronics,379.31,263.07,SUP030,13.5,False
+PROD00359,Automotive Item 359,Automotive,192.74,90.38,SUP030,6.99,True
+PROD00360,Books Item 360,Books,469.02,289.62,SUP008,0.74,False
+PROD00361,Office Item 361,Office,384.2,255.54,SUP002,4.89,True
+PROD00362,Clothing Item 362,Clothing,299.0,159.65,SUP044,14.1,True
+PROD00363,Books Item 363,Books,371.57,193.47,SUP015,10.84,True
+PROD00364,Home & Garden Item 364,Home & Garden,254.43,123.85,SUP047,11.56,True
+PROD00365,Books Item 365,Books,154.37,68.38,SUP043,10.47,False
+PROD00366,Sports Item 366,Sports,141.2,80.06,SUP038,17.61,True
+PROD00367,Food & Beverage Item 367,Food & Beverage,280.15,116.0,SUP023,18.84,False
+PROD00368,Automotive Item 368,Automotive,162.77,85.44,SUP010,6.07,True
+PROD00369,Automotive Item 369,Automotive,239.39,156.75,SUP020,17.17,True
+PROD00370,Health & Beauty Item 370,Health & Beauty,457.8,260.36,SUP027,11.19,True
+PROD00371,Food & Beverage Item 371,Food & Beverage,125.21,57.72,SUP042,1.67,False
+PROD00372,Toys Item 372,Toys,50.77,31.34,SUP013,1.13,False
+PROD00373,Office Item 373,Office,303.45,200.91,SUP013,16.11,True
+PROD00374,Health & Beauty Item 374,Health & Beauty,108.4,72.86,SUP020,19.14,True
+PROD00375,Books Item 375,Books,468.89,322.89,SUP008,14.96,False
+PROD00376,Books Item 376,Books,349.34,213.49,SUP026,18.31,True
+PROD00377,Sports Item 377,Sports,193.43,108.34,SUP023,6.24,True
+PROD00378,Automotive Item 378,Automotive,441.99,238.59,SUP047,9.44,True
+PROD00379,Books Item 379,Books,188.5,98.81,SUP037,17.3,True
+PROD00380,Electronics Item 380,Electronics,134.08,91.23,SUP038,14.43,True
+PROD00381,Home & Garden Item 381,Home & Garden,102.11,47.89,SUP037,16.68,False
+PROD00382,Automotive Item 382,Automotive,329.03,199.21,SUP017,15.29,False
+PROD00383,Health & Beauty Item 383,Health & Beauty,233.11,144.49,SUP023,3.47,False
+PROD00384,Home & Garden Item 384,Home & Garden,458.87,258.18,SUP042,19.15,True
+PROD00385,Clothing Item 385,Clothing,472.87,283.94,SUP049,0.23,True
+PROD00386,Books Item 386,Books,38.64,17.21,SUP014,10.16,True
+PROD00387,Electronics Item 387,Electronics,310.83,186.51,SUP040,18.26,False
+PROD00388,Electronics Item 388,Electronics,8.27,4.68,SUP001,0.43,True
+PROD00389,Automotive Item 389,Automotive,488.85,198.05,SUP045,13.51,True
+PROD00390,Clothing Item 390,Clothing,459.43,256.05,SUP016,3.92,True
+PROD00391,Toys Item 391,Toys,137.33,71.28,SUP024,19.19,False
+PROD00392,Office Item 392,Office,125.39,76.38,SUP020,13.71,True
+PROD00393,Electronics Item 393,Electronics,51.28,26.35,SUP036,9.57,True
+PROD00394,Home & Garden Item 394,Home & Garden,45.93,30.02,SUP042,15.71,True
+PROD00395,Automotive Item 395,Automotive,459.98,215.7,SUP045,17.76,False
+PROD00396,Sports Item 396,Sports,28.05,11.84,SUP018,18.0,True
+PROD00397,Home & Garden Item 397,Home & Garden,464.74,229.74,SUP014,11.78,False
+PROD00398,Clothing Item 398,Clothing,153.14,87.17,SUP037,16.71,False
+PROD00399,Automotive Item 399,Automotive,169.21,106.04,SUP009,15.83,True
+PROD00400,Automotive Item 400,Automotive,374.0,188.41,SUP007,8.8,True
+PROD00401,Toys Item 401,Toys,304.56,177.91,SUP039,7.99,True
+PROD00402,Electronics Item 402,Electronics,318.89,202.52,SUP029,9.86,True
+PROD00403,Automotive Item 403,Automotive,470.87,249.35,SUP044,11.76,False
+PROD00404,Clothing Item 404,Clothing,387.22,189.2,SUP016,14.29,True
+PROD00405,Sports Item 405,Sports,81.34,49.9,SUP041,3.17,False
+PROD00406,Toys Item 406,Toys,183.55,78.46,SUP020,8.95,True
+PROD00407,Clothing Item 407,Clothing,70.59,32.2,SUP029,11.18,False
+PROD00408,Clothing Item 408,Clothing,18.0,9.11,SUP006,11.98,True
+PROD00409,Food & Beverage Item 409,Food & Beverage,11.11,5.82,SUP050,1.79,True
+PROD00410,Office Item 410,Office,262.95,159.24,SUP011,2.86,True
+PROD00411,Sports Item 411,Sports,249.1,104.37,SUP028,5.59,True
+PROD00412,Health & Beauty Item 412,Health & Beauty,392.42,199.48,SUP016,14.45,False
+PROD00413,Office Item 413,Office,310.25,166.72,SUP009,6.16,False
+PROD00414,Toys Item 414,Toys,421.6,216.69,SUP022,8.86,False
+PROD00415,Office Item 415,Office,72.38,35.92,SUP045,4.1,True
+PROD00416,Home & Garden Item 416,Home & Garden,482.46,333.2,SUP019,14.72,False
+PROD00417,Office Item 417,Office,392.08,195.16,SUP018,16.35,False
+PROD00418,Toys Item 418,Toys,61.37,34.93,SUP038,19.95,True
+PROD00419,Automotive Item 419,Automotive,18.32,11.33,SUP046,4.27,True
+PROD00420,Clothing Item 420,Clothing,410.39,262.11,SUP027,13.49,True
+PROD00421,Sports Item 421,Sports,124.8,74.58,SUP046,8.52,False
+PROD00422,Clothing Item 422,Clothing,227.29,131.69,SUP038,8.08,False
+PROD00423,Automotive Item 423,Automotive,23.2,16.02,SUP045,17.92,True
+PROD00424,Clothing Item 424,Clothing,385.63,230.33,SUP023,3.41,True
+PROD00425,Office Item 425,Office,491.89,296.73,SUP026,19.34,True
+PROD00426,Food & Beverage Item 426,Food & Beverage,57.44,24.68,SUP015,10.26,True
+PROD00427,Health & Beauty Item 427,Health & Beauty,190.19,102.5,SUP044,11.81,True
+PROD00428,Toys Item 428,Toys,498.86,271.8,SUP019,8.38,True
+PROD00429,Clothing Item 429,Clothing,416.5,257.83,SUP023,6.31,False
+PROD00430,Books Item 430,Books,262.95,132.66,SUP007,8.82,False
+PROD00431,Toys Item 431,Toys,38.25,15.81,SUP046,2.39,True
+PROD00432,Clothing Item 432,Clothing,340.18,152.85,SUP048,4.95,True
+PROD00433,Automotive Item 433,Automotive,84.27,47.86,SUP030,4.71,False
+PROD00434,Home & Garden Item 434,Home & Garden,97.26,58.08,SUP026,0.68,True
+PROD00435,Health & Beauty Item 435,Health & Beauty,298.14,154.03,SUP046,4.37,True
+PROD00436,Clothing Item 436,Clothing,290.79,186.06,SUP035,3.82,True
+PROD00437,Books Item 437,Books,231.49,110.81,SUP032,10.6,True
+PROD00438,Office Item 438,Office,197.38,102.19,SUP008,7.02,False
+PROD00439,Office Item 439,Office,90.4,54.43,SUP020,18.38,True
+PROD00440,Home & Garden Item 440,Home & Garden,160.03,75.46,SUP008,3.74,True
+PROD00441,Automotive Item 441,Automotive,197.29,114.22,SUP037,7.74,True
+PROD00442,Health & Beauty Item 442,Health & Beauty,319.57,194.31,SUP042,18.62,True
+PROD00443,Automotive Item 443,Automotive,87.6,42.63,SUP012,6.36,False
+PROD00444,Office Item 444,Office,31.54,16.01,SUP001,9.74,True
+PROD00445,Food & Beverage Item 445,Food & Beverage,482.1,265.94,SUP032,8.24,False
+PROD00446,Food & Beverage Item 446,Food & Beverage,356.52,190.08,SUP011,1.75,True
+PROD00447,Books Item 447,Books,149.58,72.17,SUP035,5.84,False
+PROD00448,Office Item 448,Office,372.55,234.62,SUP036,10.27,True
+PROD00449,Sports Item 449,Sports,388.68,251.47,SUP024,10.89,True
+PROD00450,Health & Beauty Item 450,Health & Beauty,275.44,191.97,SUP007,14.75,True
+PROD00451,Sports Item 451,Sports,438.03,179.45,SUP017,7.04,True
+PROD00452,Health & Beauty Item 452,Health & Beauty,433.32,188.59,SUP016,4.28,True
+PROD00453,Office Item 453,Office,318.22,143.13,SUP009,15.72,True
+PROD00454,Electronics Item 454,Electronics,287.19,160.73,SUP039,10.82,True
+PROD00455,Sports Item 455,Sports,148.22,71.18,SUP033,19.71,True
+PROD00456,Home & Garden Item 456,Home & Garden,481.57,306.14,SUP004,19.85,True
+PROD00457,Home & Garden Item 457,Home & Garden,128.59,78.88,SUP016,15.25,False
+PROD00458,Health & Beauty Item 458,Health & Beauty,75.37,44.45,SUP041,8.34,False
+PROD00459,Clothing Item 459,Clothing,318.65,211.59,SUP006,8.12,True
+PROD00460,Toys Item 460,Toys,230.07,125.72,SUP038,0.15,True
+PROD00461,Health & Beauty Item 461,Health & Beauty,319.25,194.48,SUP005,15.93,False
+PROD00462,Books Item 462,Books,484.22,313.51,SUP032,5.44,True
+PROD00463,Toys Item 463,Toys,275.92,121.18,SUP032,15.79,True
+PROD00464,Electronics Item 464,Electronics,54.29,34.48,SUP030,0.42,True
+PROD00465,Health & Beauty Item 465,Health & Beauty,230.98,161.12,SUP028,4.13,True
+PROD00466,Sports Item 466,Sports,83.69,56.9,SUP018,1.96,True
+PROD00467,Sports Item 467,Sports,45.8,27.45,SUP042,3.39,False
+PROD00468,Sports Item 468,Sports,364.36,228.3,SUP028,13.14,True
+PROD00469,Electronics Item 469,Electronics,110.64,46.84,SUP038,4.6,False
+PROD00470,Electronics Item 470,Electronics,8.99,4.52,SUP008,19.76,False
+PROD00471,Home & Garden Item 471,Home & Garden,241.46,113.17,SUP006,14.64,True
+PROD00472,Clothing Item 472,Clothing,160.11,106.36,SUP009,7.72,True
+PROD00473,Home & Garden Item 473,Home & Garden,38.86,22.11,SUP040,13.04,False
+PROD00474,Toys Item 474,Toys,362.6,213.36,SUP010,18.41,False
+PROD00475,Books Item 475,Books,47.91,20.61,SUP049,2.55,False
+PROD00476,Toys Item 476,Toys,481.81,238.18,SUP009,5.03,True
+PROD00477,Books Item 477,Books,278.93,161.78,SUP039,5.77,True
+PROD00478,Sports Item 478,Sports,106.7,62.11,SUP013,14.98,True
+PROD00479,Electronics Item 479,Electronics,392.98,250.77,SUP016,9.95,True
+PROD00480,Books Item 480,Books,252.29,145.87,SUP034,17.79,True
+PROD00481,Toys Item 481,Toys,467.29,205.42,SUP037,8.48,True
+PROD00482,Health & Beauty Item 482,Health & Beauty,477.45,301.33,SUP002,11.79,True
+PROD00483,Sports Item 483,Sports,111.79,75.66,SUP026,10.18,False
+PROD00484,Food & Beverage Item 484,Food & Beverage,352.4,149.67,SUP035,10.8,True
+PROD00485,Sports Item 485,Sports,46.38,19.65,SUP014,19.49,True
+PROD00486,Automotive Item 486,Automotive,166.74,96.03,SUP049,16.71,True
+PROD00487,Sports Item 487,Sports,350.84,217.17,SUP016,1.25,True
+PROD00488,Food & Beverage Item 488,Food & Beverage,62.41,36.43,SUP004,6.25,True
+PROD00489,Clothing Item 489,Clothing,11.27,4.97,SUP001,3.36,True
+PROD00490,Automotive Item 490,Automotive,261.03,168.82,SUP017,3.42,True
+PROD00491,Sports Item 491,Sports,367.8,160.15,SUP002,6.77,False
+PROD00492,Sports Item 492,Sports,264.31,126.57,SUP037,12.59,False
+PROD00493,Health & Beauty Item 493,Health & Beauty,257.84,107.42,SUP037,3.42,True
+PROD00494,Sports Item 494,Sports,387.8,259.16,SUP044,14.48,True
+PROD00495,Automotive Item 495,Automotive,6.27,4.12,SUP001,4.97,False
+PROD00496,Toys Item 496,Toys,194.57,86.59,SUP003,11.1,False
+PROD00497,Books Item 497,Books,164.29,86.23,SUP047,6.47,True
+PROD00498,Office Item 498,Office,189.54,104.36,SUP004,3.67,True
+PROD00499,Food & Beverage Item 499,Food & Beverage,39.12,21.11,SUP019,15.49,True
+PROD00500,Toys Item 500,Toys,47.76,25.65,SUP024,4.09,True

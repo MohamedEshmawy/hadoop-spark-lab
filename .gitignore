@@ -1,8 +1,3 @@
-# Data files (regenerate with generate_data.py)
-data/sales/
-data/products/
-data/customers/
-
 datanode1_data/
 datanode2_data/
 datanode3_data/
